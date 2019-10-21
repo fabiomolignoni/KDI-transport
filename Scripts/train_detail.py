@@ -3,14 +3,14 @@ import json
 import pandas as pd
 
 trentinoStations = []
-st = pd.read_csv("stations.csv")
+st = pd.read_csv("../Public transports/Train/stations.csv")
 
 for index, row in st.iterrows():
     trentinoStations.append(row["localita"].split("|")[0])
 
 
 url = "http://www.viaggiatreno.it/viaggiatrenonew/resteasy/viaggiatreno/andamentoTreno/{stazione}/{treno}"
-file1 = open("codici-treno.txt", "r")
+file1 = open("./codici-treno.txt", "r")
 codici = file1.readlines()
 
 with open("./train_schedule.txt", "w") as myfile:
