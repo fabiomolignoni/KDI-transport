@@ -1,4 +1,4 @@
-"stop_id","stop_name","stop_lat","stop_lon"
+"stop_id","stop_name","latitude","longitude"
 1,"Trento-Autostaz.",46.070785,11.118461
 2,"Trento-Solteri Bivio Ss.12",46.084046,11.119732
 3,"Trento-Bren Center",46.091322,11.115664
