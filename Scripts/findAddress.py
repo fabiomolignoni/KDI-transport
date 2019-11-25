@@ -9,8 +9,8 @@ from tqdm import tqdm
 
 tqdm.pandas()
 
-geolocator = Nominatim(user_agent="notMeAtAllISwearNoNoNo", timeout=3)
-reverse = RateLimiter(geolocator.reverse, min_delay_seconds=0.5)
+geolocator = Nominatim(user_agent="notMeAtAllISwearNoNoNo", timeout=10)
+reverse = RateLimiter(geolocator.reverse, min_delay_seconds=1)
 df = pd.read_csv(sys.argv[1])  # read input csv
 df["address"] = "Undefined"
 
