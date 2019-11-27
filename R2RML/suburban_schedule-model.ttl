@@ -1,0 +1,499 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix obda: <https://w3id.org/obda/vocabulary#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix km-dev: <http://isi.edu/integration/karma/dev#> .
+
+_:node1dqm4r0aax1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "suburban_stops.csv" ;
+	km-dev:modelPublicationTime "1574848790859"^^xsd:long ;
+	km-dev:modelVersion "1.7" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"arrival_time\"}],[{\"columnName\":\"departure_time\"}],[{\"columnName\":\"stop_id\"}],[{\"columnName\":\"trip_headsign\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"arrival_time\"}],[{\"columnName\":\"departure_time\"}],[{\"columnName\":\"stop_id\"}],[{\"columnName\":\"trip_headsign\"}]]" ;
+	km-dev:hasModelLabel "suburban_stops.csv" ;
+	km-dev:hasWorksheetHistory """[
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"arrival_time\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#arrives_at\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule/Schedule1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:time\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"arrival_time\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"arrival_time\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"departure_time\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#leaves_at\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule/Schedule1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:time\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"departure_time\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"departure_time\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"stop_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#stop_ID\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station/Station1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:integer\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stop_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stop_id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"trip_headsign\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bus\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bus1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#transportation_ID\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bus/Bus1 (add)\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"it\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"trip_headsign\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"trip_headsign\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bus1\",
+                    \"edgeId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#scheduleHas\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bus\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    },
+    {
+        \"commandName\": \"AddLinkCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"edge\",
+                \"type\": \"other\",
+                \"value\": {
+                    \"edgeTargetId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station1\",
+                    \"edgeId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#scheduleHas\",
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule\"
+                }
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[]\"
+            }
+        ],
+        \"tags\": [\"Modeling\"]
+    }
+]""" .
+
+km-dev:TriplesMap_9fda9b7d-b67c-4f85-bde4-b1cd08e61d7f a rr:TriplesMap .
+
+_:node1dqm4r0aax1 km-dev:hasTriplesMap km-dev:TriplesMap_9fda9b7d-b67c-4f85-bde4-b1cd08e61d7f .
+
+km-dev:TriplesMap_9fda9b7d-b67c-4f85-bde4-b1cd08e61d7f km-dev:isPartOfMapping _:node1dqm4r0aax1 .
+
+_:node1dqm4r0aax2 rr:tableName "suburban_stops.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dqm4r0aax1 .
+
+_:node1dqm4r0aax1 km-dev:hasLogicalTable _:node1dqm4r0aax2 .
+
+km-dev:TriplesMap_9fda9b7d-b67c-4f85-bde4-b1cd08e61d7f rr:logicalTable _:node1dqm4r0aax2 ;
+	rr:subjectMap _:node1dqm4r0aax3 .
+
+_:node1dqm4r0aax1 km-dev:hasSubjectMap _:node1dqm4r0aax3 .
+
+_:node1dqm4r0aax3 km-dev:isPartOfMapping _:node1dqm4r0aax1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Schedule1" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_78042a0c-aa25-4e4a-8d55-b16a00f79fa0 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#arrives_at> .
+
+_:node1dqm4r0aax4 rr:column "arrival_time" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#time" ;
+	km-dev:isPartOfMapping _:node1dqm4r0aax1 .
+
+_:node1dqm4r0aax1 km-dev:hasObjectMap _:node1dqm4r0aax4 .
+
+km-dev:PredicateObjectMap_78042a0c-aa25-4e4a-8d55-b16a00f79fa0 rr:objectMap _:node1dqm4r0aax4 .
+
+km-dev:TriplesMap_9fda9b7d-b67c-4f85-bde4-b1cd08e61d7f rr:predicateObjectMap km-dev:PredicateObjectMap_78042a0c-aa25-4e4a-8d55-b16a00f79fa0 .
+
+km-dev:PredicateObjectMap_78042a0c-aa25-4e4a-8d55-b16a00f79fa0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dqm4r0aax1 .
+
+_:node1dqm4r0aax1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_78042a0c-aa25-4e4a-8d55-b16a00f79fa0 .
+
+km-dev:PredicateObjectMap_6c30ec29-0948-4ee3-b202-a3e933bef9b4 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#leaves_at> .
+
+_:node1dqm4r0aax5 rr:column "departure_time" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#time" ;
+	km-dev:isPartOfMapping _:node1dqm4r0aax1 .
+
+_:node1dqm4r0aax1 km-dev:hasObjectMap _:node1dqm4r0aax5 .
+
+km-dev:PredicateObjectMap_6c30ec29-0948-4ee3-b202-a3e933bef9b4 rr:objectMap _:node1dqm4r0aax5 .
+
+km-dev:TriplesMap_9fda9b7d-b67c-4f85-bde4-b1cd08e61d7f rr:predicateObjectMap km-dev:PredicateObjectMap_6c30ec29-0948-4ee3-b202-a3e933bef9b4 .
+
+km-dev:PredicateObjectMap_6c30ec29-0948-4ee3-b202-a3e933bef9b4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dqm4r0aax1 .
+
+_:node1dqm4r0aax1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_6c30ec29-0948-4ee3-b202-a3e933bef9b4 .
+
+km-dev:PredicateObjectMap_5e46f19d-22c6-4fe1-9cae-a95667c1278e rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#scheduleHas> .
+
+km-dev:RefObjectMap_21656341-972f-4b29-86e5-22dda8cbf66d a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_19050b94-461d-46bd-8594-78df9770514b ;
+	km-dev:isPartOfMapping _:node1dqm4r0aax1 .
+
+_:node1dqm4r0aax1 km-dev:hasObjectMap km-dev:RefObjectMap_21656341-972f-4b29-86e5-22dda8cbf66d .
+
+km-dev:PredicateObjectMap_5e46f19d-22c6-4fe1-9cae-a95667c1278e rr:objectMap km-dev:RefObjectMap_21656341-972f-4b29-86e5-22dda8cbf66d .
+
+km-dev:TriplesMap_9fda9b7d-b67c-4f85-bde4-b1cd08e61d7f rr:predicateObjectMap km-dev:PredicateObjectMap_5e46f19d-22c6-4fe1-9cae-a95667c1278e .
+
+km-dev:PredicateObjectMap_5e46f19d-22c6-4fe1-9cae-a95667c1278e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dqm4r0aax1 .
+
+_:node1dqm4r0aax1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5e46f19d-22c6-4fe1-9cae-a95667c1278e .
+
+km-dev:PredicateObjectMap_8844bfbe-6350-4ef7-8fa3-19d598525eb0 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#scheduleHas> .
+
+km-dev:RefObjectMap_01a65d3f-5422-4060-93ac-aff6bb451c11 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_23f38e01-b106-4f70-b2b7-663cf8e0fe90 ;
+	km-dev:isPartOfMapping _:node1dqm4r0aax1 .
+
+_:node1dqm4r0aax1 km-dev:hasObjectMap km-dev:RefObjectMap_01a65d3f-5422-4060-93ac-aff6bb451c11 .
+
+km-dev:PredicateObjectMap_8844bfbe-6350-4ef7-8fa3-19d598525eb0 rr:objectMap km-dev:RefObjectMap_01a65d3f-5422-4060-93ac-aff6bb451c11 .
+
+km-dev:TriplesMap_9fda9b7d-b67c-4f85-bde4-b1cd08e61d7f rr:predicateObjectMap km-dev:PredicateObjectMap_8844bfbe-6350-4ef7-8fa3-19d598525eb0 .
+
+km-dev:PredicateObjectMap_8844bfbe-6350-4ef7-8fa3-19d598525eb0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dqm4r0aax1 .
+
+_:node1dqm4r0aax1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8844bfbe-6350-4ef7-8fa3-19d598525eb0 .
+
+km-dev:TriplesMap_23f38e01-b106-4f70-b2b7-663cf8e0fe90 a rr:TriplesMap .
+
+_:node1dqm4r0aax1 km-dev:hasTriplesMap km-dev:TriplesMap_23f38e01-b106-4f70-b2b7-663cf8e0fe90 .
+
+km-dev:TriplesMap_23f38e01-b106-4f70-b2b7-663cf8e0fe90 km-dev:isPartOfMapping _:node1dqm4r0aax1 .
+
+_:node1dqm4r0aax6 rr:tableName "suburban_stops.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dqm4r0aax1 .
+
+_:node1dqm4r0aax1 km-dev:hasLogicalTable _:node1dqm4r0aax6 .
+
+km-dev:TriplesMap_23f38e01-b106-4f70-b2b7-663cf8e0fe90 rr:logicalTable _:node1dqm4r0aax6 ;
+	rr:subjectMap _:node1dqm4r0aax7 .
+
+_:node1dqm4r0aax1 km-dev:hasSubjectMap _:node1dqm4r0aax7 .
+
+_:node1dqm4r0aax7 km-dev:isPartOfMapping _:node1dqm4r0aax1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Station1" .
+
+km-dev:PredicateObjectMap_9af32ab5-b187-43a3-81e8-ffc4b92901f1 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#stop_ID> .
+
+_:node1dqm4r0aax8 rr:column "stop_id" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#integer" ;
+	km-dev:isPartOfMapping _:node1dqm4r0aax1 .
+
+_:node1dqm4r0aax1 km-dev:hasObjectMap _:node1dqm4r0aax8 .
+
+km-dev:PredicateObjectMap_9af32ab5-b187-43a3-81e8-ffc4b92901f1 rr:objectMap _:node1dqm4r0aax8 .
+
+km-dev:TriplesMap_23f38e01-b106-4f70-b2b7-663cf8e0fe90 rr:predicateObjectMap km-dev:PredicateObjectMap_9af32ab5-b187-43a3-81e8-ffc4b92901f1 .
+
+km-dev:PredicateObjectMap_9af32ab5-b187-43a3-81e8-ffc4b92901f1 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dqm4r0aax1 .
+
+_:node1dqm4r0aax1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9af32ab5-b187-43a3-81e8-ffc4b92901f1 .
+
+km-dev:TriplesMap_19050b94-461d-46bd-8594-78df9770514b a rr:TriplesMap .
+
+_:node1dqm4r0aax1 km-dev:hasTriplesMap km-dev:TriplesMap_19050b94-461d-46bd-8594-78df9770514b .
+
+km-dev:TriplesMap_19050b94-461d-46bd-8594-78df9770514b km-dev:isPartOfMapping _:node1dqm4r0aax1 .
+
+_:node1dqm4r0aax9 rr:tableName "suburban_stops.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dqm4r0aax1 .
+
+_:node1dqm4r0aax1 km-dev:hasLogicalTable _:node1dqm4r0aax9 .
+
+km-dev:TriplesMap_19050b94-461d-46bd-8594-78df9770514b rr:logicalTable _:node1dqm4r0aax9 ;
+	rr:subjectMap _:node1dqm4r0aax10 .
+
+_:node1dqm4r0aax1 km-dev:hasSubjectMap _:node1dqm4r0aax10 .
+
+_:node1dqm4r0aax10 km-dev:isPartOfMapping _:node1dqm4r0aax1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bus1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bus> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "Bus1" .
+
+km-dev:PredicateObjectMap_1bb9b946-1a5d-4782-b1f7-a946c4ecb153 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#transportation_ID> .
+
+_:node1dqm4r0aax11 rr:column "trip_headsign" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	rr:language "it" ;
+	km-dev:isPartOfMapping _:node1dqm4r0aax1 .
+
+_:node1dqm4r0aax1 km-dev:hasObjectMap _:node1dqm4r0aax11 .
+
+km-dev:PredicateObjectMap_1bb9b946-1a5d-4782-b1f7-a946c4ecb153 rr:objectMap _:node1dqm4r0aax11 .
+
+km-dev:TriplesMap_19050b94-461d-46bd-8594-78df9770514b rr:predicateObjectMap km-dev:PredicateObjectMap_1bb9b946-1a5d-4782-b1f7-a946c4ecb153 .
+
+km-dev:PredicateObjectMap_1bb9b946-1a5d-4782-b1f7-a946c4ecb153 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dqm4r0aax1 .
+
+_:node1dqm4r0aax1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1bb9b946-1a5d-4782-b1f7-a946c4ecb153 .
