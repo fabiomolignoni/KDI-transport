@@ -1,159 +1,159 @@
-"name";"latitude";"longitude";"address";"city";"opening_hours";"phone";"wheelchair"
-"Farmacia Comunale San Don�";46.071609;11.1402607;;;"Mo-Fr 08:30-12:00,15:00-19:00; Sa 08:30-12:00";;
-;46.2818543;11.4362112;;;"Mo-Sa 08:30-12:15,15:30-19:00";"+39 0462 341359";
-;46.2725633;11.4172234;;;"Mo-Fr 09:15-12:15";;
-"Farmacia 'Bolghera'";46.0580074;11.1327642;"Largo Medaglie d'Oro";"Trento";;;
-"Farmacia dall'Armi";46.0676744;11.1219136;"Piazza del Duomo";"Trento";;"+39 0461 236139";
-"Farmacia Santoni";46.0677922;11.1223981;"Piazza Mario Pasi";"Trento";;"+39 0461 982103";
-"Farmacia Lamberto Gallo";46.0674124;11.1241882;"Via Mantova";"Trento";;"+39 0461 234387";
-"Morelli";46.1335627;11.2480642;;;;;
-"Farmacia Santa Chiara";46.063667;11.1237066;"Via Santa Croce";"Trento";;;
-;46.1425363;11.1956614;;;;;
-"Barbacovi";45.8832338;11.0401384;"Via Benacense";"Rovereto";;;
-;46.0892787;11.1314234;;;;;
-"Farmacia Comunale";46.1264001;11.1165086;"Via delle Sugarine";"Meano";"luned�	08:30�12:15, 15�19 marted�	08:30�12:15, 15�19 mercoled�	08:30�12:15, 15�19 gioved�	08:30�12:15, 15�19venerd�	08:30�12:15, 15�19 sabato	08:30�12:15 domenica	Chiuso";;
-"Farmacia Comunale N.6";46.0663058;11.1541385;"Piazza Giannantonio Manci";"Povo";;;"yes"
-"Farmacia 'Comunale Cognola'";46.0767326;11.1419881;"Piazza dell'Argentario";"Cognola di Trento";;;
-;46.0623036;11.2429905;;;;;
-"Soave";45.8883664;11.0444617;"Piazza delle Erbe";"Rovereto";;;
-"Pavani";45.8858453;11.0279101;;;;;
-"Madonna Delle Grazie";45.8997823;10.8441919;;;;;
-"Farmacia dott.ssa Venezian";45.918749;10.8667757;;;;;
-;46.4205104;11.6732782;"Strada de Soraporta";;;;
-"Pizzo";46.067039;11.2373933;;;;;
-;46.4008757;10.8464094;;;;;
-;46.3021572;10.8105073;;;;;
-;46.4767228;11.7420375;;;;;
-;46.1756298;11.829935;;;;;
-;46.0121165;11.299756;;;;;
-"Farmacia Romanese";46.0114325;11.302148;;;"Mo-Sa 08:30-12:30,15:00-19:00";;
-"Farmacia Margonari Ada";46.142562;10.9662347;"Piazza Guglielmo Marconi";"Molveno";"08:30-12:30,15:30-19:30";"+39 0461 586972, +39 334 8257059";
-"Farmacia Madonna Bianca";46.0401732;11.1333734;;;;;
-"Farmacia 'San Bartolameo'";46.0536916;11.1296507;;;;;
-"Farmacia San Lorenzo";46.076997;11.119107;"Piazza General Antonio Cantore";"Trento";;"+39 0461 823529";
-"Farmacia Comunale";46.0583792;11.1215688;;;;;
-"Farmacia Comunale 'San Camillo'";46.0655277;11.1320121;"Via Benedetto Giovanelli";;;;
-;45.9172503;10.8805017;;;;;
-"Farmacia 'Grandi'";46.0738199;11.1251916;"Via Alessandro Manzoni";"Trento";;"+39 0461 239805";
-"Farmacia Crescini";46.0598823;11.2383047;"Piazza Giovanni Serra";"Pergine Valsugana";"Mo-Sa 08:30-12:00, Mo-Sa 15:00-19:00";;
-;46.1747289;11.2209553;;;;;
-"Farmacia Romani";46.1413451;11.1071424;"Via Giuseppe Segantini";"Lavis";;"+39 0461 246349";
-"Farmacia Comunale";45.894778;10.8498354;;;;;
-"Farmacia Alla Madonna";46.0698069;11.1230745;"Via Giannantonio Manci";"Trento";"Mo-Sa 08:30-12:30,15:00-19:00";"+39 0461 982584";
-"Farmacia";46.3311395;10.8781988;"Via Brescia";;;;
-;46.3520987;10.9121689;;;;;
-"Farmacia comunale";45.9264458;11.0425935;;;;;
-;46.089857;11.1820539;;;;;
-"Farmacia Kamal";46.0529786;11.4104062;;;;;
-"Farmacia Ottaviani";45.817258;10.9565781;;;;;
-"Farmacia Calliano";45.9354307;11.0940359;;;;"+39 0464 834118";
-;45.8902428;10.6008618;;;;;
-"Farmacia Fusi";45.848452;10.5779212;;;;;"yes"
-;45.8083537;10.5404483;;;;;
-"Farmacia Comunale";45.9013786;11.0419026;"Viale Trento";"Rovereto";;"+39 0464 412812";
-;45.8894599;11.0422041;"Via delle Scuole";"Rovereto";;;
-"Chinaglia";45.870688;10.8765174;;;;;"yes"
-;45.9151533;11.032628;"25 Aprile";"Villa Lagarina";;;
-;46.0669754;11.1284969;;;;;
-;46.0459201;10.9532043;;;;;
-"Campagnola";46.2129567;11.0913849;"Via Alcide De Gasperi";"Mezzolombardo";;"+39 0461 601032";
-"Farmacia ai Solteri";46.0923859;11.117635;"Via Renato Lunelli";"Trento";;"+39 0461 827944";
-"Farmacia Comunale";45.9111219;10.900851;;;;;
-"Farmacia Bettinazzi - R. & T. Pharma Snc";45.9164495;10.8856849;;;;;
-"Farmacia Fontana";46.1081304;11.1118683;"Via Marco Pola";;"Mo-Sa 8:00-12:30,15:00-19:30";"+39 0461 990320";
-"Farmacia Nave San Rocco";46.1672565;11.110319;;;;;
-"Farmacia Boni";46.0333617;10.7244513;;;;;
-"Cobelli";45.8901056;11.0432418;"Via Giuseppe Mazzini";"Rovereto";;;
-"Erboristeria Arnica";46.3652923;11.0359976;;;;;
-"Sanit�";46.3655329;11.0347336;;;;;
-;46.3646186;11.0335797;;;;;
-"Farmacia Comunale Via Benacense";45.8783602;11.0334873;;;;;
-;46.3113252;10.7572486;;;;;
-"Darma Il Farmastore";46.068036;11.223445;"Via Tamarisi";"Pergine Valsugana";"Mo 14:30-20:00; Tu-Su 09:00-20:00";;"yes"
-"Farmacia Gagliardi";46.0046234;10.8423483;"Via De Gasperi";;;;
-"Farmacia Comunale";46.0534713;11.1206301;"Via San Pio X";;;;
-;46.1906731;11.1298443;;;"Mo-Fr 08:30-12:00,15:00-19:00; Sa 08:30-12:00";;
-"Farmacia Bailo";46.0537033;11.4548787;"Piazzale Dante Alighieri";"Borgo Valsugana";"Mo-Sa 08:30-12:15,15:30-19:00; PH closed";;"yes"
-;46.2620746;11.8018422;;;;;
-"Parafarmacia";46.0662491;11.1228747;"Via Santissima Trinit�";"Trento";;;
-"Farmacia comunale";46.084496;11.2177362;;;;;
-;45.9291659;11.0700857;;;;;
-;46.1522371;11.0974831;;;;;
-"Farmacia De Gerloni";46.073149;11.0585528;;;;;
-"Farmacia";46.1542755;11.8062406;;;;;
-"La farmacia di Roncafort";46.0984636;11.1020825;"Via Luigi Caneppele";;;;
-"Farmacia Comunale San Rocco";45.916653;11.0633565;;;;;
-;46.1874748;11.2584887;;;;;
-"Farmacia Centrale";46.0539272;11.4577617;"Corso Ausugum";"Borgo Valsugana";;"+39 0461 753065";"no"
-"Dispensario farmaceutico";45.8694388;11.0733573;;;;;
-;46.3766041;11.6595457;;;;;
-;46.2484813;11.1716149;"Via Rauti";"Rover� della Luna";"Mo-Fr 09:00-12:00";"+39 0461 659101";
-;45.840892;11.0084513;;;;;
-"Zanini";46.2146886;11.118874;"Piazza San Gottardo";"Mezzocorona";"Mo-Fr 08:30-12:15,15:30-19:15;Sa 08:30-12:15";"+39 0461 605161";
-"Farmacia Comunale Castelnuovo";46.0522737;11.4926158;"Viale Venezia";"Castelnuovo";;"+39 0461 751300";
-;46.2988561;10.6927744;;;;;
-;45.8865017;10.8426658;;;;;
-"Accorsi";45.8852245;10.8409706;;;;;
-;45.9950813;11.2603123;;;;;
-"Farmacia all'Angelo";46.2744403;11.0479742;"Via Guglielmo Marconi";"Denno";;;"yes"
-"Farmacia Comunale";46.070551;11.1123177;"Via Brescia";"Trento";;;
-"farmacia comunale";45.8847764;11.0082956;;;;;"yes"
-"Farmacia di Gardolo";46.1064;11.10862;"Via Soprasasso";"Gardolo";"Mo 15:00-19:00; Tu-Sa 09:00-12:00,15:00-19:00";"+39 0461 993511";
-"Farmacia Comunale";46.1395384;11.1119943;"Via Giacomo Matteotti";"Lavis";;;
-;46.0167581;11.1055828;;;;;
-"Farmacia Borsato";46.0637581;11.5239854;"Via Roma";"Castel Ivano";;"+39 0461 762101";
-"Farmacia Baldrachi";46.330561;11.0261432;"Via Enrico Leonardi";"Tuenno";;;
-"Farmacia Ravagni";45.7591484;11.0034033;;;;;"yes"
-"Farmacia Franzellin";45.7575766;11.0021142;;;;;"yes"
-"Folgaresi";45.9933445;10.9717397;;;;;
-"Farmacia Pieve di Dino Ceschinelli";45.9395171;10.6391288;;;;;
-"Farmacia Clarina";46.0487161;11.1256929;"Via Alcide Degasperi";"Trento";;;
-"Farmacia Teseo Francesco";46.0703675;11.4808667;;;;;
-;45.8915027;10.9521966;;;;;
-;45.8519644;10.9790058;;;;;
-;45.7827256;11.1181305;;;;;
-;46.2907521;11.4620734;;;;;"limited"
-;46.0519685;10.8545176;;;;;
-"Farmacie Comunali";45.9118599;11.0252009;;;;;
-;46.3510072;10.6935363;;;;;
-;45.734889;10.9395448;;;;;
-;46.0414192;11.2350016;;;;;
-;46.3485815;11.0889288;;"Coredo";;;
-"Thaler";45.8898791;11.0403937;;;;;
-"Farmacia Valle dei Mocheni";46.1091824;11.3021324;"Localit� Pintarei";"Sant'Orsola Terme";"Mo-Fr 08:30-12:00,15:00-19:00; Sa 08:30-12:00; Su off";"+39 0461 550007";
-;46.1010416;10.7362286;;;;;
-"Farmacia dott.ssa Venezian";45.9186901;10.8653341;;;;;
-;46.3770566;11.6594938;;;;;
-"Festa Parafarmacia Profumeria";46.376141;11.6609796;;;;;
-"Farmacia Comunale n�1";45.8917455;11.0401438;;"Rovereto";;;"yes"
-;46.0605568;11.2413667;"Piazza Mario Garbari";"Pergine Valsugana";;;
-"Dispensario farmaceutico";46.0438265;11.5525707;;;;;
-"Farmacia S. Giorgio";45.8941621;11.0281746;;;;;
-;45.8828375;10.8543589;;;;;
-"Farmacia Gallina";46.3159016;10.8016006;"Via IV Novembre";"Mezzana";;;
-"Farmacia Comunale";46.0625095;11.6339287;"Via Dante";"Castello Tesino";;;"yes"
-"Farmacia Pieve Tesino";46.0681123;11.6117172;;"Pieve Tesino";;;
-"Farmacia Alberto Foletto";45.8885959;10.7323059;"Via Nuova";"Ledro";;"+39 0464 591038";
-"Parafarmacia Campagnola";46.2071628;11.1000444;"Via Trento";"Mezzolombardo";"Mo-Su 09:00-19:00";"+39 0461 600696";"yes"
-"Farmacia";46.15527;11.7329018;;;;;
-"Parafarmacia";46.2910265;11.4602172;;;;;
-"Mutalipassi";45.8868604;10.8451646;"Via Lutti";"Riva del Garda";;;
-"Farmacia Veterinaria";46.0708418;11.1234078;;;;;
-;46.1601535;10.7654611;;;;;
-"Tecnisan articoli sanitari";46.0445596;11.1286721;;;;;
-;46.0353784;10.8724215;;;;;
-"Farmacia Nardelli Gabriele";45.9606101;10.914025;"Via Giuseppe Mazzini";"DRO";"Mo-Fr 08:30-12:00, Mo-Sa 15:00-19:00, Sa 09:00-12:00";;
-"Igea";46.0608378;11.1280488;"Via Milano";"Trento";"Mo-Fr 08:30-12:30,15:00-19:00, Sa 08:30-12:30";"+39 0461 910761";
-;46.4375538;11.1366928;;;;;
-;46.2592562;10.5851467;;;;;
-"Farmacia Santoni";45.8843881;11.018394;;;;;"yes"
-;46.4052386;11.0170999;;;;;
-;46.3260432;10.8740406;;"Dimaro";;;
-"Comunale";45.9415;11.1100893;;;;;
-;46.2646016;11.0867259;;;;;
-"Farmacia Giupponi";46.0069356;11.1278389;;;;;
-"Parafarmacia";46.477323;11.7702598;;;;;
-"Farmacia San Giovanni";46.4200601;11.6754117;"Strada Neva";;"Mo-Sa 08:30-12:30, 15:30-19:30; Su 09:00-12:00, 16:00-19:00";"0462764145";
-;46.0163984;11.6339731;;;;;
-"Farmacia Malfatti";46.004345;11.1949906;;;;;
-"Farmacia";46.0772173;10.9082944;;;;;
+,name,latitude,longitude,city,opening_hours,phone,wheelchair,address
+0,Farmacia Comunale San Don?,46.071609,11.140260699999999,,"Mo-Fr 08:30-12:00,15:00-19:00; Sa 08:30-12:00",,,"Farmacia Comunale San Donà, Piazza di San Donà, San Vito, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38100, Italia"
+1,,46.28185429999999,11.436211199999999,,"Mo-Sa 08:30-12:15,15:30-19:00",+39 0462 341359,,"Vinante Dr. Giorgio & C. S.N.C., Via Latemar, Castello-Molina di Fiemme, Comunità territoriale della Val di Fiemme, Trento, Trentino-Alto Adige/Südtirol, 38033, Italia"
+2,,46.272563299999995,11.4172234,,Mo-Fr 09:15-12:15,,,"Dottor Mauro Pierini, Via Segherie, Predaia, Castello-Molina di Fiemme, Comunità territoriale della Val di Fiemme, Trento, Trentino-Alto Adige/Südtirol, 38033, Italia"
+3,Farmacia 'Bolghera',46.058007399999994,11.132764199999999,Trento,,,,"Farmacia  Bolghera, 8, Largo Medaglie d'Oro, Cernidor, Bolghera, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38122, Italia"
+4,Farmacia dall'Armi,46.0676744,11.1219136,Trento,,+39 0461 236139,,"Farmacia dall'Armi, 10, Piazza del Duomo, Centro storico Trento, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38122, Italia"
+5,Farmacia Santoni,46.0677922,11.1223981,Trento,,+39 0461 982103,,"Palazzo Ghelfi, Piazza Mario Pasi, Centro storico Trento, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, Italia"
+6,Farmacia Lamberto Gallo,46.0674124,11.124188199999999,Trento,,+39 0461 234387,,"Farmacia Lamberto Gallo, 51, Via Mantova, Centro storico Trento, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38122, Italia"
+7,Morelli,46.133562700000006,11.2480642,,,,,"Morelli, Via Cesare Battisti, Gardizzola, Baselga di Piné, Comunità Alta Valsugana e Bersntol, Trento, Trentino-Alto Adige/Südtirol, 38042, Italia"
+8,Farmacia Santa Chiara,46.063666999999995,11.123706599999998,Trento,,,,"Farmacia Santa Chiara, 57, Via Santa Croce, Cernidor, Centro storico Trento, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38122, Italia"
+9,,46.142536299999996,11.1956614,,,,,"Via Roma, Albiano, Comunità della Valle di Cembra, Trento, Trentino-Alto Adige/Südtirol, 38041, Italia"
+10,Barbacovi,45.8832338,11.0401384,Rovereto,,,,"Barbacovi, 9B, Via Benacense, Santa Maria, Rovereto, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38068, Italia"
+11,,46.0892787,11.1314234,,,,,"Conad, Via alla Formigheta, Pinara, Maderno, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38121, Italia"
+12,Farmacia Comunale,46.1264001,11.1165086,Meano,"luned?	08:30?12:15, 15?19 marted?	08:30?12:15, 15?19 mercoled?	08:30?12:15, 15?19 gioved?	08:30?12:15, 15?19venerd?	08:30?12:15, 15?19 sabato	08:30?12:15 domenica	Chiuso",,,"Farmacia Comunale, 30, Via delle Sugarine, Lamar, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38121, Italia"
+13,Farmacia Comunale N.6,46.066305799999995,11.1541385,Povo,,,yes,"Farmacia Comunale N.6, 5, Piazza Giannantonio Manci, Negrano, Pantè, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38123, Italia"
+14,Farmacia 'Comunale Cognola',46.0767326,11.141988099999999,Cognola di Trento,,,,"Farmacia  Comunale Cognola, 10, Piazza dell'Argentario, Marnighe, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38121, Italia"
+15,,46.0623036,11.2429905,,,,,"26, Via Cesare Battisti Marcadel, Maso Kronst, Pergine Valsugana, Comunità Alta Valsugana e Bersntol, Trento, Trentino-Alto Adige/Südtirol, 38057, Italia"
+16,Soave,45.8883664,11.0444617,Rovereto,,,,"Soave, 17, Piazza delle Erbe, Santa Maria, Rovereto, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38068, Italia"
+17,Pavani,45.8858453,11.0279101,,,,,"Pavani, Viale della Vittoria, Borgo Sacco, Rovereto, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38068, Italia"
+18,Madonna Delle Grazie,45.8997823,10.8441919,,,,,"Madonna Delle Grazie, Via Monte Misone, Riva del Garda, Comunità Alto Garda e Ledro, Trento, Trentino-Alto Adige/Südtirol, 38066, Italia"
+19,Farmacia dott.ssa Venezian,45.918749,10.8667757,,,,,"Farmacia dott.ssa Venezian, Via della Fossa, Bolognano, Arco, Comunità Alto Garda e Ledro, Trento, Trentino-Alto Adige/Südtirol, 38062, Italia"
+20,,46.4205104,11.673278199999999,,,,,"4, Piaz de Vich, San Giovanni di Fassa, Comun General de Fascia, Trento, Trentino-Alto Adige/Südtirol, 38039, Italia"
+21,Pizzo,46.067039,11.2373933,,,,,"Pizzo, Viale Vito Bellini, Maso Kronst, Pergine Valsugana, Comunità Alta Valsugana e Bersntol, Trento, Trentino-Alto Adige/Südtirol, 38057, Italia"
+22,,46.40087570000001,10.846409399999999,,,,,"Bar Trafojer, SP86, Cavallar, Rabbi, Comunità della Valle di Sole, Trento, Trentino-Alto Adige/Südtirol, Italia"
+23,,46.3021572,10.810507300000001,,,,,"Marilleva 1400, Via per Marilleva, Commezzadura, Comunità della Valle di Sole, Trento, Trentino-Alto Adige/Südtirol, 38025, Italia"
+24,,46.4767228,11.7420375,,,,,"Strèda Dolomites delle Dolomiti, Campitello di Fassa, Comun General de Fascia, Trento, Trentino-Alto Adige/Südtirol, 38031, Italia"
+25,,46.175629799999996,11.829935,,,,,"Durex, Via Angelo Guadagnini, Fiera di Primiero, Primiero San Martino di Castrozza, Comunità di Primiero, Trento, Trentino-Alto Adige/Südtirol, 38054, Italia"
+26,,46.0121165,11.299756,,,,,"31, Via Dante Alighieri, Levico Terme, Comunità Alta Valsugana e Bersntol, Trento, Trentino-Alto Adige/Südtirol, 38056, Italia"
+27,Farmacia Romanese,46.0114325,11.302147999999999,,"Mo-Sa 08:30-12:30,15:00-19:00",,,"Farmacia Romanese, Via Regia, Levico Terme, Comunità Alta Valsugana e Bersntol, Trento, Trentino-Alto Adige/Südtirol, 38056, Italia"
+28,Farmacia Margonari Ada,46.142562,10.9662347,Molveno,"08:30-12:30,15:30-19:30","+39 0461 586972, +39 334 8257059",,"Farmacia Margonari Ada, 24b, Piazza Guglielmo Marconi, Molveno, Comunità della Paganella, Trento, Trentino-Alto Adige/Südtirol, 38018, Italia"
+29,Farmacia Madonna Bianca,46.040173200000005,11.1333734,,,,,"Farmacia Madonna Bianca, Via Clorinda Menguzzato ""Veglia"", Centro Commerciale Madonna Bianca, Madonna Bianca, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38128, Italia"
+30,Farmacia 'San Bartolameo',46.0536916,11.1296507,,,,,"Farmacia  San Bartolameo, Viale Verona, Cernidor, Clarina, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38123, Italia"
+31,Farmacia San Lorenzo,46.076997,11.119107000000001,Trento,,+39 0461 823529,,"Farmacia San Lorenzo, 1, Piazza General Antonio Cantore, Piazzina, Cristo Re, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38121, Italia"
+32,Farmacia Comunale,46.058379200000005,11.1215688,,,,,"Farmacia Comunale, Via Fratelli Bronzetti, Man Malpensada, San Giuseppe, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38122, Italia"
+33,Farmacia Comunale 'San Camillo',46.0655277,11.1320121,,,,,"Farmacia Comunale  San Camillo, 5, Via Benedetto Giovanelli, Cernidor, Bolghera, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38100, Italia"
+34,,45.9172503,10.8805017,,,,,"Pasticceria Tre Rose, Via Nas, Bolognano, Arco, Comunità Alto Garda e Ledro, Trento, Trentino-Alto Adige/Südtirol, 38062, Italia"
+35,Farmacia 'Grandi',46.0738199,11.125191599999999,Trento,,+39 0461 239805,,"Farmacia  Grandi, 7/A, Via Alessandro Manzoni, San Martino, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38122, Italia"
+36,Farmacia Crescini,46.0598823,11.238304699999999,Pergine Valsugana,"Mo-Sa 08:30-12:00, Mo-Sa 15:00-19:00",,,"Farmacia Crescini, 8, Piazza Giovanni Serra, Maso Kronst, Pergine Valsugana, Comunità Alta Valsugana e Bersntol, Trento, Trentino-Alto Adige/Südtirol, 38057, Italia"
+37,,46.1747289,11.220955300000002,,,,,"Enoteca Zanotelli, Viale 4 novembre, Cembra Lisignago, Comunità della Valle di Cembra, Trento, Trentino-Alto Adige/Südtirol, 38047, Italia"
+38,Farmacia Romani,46.1413451,11.1071424,Lavis,,+39 0461 246349,,"Farmacia Romani, 1, Via Giuseppe Segantini, Maso Callianer, Maso Ingran, Lavis, Comunità Rotaliana-Königsberg, Trento, Trentino-Alto Adige/Südtirol, 38015, Italia"
+39,Farmacia Comunale,45.894778,10.8498354,,,,,"Farmacia Comunale, Viale Trieste, Riva del Garda, Comunità Alto Garda e Ledro, Trento, Trentino-Alto Adige/Südtirol, 38066, Italia"
+40,Farmacia Alla Madonna,46.069806899999996,11.1230745,Trento,"Mo-Sa 08:30-12:30,15:00-19:00",+39 0461 982584,,"Farmacia Alla Madonna, 42, Via Giannantonio Manci, Centro storico Trento, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38122, Italia"
+41,Farmacia,46.3311395,10.878198800000002,,,,,"Farmacia, 82, Via Brescia, Dimaro Folgarida, Comunità della Valle di Sole, Trento, Trentino-Alto Adige/Südtirol, 38020, Italia"
+42,,46.3520987,10.9121689,,,,,"Piazza Dante, Mas de la Serra, Malé, Comunità della Valle di Sole, Trento, Trentino-Alto Adige/Südtirol, Italia"
+43,Farmacia comunale,45.926445799999996,11.0425935,,,,,"Farmacia comunale, Via tre Novembre, Le Gere, Pomarolo, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 39068, Italia"
+44,,46.089857,11.1820539,,,,,"Via Telvana, Civezzano, Comunità Alta Valsugana e Bersntol, Trento, Trentino-Alto Adige/Südtirol, 38045, Italia"
+45,Farmacia Kamal,46.0529786,11.410406199999999,,,,,"Farmacia Kamal, Piazza Montebello, Maso Vazzena, Masetti, Roncegno Terme, Comunità Valsugana e Tesino, Trento, Trentino-Alto Adige/Südtirol, 38051, Italia"
+46,Farmacia Ottaviani,45.817258,10.9565781,,,,,"Farmacia Ottaviani, Via Milano, Tognotti, Brentonico, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38065, Italia"
+47,Farmacia Calliano,45.935430700000005,11.0940359,,,+39 0464 834118,,"Farmacia Calliano, 19, Via Arminio Valentini, Calliano, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, Italia"
+48,,45.890242799999996,10.6008618,,,,,"Cassa Rurale di Condino, Via Roma, Borgo Chiese, Comunità delle Giudicarie, Trento, Trentino-Alto Adige/Südtirol, 38083, Italia"
+49,Farmacia Fusi,45.848452,10.5779212,,,,yes,"Farmacia Fusi, Via del Mercato, Storo, Comunità delle Giudicarie, Trento, Trentino-Alto Adige/Südtirol, 38089, Italia"
+50,,45.8083537,10.540448300000001,,,,,"Via di Mezzo, Bondone, Comunità delle Giudicarie, Trento, Trentino-Alto Adige/Südtirol, 38089, Italia"
+51,Farmacia Comunale,45.9013786,11.0419026,Rovereto,,+39 0464 412812,,"Farmacia Comunale, 33/2, Viale Trento, Brione, Rovereto, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38068, Italia"
+52,,45.8894599,11.0422041,Rovereto,,,,"32, Via delle Scuole, Santa Maria, Rovereto, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38068, Italia"
+53,Chinaglia,45.870688,10.8765174,,,,yes,"Chinaglia, SS240, Nago-Torbole, Comunità Alto Garda e Ledro, Trento, Trentino-Alto Adige/Südtirol, 38069, Italia"
+54,,45.9151533,11.032628,Villa Lagarina,,,,"46, Via 25 aprile, Villa Lagarina, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 39068, Italia"
+55,,46.0669754,11.1284969,,,,,"18, Via Giuseppe Grazioli, Cernidor, Centro storico Trento, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38122, Italia"
+56,,46.045920100000004,10.953204300000001,,,,,"Madruzzo, Comunità della Valle dei Laghi, Trento, Trentino-Alto Adige/Südtirol, 38072, Italia"
+57,Campagnola,46.21295670000001,11.0913849,Mezzolombardo,,+39 0461 601032,,"Campagnola, 19, Via Alcide De Gasperi, Mezzolombardo, Comunità Rotaliana-Königsberg, Trento, Trentino-Alto Adige/Südtirol, 38017, Italia"
+58,Farmacia ai Solteri,46.0923859,11.117635,Trento,,+39 0461 827944,,"Farmacia ai Solteri, 40, Via Renato Lunelli, Piazzina, Nord Center, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38121, Italia"
+59,Farmacia Comunale,45.9111219,10.900851,,,,,"Farmacia Comunale, Via Stazione, Bolognano, Arco, Comunità Alto Garda e Ledro, Trento, Trentino-Alto Adige/Südtirol, 38062, Italia"
+60,Farmacia Bettinazzi - R. & T. Pharma Snc,45.9164495,10.8856849,,,,,"Farmacia Bettinazzi - R. & T. Pharma Snc, Via Bruno Galas, Bolognano, Arco, Comunità Alto Garda e Ledro, Trento, Trentino-Alto Adige/Südtirol, 38062, Italia"
+61,Farmacia Fontana,46.1081304,11.111868300000001,,"Mo-Sa 8:00-12:30,15:00-19:30",+39 0461 990320,,"Farmacia Fontana, 2, Via Marco Pola, Piazzina, Gardolo, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38121, Italia"
+62,Farmacia Nave San Rocco,46.1672565,11.110319,,,,,"Farmacia Nave San Rocco, Via 4 Novembre, Maso del Gusto, Terre d'Adige, Comunità Rotaliana-Königsberg, Trento, Trentino-Alto Adige/Südtirol, 38015, Italia"
+63,Farmacia Boni,46.0333617,10.7244513,,,,,"Farmacia Boni, Via Presenella, Tione di Trento, Comunità delle Giudicarie, Trento, Trentino-Alto Adige/Südtirol, 38979, Italia"
+64,Cobelli,45.890105600000005,11.0432418,Rovereto,,,,"Cobelli, 8, Via Giuseppe Mazzini, Santa Maria, Rovereto, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38068, Italia"
+65,Erboristeria Arnica,46.36529229999999,11.0359976,,,,,"Erboristeria Arnica, Via Guglielmo Marconi, Pez, Cles, Comunità della Val di Non, Trento, Trentino-Alto Adige/Südtirol, 38023, Italia"
+66,Sanit?,46.3655329,11.0347336,,,,,"Sanità, Via Enrico Bergamo, Pez, Cles, Comunità della Val di Non, Trento, Trentino-Alto Adige/Südtirol, 38023, Italia"
+67,,46.3646186,11.033579699999999,,,,,"Banca Fideuram, Via Carlo Antonio Pilati, Pez, Cles, Comunità della Val di Non, Trento, Trentino-Alto Adige/Südtirol, 38023, Italia"
+68,Farmacia Comunale Via Benacense,45.8783602,11.0334873,,,,,"Farmacia Comunale Via Benacense, Via Benacense, Lizzanella, Rovereto, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38068, Italia"
+69,,46.311325200000006,10.757248599999999,,,,,"Hotel Cova, 33, Via Nazionale, Ponte, Pellizzano, Comunità della Valle di Sole, Trento, Trentino-Alto Adige/Südtirol, 38020, Italia"
+70,Darma Il Farmastore,46.068036,11.223445,Pergine Valsugana,Mo 14:30-20:00; Tu-Su 09:00-20:00,,yes,"Darma Il Farmastore, Via Tamarisi, Maso Popper, Pergine Valsugana, Comunità Alta Valsugana e Bersntol, Trento, Trentino-Alto Adige/Südtirol, 38057, Italia"
+71,Farmacia Gagliardi,46.0046234,10.842348300000001,,,,,"Farmacia Gagliardi, 1, Via De Gasperi, Fiavè, Comunità delle Giudicarie, Trento, Trentino-Alto Adige/Südtirol, 38075, Italia"
+72,Farmacia Comunale,46.0534713,11.1206301,,,,,"Farmacia Comunale, Via San Pio X, Man Malpensada, San Pio X, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38123, Italia"
+73,,46.190673100000005,11.129844300000002,,"Mo-Fr 08:30-12:00,15:00-19:00; Sa 08:30-12:00",,,"Via Nazionale, Grumino, San Michele all'Adige, Comunità Rotaliana-Königsberg, Trento, Trentino-Alto Adige/Südtirol, 38016, Italia"
+74,Farmacia Bailo,46.0537033,11.4548787,Borgo Valsugana,"Mo-Sa 08:30-12:15,15:30-19:00; PH closed",,yes,"Farmacia Bailo, 3a, Piazzale Dante Alighieri, Crosetta, Cimondè, Borgo Valsugana, Comunità Valsugana e Tesino, Trento, Trentino-Alto Adige/Südtirol, 38051, Italia"
+75,,46.262074600000005,11.8018422,,,,,"S.Martino Di C.Hotel Rosetta, Via Passo Rolle, San Martino di Castrozza, Primiero San Martino di Castrozza, Comunità di Primiero, Trento, Trentino-Alto Adige/Südtirol, Italia"
+76,Parafarmacia,46.0662491,11.122874699999999,Trento,,,,"Parafarmacia, 6, Via Santissima Trinitá, Centro storico Trento, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38122, Italia"
+77,Farmacia comunale,46.084496,11.2177362,,,,,"Farmacia comunale, Via Oltrefersina, Pergine Valsugana, Comunità Alta Valsugana e Bersntol, Trento, Trentino-Alto Adige/Südtirol, 38034, Italia"
+78,,45.9291659,11.070085699999998,,,,,"Tabaccheria Giornali, Via Isidoro Paissani, Nomi, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 39068, Italia"
+79,,46.15223710000001,11.0974831,,,,,"Pizza Kebab Zambana, 7, Via Trento, Maso Gesuiti, Terre d'Adige, Comunità Rotaliana-Königsberg, Trento, Trentino-Alto Adige/Südtirol, 38010, Italia"
+80,Farmacia De Gerloni,46.073149,11.058552800000001,,,,,"Farmacia De Gerloni, Strada di Spinéda, Sant'Anna, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 66, Italia"
+81,Farmacia,46.1542755,11.8062406,,,,,"Farmacia, Via della Chiesa, Melai, Mezzano, Comunità di Primiero, Trento, Trentino-Alto Adige/Südtirol, Italia"
+82,La farmacia di Roncafort,46.0984636,11.1020825,,,,,"La farmacia di Roncafort, 31, Via Luigi Caneppele, zona commerciale via Maccani, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38121, Italia"
+83,Farmacia Comunale San Rocco,45.916653000000004,11.0633565,,,,,"Farmacia Comunale San Rocco, Via 3 Novembre, Volano, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 39068, Italia"
+84,,46.1874748,11.2584887,,,,,"Guardia Medica, Strada Provinciale 71 Fersina - Avisio, Segonzano, Comunità della Valle di Cembra, Trento, Trentino-Alto Adige/Südtirol, 38047, Italia"
+85,Farmacia Centrale,46.053927200000004,11.4577617,Borgo Valsugana,,+39 0461 753065,no,"Farmacia Centrale, 40, Corso Ausugum, Crosetta, Cimondè, Borgo Valsugana, Comunità Valsugana e Tesino, Trento, Trentino-Alto Adige/Südtirol, 38051, Italia"
+86,Dispensario farmaceutico,45.8694388,11.0733573,,,,,"Dispensario farmaceutico, Strada Provinciale di Trambileno, Trambileno, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38068, Italia"
+87,,46.3766041,11.659545699999999,,,,,"Via Riccardo Lowy, Moena, Comun General de Fascia, Trento, Trentino-Alto Adige/Südtirol, 38035, Italia"
+88,,46.248481299999995,11.1716149,Rover? della Luna,Mo-Fr 09:00-12:00,+39 0461 659101,,"12, Via Rauti, Roverè della Luna, Comunità Rotaliana-Königsberg, Trento, Trentino-Alto Adige/Südtirol, 38030, Italia"
+89,,45.840892,11.0084513,,,,,"Despar, Via Vecchio Alveo, Marco, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38065, Italia"
+90,Zanini,46.2146886,11.118874,Mezzocorona,"Mo-Fr 08:30-12:15,15:30-19:15;Sa 08:30-12:15",+39 0461 605161,,"Zanini, 13, Piazza San Gottardo, Mezzocorona, Comunità Rotaliana-Königsberg, Trento, Trentino-Alto Adige/Südtirol, 38016, Italia"
+91,Farmacia Comunale Castelnuovo,46.0522737,11.492615800000001,Castelnuovo,,+39 0461 751300,,"Farmacia Comunale Castelnuovo, 15a, Viale Venezia, Castelnuovo, Comunità Valsugana e Tesino, Trento, Trentino-Alto Adige/Südtirol, 38050, Italia"
+92,,46.2988561,10.692774400000001,,,,,"Vermiglio, Comunità della Valle di Sole, Trento, Trentino-Alto Adige/Südtirol, 38026, Italia"
+93,,45.886501700000004,10.8426658,,,,,"Flora Downtown, Viale Dante Alighieri, Riva del Garda, Comunità Alto Garda e Ledro, Trento, Trentino-Alto Adige/Südtirol, 38066, Italia"
+94,Accorsi,45.8852245,10.840970599999999,,,,,"Accorsi, Piazza delle Erbe, Riva del Garda, Comunità Alto Garda e Ledro, Trento, Trentino-Alto Adige/Südtirol, 38066, Italia"
+95,,45.995081299999995,11.2603123,,,,,"Via dei Tigli, Costa di Brenta, Caldonazzo, Comunità Alta Valsugana e Bersntol, Trento, Trentino-Alto Adige/Südtirol, 38052, Italia"
+96,Farmacia all'Angelo,46.2744403,11.0479742,Denno,,,yes,"Farmacia all'Angelo, 10, Via Guglielmo Marconi, Denno, Comunità della Val di Non, Trento, Trentino-Alto Adige/Südtirol, 38010, Italia"
+97,Farmacia Comunale,46.070551,11.1123177,Trento,,,,"Farmacia Comunale, 19/A, Via Brescia, Piedicastello, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38122, Italia"
+98,farmacia comunale,45.8847764,11.008295599999999,,,,yes,"farmacia comunale, Via Cesare Cavalieri, Isera, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38068, Italia"
+99,Farmacia di Gardolo,46.1064,11.10862,Gardolo,"Mo 15:00-19:00; Tu-Sa 09:00-12:00,15:00-19:00",+39 0461 993511,,"Residence Capitol, Via Soprasasso, Gardolo, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38121, Italia"
+100,Farmacia Comunale,46.1395384,11.111994300000001,Lavis,,,,"Farmacia Comunale, 66, Via Giacomo Matteotti, Maso Ingran, Lavis, Comunità Rotaliana-Königsberg, Trento, Trentino-Alto Adige/Südtirol, 38015, Italia"
+101,,46.016758100000004,11.1055828,,,,,"Vigili del fuoco volontari Romagnano, Via alle Sette Fontane, Romagnano, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38060, Italia"
+102,Farmacia Borsato,46.0637581,11.5239854,Castel Ivano,,+39 0461 762101,,"Farmacia Borsato, 29, Via Roma, Sièga, Località Penile, Castel Ivano, Comunità Valsugana e Tesino, Trento, Trentino-Alto Adige/Südtirol, 38059, Italia"
+103,Farmacia Baldrachi,46.330560999999996,11.026143199999998,Tuenno,,,,"Farmacia Baldrachi, 29, SP10, Ville d'Anaunia, Comunità della Val di Non, Trento, Trentino-Alto Adige/Südtirol, 38023, Italia"
+104,Farmacia Ravagni,45.7591484,11.0034033,,,,yes,"Farmacia Ravagni, Via della Roggia, Ala, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38061, Italia"
+105,Farmacia Franzellin,45.7575766,11.0021142,,,,yes,"Farmacia Franzellin, Via Giovanni Segantini, Ala, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38061, Italia"
+106,Folgaresi,45.9933445,10.9717397,,,,,"Folgaresi, Via Don Negri, Cavedine, Comunità della Valle dei Laghi, Trento, Trentino-Alto Adige/Südtirol, 38073, Italia"
+107,Farmacia Pieve di Dino Ceschinelli,45.9395171,10.6391288,,,,,"Farmacia Pieve di Dino Ceschinelli, SS237, Pieve di Bono-Prezzo, Comunità delle Giudicarie, Trento, Trentino-Alto Adige/Südtirol, 38085, Italia"
+108,Farmacia Clarina,46.0487161,11.1256929,Trento,,,,"Farmacia Clarina, 112, Via Alcide Degasperi, Man Malpensada, Clarina, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38123, Italia"
+109,Farmacia Teseo Francesco,46.070367499999996,11.480866699999998,,,,,"Farmacia Teseo Francesco, Via Paradiso, Nale, Batistoti, Telve, Comunità Valsugana e Tesino, Trento, Trentino-Alto Adige/Südtirol, 38050, Italia"
+110,,45.8915027,10.9521966,,,,,"Cassa Rurale Mori Val di Gresta, Strada Provinciale Bordala, Ronzo-Chienis, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38065, Italia"
+111,,45.8519644,10.979005800000001,,,,,"Alta Via, SS240, Mori, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38065, Italia"
+112,,45.7827256,11.1181305,,,,,"Municipio, SS46, Vallarsa, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, Italia"
+113,,46.2907521,11.4620734,,,,limited,"Bar Roma, Via Fratelli Bronzetti, Cavalese, Comunità territoriale della Val di Fiemme, Trento, Trentino-Alto Adige/Südtirol, 38033, Italia"
+114,,46.0519685,10.8545176,,,,,"Famiglia Cooperativa, 10, Piazza Dante Alighieri, Stenico, Comunità delle Giudicarie, Trento, Trentino-Alto Adige/Südtirol, 38070, Italia"
+115,Farmacie Comunali,45.911859899999996,11.0252009,,,,,"Farmacie Comunali, Via S. Biagio, Nogaredo, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 39068, Italia"
+116,,46.351007200000005,10.693536300000002,,,,,"Ristorante-pizzeria  La Presef, 7, Piazza dei Monari, Peio, Comunità della Valle di Sole, Trento, Trentino-Alto Adige/Südtirol, 38024, Italia"
+117,,45.734889,10.9395448,,,,,"Coop1, Via Dante Alighieri, Avio, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38063, Italia"
+118,,46.04141920000001,11.2350016,,,,,"Pub Gulliver, Viale Europa, Maso Kronst, Pergine Valsugana, Comunità Alta Valsugana e Bersntol, Trento, Trentino-Alto Adige/Südtirol, 38057, Italia"
+119,,46.3485815,11.0889288,Coredo,,,,"Predaia, Comunità della Val di Non, Trento, Trentino-Alto Adige/Südtirol, 38012, Italia"
+120,Thaler,45.8898791,11.0403937,,,,,"Thaler, Via Dante Alighieri, Santa Maria, Rovereto, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38068, Italia"
+121,Farmacia Valle dei Mocheni,46.109182399999995,11.302132400000001,Sant'Orsola Terme,"Mo-Fr 08:30-12:00,15:00-19:00; Sa 08:30-12:00; Su off",+39 0461 550007,,"Farmacia Valle dei Mocheni, 75, SP8, Pintarei, Léner, Sant'Orsola Terme, Comunità Alta Valsugana e Bersntol, Trento, Trentino-Alto Adige/Südtirol, 38050, Italia"
+122,,46.1010416,10.736228599999999,,,,,"Famiglia Cooperativa, SS239, Calvario, Pelugo, Comunità delle Giudicarie, Trento, Trentino-Alto Adige/Südtirol, 38088, Italia"
+123,Farmacia dott.ssa Venezian,45.9186901,10.8653341,,,,,"Farmacia dott.ssa Venezian, Via Luigi Negrelli, Bolognano, Arco, Comunità Alto Garda e Ledro, Trento, Trentino-Alto Adige/Südtirol, 38062, Italia"
+124,,46.377056599999996,11.659493800000002,,,,,"Hotel Garnì Aurora, Strada de Salejada, Moena, Comun General de Fascia, Trento, Trentino-Alto Adige/Südtirol, 38035, Italia"
+125,Festa Parafarmacia Profumeria,46.376141,11.660979600000001,,,,,"Festa Parafarmacia Profumeria, Piaz de Ramon, Moena, Comun General de Fascia, Trento, Trentino-Alto Adige/Südtirol, 38035, Italia"
+126,Farmacia Comunale n?1,45.8917455,11.040143800000001,Rovereto,,,yes,"Farmacia Comunale n°1, Via Paoli, Santa Maria, Rovereto, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38068, Italia"
+127,,46.0605568,11.241366699999999,Pergine Valsugana,,,,"1, Piazza Mario Garbari, Maso Kronst, Pergine Valsugana, Comunità Alta Valsugana e Bersntol, Trento, Trentino-Alto Adige/Südtirol, 38057, Italia"
+128,Dispensario farmaceutico,46.0438265,11.552570699999999,,,,,"Dispensario farmaceutico, Via Roma, Pradanella, Ospedaletto, Comunità Valsugana e Tesino, Trento, Trentino-Alto Adige/Südtirol, 38059, Italia"
+129,Farmacia S. Giorgio,45.8941621,11.0281746,,,,,"Farmacia S. Giorgio, Via Unione, San Giorgio, Rovereto, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38068, Italia"
+130,,45.8828375,10.854358900000001,,,,,"La Scala Bistrò /=\, 5, Via Padova, Riva del Garda, Comunità Alto Garda e Ledro, Trento, Trentino-Alto Adige/Südtirol, 38066, Italia"
+131,Farmacia Gallina,46.315901600000004,10.801600599999999,Mezzana,,,,"Farmacia Gallina, 48, Via IV Novembre, Mezzana, Comunità della Valle di Sole, Trento, Trentino-Alto Adige/Südtirol, 38020, Italia"
+132,Farmacia Comunale,46.0625095,11.6339287,Castello Tesino,,,yes,"Farmacia Comunale, 12, Via Dante, Piazza G. Marconi, Castello Tesino, Comunità Valsugana e Tesino, Trento, Trentino-Alto Adige/Südtirol, 38053, Italia"
+133,Farmacia Pieve Tesino,46.068112299999996,11.6117172,Pieve Tesino,,,,"Farmacia Pieve Tesino, Viale Brigata Abruzzi, Bosco Santa Maria, Canmpestrin, Pieve Tesino, Comunità Valsugana e Tesino, Trento, Trentino-Alto Adige/Südtirol, 38053, Italia"
+134,Farmacia Alberto Foletto,45.8885959,10.7323059,Ledro,,+39 0464 591038,,"Farmacia Alberto Foletto, 4, Via Nuova, Ledro, Comunità Alto Garda e Ledro, Trento, Trentino-Alto Adige/Südtirol, 38067, Italia"
+135,Parafarmacia Campagnola,46.2071628,11.1000444,Mezzolombardo,Mo-Su 09:00-19:00,+39 0461 600696,yes,"Parafarmacia Campagnola, 65/A, Via Trento, Mezzolombardo, Comunità Rotaliana-Königsberg, Trento, Trentino-Alto Adige/Südtirol, 38017, Italia"
+136,Farmacia,46.15527,11.7329018,,,,,"Farmacia, SP79, Col dei Betteghe, Canal San Bovo, Comunità di Primiero, Trento, Trentino-Alto Adige/Südtirol, Italia"
+137,Parafarmacia,46.2910265,11.460217199999999,,,,,"Parafarmacia, Vicolo dei Tintori, Cavalese, Comunità territoriale della Val di Fiemme, Trento, Trentino-Alto Adige/Südtirol, 38033, Italia"
+138,Mutalipassi,45.886860399999996,10.845164599999999,Riva del Garda,,,,"Mutalipassi, 12, Via Lutti, Riva del Garda, Comunità Alto Garda e Ledro, Trento, Trentino-Alto Adige/Südtirol, 38066, Italia"
+139,Farmacia Veterinaria,46.0708418,11.1234078,,,,,"Farmacia Veterinaria, Via Torre Verde, Centro storico Trento, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38122, Italia"
+140,,46.1601535,10.7654611,,,,,"Municipio di Pinzolo, 8, Viale della pace, Pinzolo, Comunità delle Giudicarie, Trento, Trentino-Alto Adige/Südtirol, 38086, Italia"
+141,Tecnisan articoli sanitari,46.0445596,11.1286721,,,,,"Tecnisan articoli sanitari, Centro Direzione Trento Sud, Centro Comm Trento Sud, Madonna Bianca, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38128, Italia"
+142,,46.0353784,10.8724215,,,,,"EMC snc, Via C. Battisti, Comano Terme, Comunità delle Giudicarie, Trento, Trentino-Alto Adige/Südtirol, 38077, Italia"
+143,Farmacia Nardelli Gabriele,45.960610100000004,10.914025,DRO,"Mo-Fr 08:30-12:00, Mo-Sa 15:00-19:00, Sa 09:00-12:00",,,"Supermarket della Calzatura, Strada Statale Gardesana Occidentale, Dro, Comunità Alto Garda e Ledro, Trento, Trentino-Alto Adige/Südtirol, 38074, Italia"
+144,Igea,46.060837799999995,11.128048800000002,Trento,"Mo-Fr 08:30-12:30,15:00-19:00, Sa 08:30-12:30",+39 0461 910761,,"Igea, 68, Via Milano, Cernidor, Bolghera, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38100, Italia"
+145,,46.437553799999996,11.136692800000002,,,,,"Il Liberti, Via Cesare Battisti, Maso Topa, Fondo, Comunità della Val di Non, Trento, Trentino-Alto Adige/Südtirol, 38013, Italia"
+146,,46.2592562,10.5851467,,,,,"Cassa Rurale, SS42, Vermiglio, Comunità della Valle di Sole, Trento, Trentino-Alto Adige/Südtirol, 38029, Italia"
+147,Farmacia Santoni,45.8843881,11.018394,,,,yes,"Farmacia Santoni, Via Fratelli Bronzetti, Isera, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, 38068, Italia"
+148,,46.4052386,11.017099900000002,,,,,"Livo, Comunità della Val di Non, Trento, Trentino-Alto Adige/Südtirol, 38023, Italia"
+149,,46.3260432,10.8740406,Dimaro,,,,"Municipio di Dimaro Folgarida, Strada Statale 239 di Campiglio, Dimaro Folgarida, Comunità della Valle di Sole, Trento, Trentino-Alto Adige/Südtirol, 38025, Italia"
+150,Comunale,45.9415,11.1100893,,,,,"Comunale, Via Roma, Besenello, Comunità della Vallagarina, Trento, Trentino-Alto Adige/Südtirol, Italia"
+151,,46.2646016,11.086725900000001,,,,,"Bar Centrale, Via Roma, Ton, Comunità della Val di Non, Trento, Trentino-Alto Adige/Südtirol, 38010, Italia"
+152,Farmacia Giupponi,46.006935600000006,11.1278389,,,,,"Farmacia Giupponi, Piazza Quintilio Perini, Maso Pez, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige/Südtirol, 38128, Italia"
+153,Parafarmacia,46.477323,11.770259800000002,,,,,"Parafarmacia, Strèda Dolomites, Canazei, Comun General de Fascia, Trento, Trentino-Alto Adige/Südtirol, 38032, Italia"
+154,Farmacia San Giovanni,46.4200601,11.6754117,,"Mo-Sa 08:30-12:30, 15:30-19:30; Su 09:00-12:00, 16:00-19:00",0462764145,,"Farmacia San Giovanni, 24, Strada Neva, San Giovanni di Fassa, Comun General de Fascia, Trento, Trentino-Alto Adige/Südtirol, 38036, Italia"
+155,,46.0163984,11.6339731,,,,,"97, Via Vittorio Emanuele, Grigno, Comunità Valsugana e Tesino, Trento, Trentino-Alto Adige/Südtirol, 38055, Italia"
+156,Farmacia Malfatti,46.004345,11.1949906,,,,,"Farmacia Malfatti, Via della Fricca, Maso Stauderi, Altopiano della Vigolana, Comunità Alta Valsugana e Bersntol, Trento, Trentino-Alto Adige/Südtirol, 38034, Italia"
+157,Farmacia,46.077217299999994,10.9082944,,,,,"Farmacia, Strada Statale dei Laghi di Molveno e Tenno, San Lorenzo Dorsino, Comunità delle Giudicarie, Trento, Trentino-Alto Adige/Südtirol, 38078, Italia"
