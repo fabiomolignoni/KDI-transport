@@ -6,13 +6,14 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node1dqh90bdrx1 a km-dev:R2RMLMapping ;
-	km-dev:sourceName "bike_sharing_final.csv" ;
-	km-dev:modelPublicationTime "1574685388220"^^xsd:long ;
+_:node1dqm0or34x1 a km-dev:R2RMLMapping ;
+	km-dev:sourceName "bike_sharing.csv" ;
+	km-dev:modelPublicationTime "1574844525669"^^xsd:long ;
 	km-dev:modelVersion "1.7" ;
-	km-dev:hasInputColumns "[[{\"columnName\":\"electrical\"}],[{\"columnName\":\"position/1\"}],[{\"columnName\":\"position/0\"}],[{\"columnName\":\"slots\"}],[{\"columnName\":\"bikes\"}],[{\"columnName\":\"address\"}]]" ;
-	km-dev:hasOutputColumns "[[{\"columnName\":\"electrical\"}],[{\"columnName\":\"position/1\"}],[{\"columnName\":\"position/0\"}],[{\"columnName\":\"slots\"}],[{\"columnName\":\"bikes\"}],[{\"columnName\":\"address\"}]]" ;
-	km-dev:hasModelLabel "bike_sharing_final.csv" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"electrical\"}],[{\"columnName\":\"longitude\"}],[{\"columnName\":\"latitude\"}],[{\"columnName\":\"number_of_bikes\"}],[{\"columnName\":\"available\"}],[{\"columnName\":\"name\"}],[{\"columnName\":\"address\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"electrical\"}],[{\"columnName\":\"longitude\"}],[{\"columnName\":\"latitude\"}],[{\"columnName\":\"number_of_bikes\"}],[{\"columnName\":\"available\"}],[{\"columnName\":\"name\"}],[{\"columnName\":\"address\"}]]" ;
+	km-dev:hasModelLabel "bike_sharing.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"commandName\": \"OrganizeColumnsCommand\",
@@ -39,33 +40,28 @@ _:node1dqh90bdrx1 a km-dev:R2RMLMapping ;
                     },
                     {
                         \"visible\": true,
-                        \"name\": \"position/0\",
-                        \"id\": [{\"columnName\": \"position/0\"}]
+                        \"name\": \"latitude\",
+                        \"id\": [{\"columnName\": \"latitude\"}]
                     },
                     {
                         \"visible\": true,
-                        \"name\": \"position/1\",
-                        \"id\": [{\"columnName\": \"position/1\"}]
+                        \"name\": \"longitude\",
+                        \"id\": [{\"columnName\": \"longitude\"}]
                     },
                     {
                         \"visible\": true,
-                        \"name\": \"id\",
-                        \"id\": [{\"columnName\": \"id\"}]
+                        \"name\": \"name\",
+                        \"id\": [{\"columnName\": \"name\"}]
                     },
                     {
                         \"visible\": true,
-                        \"name\": \"bikes\",
-                        \"id\": [{\"columnName\": \"bikes\"}]
+                        \"name\": \"available\",
+                        \"id\": [{\"columnName\": \"available\"}]
                     },
                     {
                         \"visible\": true,
-                        \"name\": \"slots\",
-                        \"id\": [{\"columnName\": \"slots\"}]
-                    },
-                    {
-                        \"visible\": true,
-                        \"name\": \"totalSlots\",
-                        \"id\": [{\"columnName\": \"totalSlots\"}]
+                        \"name\": \"number_of_bikes\",
+                        \"id\": [{\"columnName\": \"number_of_bikes\"}]
                     },
                     {
                         \"visible\": true,
@@ -129,7 +125,7 @@ _:node1dqh90bdrx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"rdfLiteralType\",
                 \"type\": \"other\",
-                \"value\": \"\"
+                \"value\": \"xsd:boolean\"
             },
             {
                 \"name\": \"language\",
@@ -145,124 +141,6 @@ _:node1dqh90bdrx1 a km-dev:R2RMLMapping ;
                 \"name\": \"outputColumns\",
                 \"type\": \"hNodeIdList\",
                 \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"electrical\\\"}]}]\"
-            }
-        ],
-        \"tags\": [\"SemanticType\"]
-    },
-    {
-        \"commandName\": \"SetSemanticTypeCommand\",
-        \"model\": \"new\",
-        \"inputParameters\": [
-            {
-                \"name\": \"hNodeId\",
-                \"type\": \"hNodeId\",
-                \"value\": [{\"columnName\": \"slots\"}]
-            },
-            {
-                \"name\": \"worksheetId\",
-                \"type\": \"worksheetId\",
-                \"value\": \"W\"
-            },
-            {
-                \"name\": \"selectionName\",
-                \"type\": \"other\",
-                \"value\": \"DEFAULT_TEST\"
-            },
-            {
-                \"name\": \"SemanticTypesArray\",
-                \"type\": \"other\",
-                \"value\": [{
-                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station\",
-                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station1\",
-                    \"isPrimary\": true,
-                    \"isProvenance\": false,
-                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#number_of_bikes\",
-                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station/Shared_Bike_Station1\"
-                }]
-            },
-            {
-                \"name\": \"trainAndShowUpdates\",
-                \"type\": \"other\",
-                \"value\": true
-            },
-            {
-                \"name\": \"rdfLiteralType\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"language\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"inputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slots\\\"}]}]\"
-            },
-            {
-                \"name\": \"outputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"slots\\\"}]}]\"
-            }
-        ],
-        \"tags\": [\"SemanticType\"]
-    },
-    {
-        \"commandName\": \"SetSemanticTypeCommand\",
-        \"model\": \"new\",
-        \"inputParameters\": [
-            {
-                \"name\": \"hNodeId\",
-                \"type\": \"hNodeId\",
-                \"value\": [{\"columnName\": \"bikes\"}]
-            },
-            {
-                \"name\": \"worksheetId\",
-                \"type\": \"worksheetId\",
-                \"value\": \"W\"
-            },
-            {
-                \"name\": \"selectionName\",
-                \"type\": \"other\",
-                \"value\": \"DEFAULT_TEST\"
-            },
-            {
-                \"name\": \"SemanticTypesArray\",
-                \"type\": \"other\",
-                \"value\": [{
-                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station\",
-                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station1\",
-                    \"isPrimary\": true,
-                    \"isProvenance\": false,
-                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#available\",
-                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station/Shared_Bike_Station1\"
-                }]
-            },
-            {
-                \"name\": \"trainAndShowUpdates\",
-                \"type\": \"other\",
-                \"value\": true
-            },
-            {
-                \"name\": \"rdfLiteralType\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"language\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"inputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"bikes\\\"}]}]\"
-            },
-            {
-                \"name\": \"outputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"bikes\\\"}]}]\"
             }
         ],
         \"tags\": [\"SemanticType\"]
@@ -306,12 +184,12 @@ _:node1dqh90bdrx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"rdfLiteralType\",
                 \"type\": \"other\",
-                \"value\": \"\"
+                \"value\": \"xsd:string\"
             },
             {
                 \"name\": \"language\",
                 \"type\": \"other\",
-                \"value\": \"\"
+                \"value\": \"it\"
             },
             {
                 \"name\": \"inputColumns\",
@@ -333,7 +211,7 @@ _:node1dqh90bdrx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"hNodeId\",
                 \"type\": \"hNodeId\",
-                \"value\": [{\"columnName\": \"position/0\"}]
+                \"value\": [{\"columnName\": \"latitude\"}]
             },
             {
                 \"name\": \"worksheetId\",
@@ -365,7 +243,7 @@ _:node1dqh90bdrx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"rdfLiteralType\",
                 \"type\": \"other\",
-                \"value\": \"\"
+                \"value\": \"xsd:float\"
             },
             {
                 \"name\": \"language\",
@@ -375,12 +253,12 @@ _:node1dqh90bdrx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"inputColumns\",
                 \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"position/0\\\"}]}]\"
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"latitude\\\"}]}]\"
             },
             {
                 \"name\": \"outputColumns\",
                 \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"position/0\\\"}]}]\"
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"latitude\\\"}]}]\"
             }
         ],
         \"tags\": [\"SemanticType\"]
@@ -392,7 +270,7 @@ _:node1dqh90bdrx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"hNodeId\",
                 \"type\": \"hNodeId\",
-                \"value\": [{\"columnName\": \"position/1\"}]
+                \"value\": [{\"columnName\": \"longitude\"}]
             },
             {
                 \"name\": \"worksheetId\",
@@ -424,7 +302,7 @@ _:node1dqh90bdrx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"rdfLiteralType\",
                 \"type\": \"other\",
-                \"value\": \"\"
+                \"value\": \"xsd:float\"
             },
             {
                 \"name\": \"language\",
@@ -434,12 +312,189 @@ _:node1dqh90bdrx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"inputColumns\",
                 \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"position/1\\\"}]}]\"
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"longitude\\\"}]}]\"
             },
             {
                 \"name\": \"outputColumns\",
                 \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"position/1\\\"}]}]\"
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"longitude\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"name\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#sharedBikeStation_name\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station/Shared_Bike_Station1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:string\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"it\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"available\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#available\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station/Shared_Bike_Station1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:integer\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"available\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"available\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"number_of_bikes\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#number_of_bikes\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station/Shared_Bike_Station1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"xsd:integer\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"number_of_bikes\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"number_of_bikes\\\"}]}]\"
             }
         ],
         \"tags\": [\"SemanticType\"]
@@ -479,24 +534,24 @@ _:node1dqh90bdrx1 a km-dev:R2RMLMapping ;
     }
 ]""" .
 
-km-dev:TriplesMap_025d245e-aaf1-4cd6-a1dd-0d58d8316553 a rr:TriplesMap .
+km-dev:TriplesMap_0d422fc8-7ddb-4b47-8673-6aa284663694 a rr:TriplesMap .
 
-_:node1dqh90bdrx1 km-dev:hasTriplesMap km-dev:TriplesMap_025d245e-aaf1-4cd6-a1dd-0d58d8316553 .
+_:node1dqm0or34x1 km-dev:hasTriplesMap km-dev:TriplesMap_0d422fc8-7ddb-4b47-8673-6aa284663694 .
 
-km-dev:TriplesMap_025d245e-aaf1-4cd6-a1dd-0d58d8316553 km-dev:isPartOfMapping _:node1dqh90bdrx1 .
+km-dev:TriplesMap_0d422fc8-7ddb-4b47-8673-6aa284663694 km-dev:isPartOfMapping _:node1dqm0or34x1 .
 
-_:node1dqh90bdrx2 rr:tableName "bike_sharing_final.csv" ;
+_:node1dqm0or34x2 rr:tableName "bike_sharing.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1dqh90bdrx1 .
+	km-dev:isPartOfMapping _:node1dqm0or34x1 .
 
-_:node1dqh90bdrx1 km-dev:hasLogicalTable _:node1dqh90bdrx2 .
+_:node1dqm0or34x1 km-dev:hasLogicalTable _:node1dqm0or34x2 .
 
-km-dev:TriplesMap_025d245e-aaf1-4cd6-a1dd-0d58d8316553 rr:logicalTable _:node1dqh90bdrx2 ;
-	rr:subjectMap _:node1dqh90bdrx3 .
+km-dev:TriplesMap_0d422fc8-7ddb-4b47-8673-6aa284663694 rr:logicalTable _:node1dqm0or34x2 ;
+	rr:subjectMap _:node1dqm0or34x3 .
 
-_:node1dqh90bdrx1 km-dev:hasSubjectMap _:node1dqh90bdrx3 .
+_:node1dqm0or34x1 km-dev:hasSubjectMap _:node1dqm0or34x3 .
 
-_:node1dqh90bdrx3 km-dev:isPartOfMapping _:node1dqh90bdrx1 ;
+_:node1dqm0or34x3 km-dev:isPartOfMapping _:node1dqm0or34x1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station1" ;
 	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station> ;
@@ -504,145 +559,171 @@ _:node1dqh90bdrx3 km-dev:isPartOfMapping _:node1dqh90bdrx1 ;
 	km-dev:namePrefix "Shared_Bike_Station1" ;
 	a km-dev:steinerTreeRootNode .
 
-km-dev:PredicateObjectMap_49c46042-1bdf-4c8d-aabb-ae153b0b3959 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#available> .
+km-dev:PredicateObjectMap_15fe7e5b-c642-4505-8c4c-fccc548427e6 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#electric> .
 
-_:node1dqh90bdrx4 rr:column "bikes" ;
+_:node1dqm0or34x4 rr:column "electrical" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1dqh90bdrx1 .
+	rr:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
+	km-dev:isPartOfMapping _:node1dqm0or34x1 .
 
-_:node1dqh90bdrx1 km-dev:hasObjectMap _:node1dqh90bdrx4 .
+_:node1dqm0or34x1 km-dev:hasObjectMap _:node1dqm0or34x4 .
 
-km-dev:PredicateObjectMap_49c46042-1bdf-4c8d-aabb-ae153b0b3959 rr:objectMap _:node1dqh90bdrx4 .
+km-dev:PredicateObjectMap_15fe7e5b-c642-4505-8c4c-fccc548427e6 rr:objectMap _:node1dqm0or34x4 .
 
-km-dev:TriplesMap_025d245e-aaf1-4cd6-a1dd-0d58d8316553 rr:predicateObjectMap km-dev:PredicateObjectMap_49c46042-1bdf-4c8d-aabb-ae153b0b3959 .
+km-dev:TriplesMap_0d422fc8-7ddb-4b47-8673-6aa284663694 rr:predicateObjectMap km-dev:PredicateObjectMap_15fe7e5b-c642-4505-8c4c-fccc548427e6 .
 
-km-dev:PredicateObjectMap_49c46042-1bdf-4c8d-aabb-ae153b0b3959 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqh90bdrx1 .
+km-dev:PredicateObjectMap_15fe7e5b-c642-4505-8c4c-fccc548427e6 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dqm0or34x1 .
 
-_:node1dqh90bdrx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_49c46042-1bdf-4c8d-aabb-ae153b0b3959 .
+_:node1dqm0or34x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_15fe7e5b-c642-4505-8c4c-fccc548427e6 .
 
-km-dev:PredicateObjectMap_538190a8-93e1-4016-acfc-e0f21b04140a rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#bikeStationHas> .
+km-dev:PredicateObjectMap_21e23ee0-8670-4782-8b3a-e1be5df016c9 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#sharedBikeStation_name> .
 
-km-dev:RefObjectMap_ba2f8ea3-2591-4484-a094-928267462bec a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_ede05993-5c35-4bfe-84ae-40e2014607ae ;
-	km-dev:isPartOfMapping _:node1dqh90bdrx1 .
-
-_:node1dqh90bdrx1 km-dev:hasObjectMap km-dev:RefObjectMap_ba2f8ea3-2591-4484-a094-928267462bec .
-
-km-dev:PredicateObjectMap_538190a8-93e1-4016-acfc-e0f21b04140a rr:objectMap km-dev:RefObjectMap_ba2f8ea3-2591-4484-a094-928267462bec .
-
-km-dev:TriplesMap_025d245e-aaf1-4cd6-a1dd-0d58d8316553 rr:predicateObjectMap km-dev:PredicateObjectMap_538190a8-93e1-4016-acfc-e0f21b04140a .
-
-km-dev:PredicateObjectMap_538190a8-93e1-4016-acfc-e0f21b04140a a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqh90bdrx1 .
-
-_:node1dqh90bdrx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_538190a8-93e1-4016-acfc-e0f21b04140a .
-
-km-dev:PredicateObjectMap_e7d59160-ee24-4f9e-b245-b02da26b8224 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#electric> .
-
-_:node1dqh90bdrx5 rr:column "electrical" ;
+_:node1dqm0or34x5 rr:column "name" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1dqh90bdrx1 .
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	rr:language "it" ;
+	km-dev:isPartOfMapping _:node1dqm0or34x1 .
 
-_:node1dqh90bdrx1 km-dev:hasObjectMap _:node1dqh90bdrx5 .
+_:node1dqm0or34x1 km-dev:hasObjectMap _:node1dqm0or34x5 .
 
-km-dev:PredicateObjectMap_e7d59160-ee24-4f9e-b245-b02da26b8224 rr:objectMap _:node1dqh90bdrx5 .
+km-dev:PredicateObjectMap_21e23ee0-8670-4782-8b3a-e1be5df016c9 rr:objectMap _:node1dqm0or34x5 .
 
-km-dev:TriplesMap_025d245e-aaf1-4cd6-a1dd-0d58d8316553 rr:predicateObjectMap km-dev:PredicateObjectMap_e7d59160-ee24-4f9e-b245-b02da26b8224 .
+km-dev:TriplesMap_0d422fc8-7ddb-4b47-8673-6aa284663694 rr:predicateObjectMap km-dev:PredicateObjectMap_21e23ee0-8670-4782-8b3a-e1be5df016c9 .
 
-km-dev:PredicateObjectMap_e7d59160-ee24-4f9e-b245-b02da26b8224 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqh90bdrx1 .
+km-dev:PredicateObjectMap_21e23ee0-8670-4782-8b3a-e1be5df016c9 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dqm0or34x1 .
 
-_:node1dqh90bdrx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_e7d59160-ee24-4f9e-b245-b02da26b8224 .
+_:node1dqm0or34x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_21e23ee0-8670-4782-8b3a-e1be5df016c9 .
 
-km-dev:PredicateObjectMap_123c14bf-3cec-49db-a770-6fc731d981b4 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#number_of_bikes> .
+km-dev:PredicateObjectMap_703848bd-2fd5-4a68-9688-eb93852fb5c4 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#available> .
 
-_:node1dqh90bdrx6 rr:column "slots" ;
+_:node1dqm0or34x6 rr:column "available" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1dqh90bdrx1 .
+	rr:datatype "http://www.w3.org/2001/XMLSchema#integer" ;
+	km-dev:isPartOfMapping _:node1dqm0or34x1 .
 
-_:node1dqh90bdrx1 km-dev:hasObjectMap _:node1dqh90bdrx6 .
+_:node1dqm0or34x1 km-dev:hasObjectMap _:node1dqm0or34x6 .
 
-km-dev:PredicateObjectMap_123c14bf-3cec-49db-a770-6fc731d981b4 rr:objectMap _:node1dqh90bdrx6 .
+km-dev:PredicateObjectMap_703848bd-2fd5-4a68-9688-eb93852fb5c4 rr:objectMap _:node1dqm0or34x6 .
 
-km-dev:TriplesMap_025d245e-aaf1-4cd6-a1dd-0d58d8316553 rr:predicateObjectMap km-dev:PredicateObjectMap_123c14bf-3cec-49db-a770-6fc731d981b4 .
+km-dev:TriplesMap_0d422fc8-7ddb-4b47-8673-6aa284663694 rr:predicateObjectMap km-dev:PredicateObjectMap_703848bd-2fd5-4a68-9688-eb93852fb5c4 .
 
-km-dev:PredicateObjectMap_123c14bf-3cec-49db-a770-6fc731d981b4 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqh90bdrx1 .
+km-dev:PredicateObjectMap_703848bd-2fd5-4a68-9688-eb93852fb5c4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dqm0or34x1 .
 
-_:node1dqh90bdrx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_123c14bf-3cec-49db-a770-6fc731d981b4 .
+_:node1dqm0or34x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_703848bd-2fd5-4a68-9688-eb93852fb5c4 .
 
-km-dev:TriplesMap_ede05993-5c35-4bfe-84ae-40e2014607ae a rr:TriplesMap .
+km-dev:PredicateObjectMap_34c52006-f209-4322-beb1-51ecaf7b0673 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#number_of_bikes> .
 
-_:node1dqh90bdrx1 km-dev:hasTriplesMap km-dev:TriplesMap_ede05993-5c35-4bfe-84ae-40e2014607ae .
+_:node1dqm0or34x7 rr:column "number_of_bikes" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#integer" ;
+	km-dev:isPartOfMapping _:node1dqm0or34x1 .
 
-km-dev:TriplesMap_ede05993-5c35-4bfe-84ae-40e2014607ae km-dev:isPartOfMapping _:node1dqh90bdrx1 .
+_:node1dqm0or34x1 km-dev:hasObjectMap _:node1dqm0or34x7 .
 
-_:node1dqh90bdrx7 rr:tableName "bike_sharing_final.csv" ;
+km-dev:PredicateObjectMap_34c52006-f209-4322-beb1-51ecaf7b0673 rr:objectMap _:node1dqm0or34x7 .
+
+km-dev:TriplesMap_0d422fc8-7ddb-4b47-8673-6aa284663694 rr:predicateObjectMap km-dev:PredicateObjectMap_34c52006-f209-4322-beb1-51ecaf7b0673 .
+
+km-dev:PredicateObjectMap_34c52006-f209-4322-beb1-51ecaf7b0673 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dqm0or34x1 .
+
+_:node1dqm0or34x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_34c52006-f209-4322-beb1-51ecaf7b0673 .
+
+km-dev:PredicateObjectMap_c611e7fb-25d3-4651-8aac-f88a44631975 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#bikeStationHas> .
+
+km-dev:RefObjectMap_bd67ccb7-8728-41a7-92f2-f00d51f990da a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_b29f3d79-3cf2-4895-a3f8-5691fa43604a ;
+	km-dev:isPartOfMapping _:node1dqm0or34x1 .
+
+_:node1dqm0or34x1 km-dev:hasObjectMap km-dev:RefObjectMap_bd67ccb7-8728-41a7-92f2-f00d51f990da .
+
+km-dev:PredicateObjectMap_c611e7fb-25d3-4651-8aac-f88a44631975 rr:objectMap km-dev:RefObjectMap_bd67ccb7-8728-41a7-92f2-f00d51f990da .
+
+km-dev:TriplesMap_0d422fc8-7ddb-4b47-8673-6aa284663694 rr:predicateObjectMap km-dev:PredicateObjectMap_c611e7fb-25d3-4651-8aac-f88a44631975 .
+
+km-dev:PredicateObjectMap_c611e7fb-25d3-4651-8aac-f88a44631975 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dqm0or34x1 .
+
+_:node1dqm0or34x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c611e7fb-25d3-4651-8aac-f88a44631975 .
+
+km-dev:TriplesMap_b29f3d79-3cf2-4895-a3f8-5691fa43604a a rr:TriplesMap .
+
+_:node1dqm0or34x1 km-dev:hasTriplesMap km-dev:TriplesMap_b29f3d79-3cf2-4895-a3f8-5691fa43604a .
+
+km-dev:TriplesMap_b29f3d79-3cf2-4895-a3f8-5691fa43604a km-dev:isPartOfMapping _:node1dqm0or34x1 .
+
+_:node1dqm0or34x8 rr:tableName "bike_sharing.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1dqh90bdrx1 .
+	km-dev:isPartOfMapping _:node1dqm0or34x1 .
 
-_:node1dqh90bdrx1 km-dev:hasLogicalTable _:node1dqh90bdrx7 .
+_:node1dqm0or34x1 km-dev:hasLogicalTable _:node1dqm0or34x8 .
 
-km-dev:TriplesMap_ede05993-5c35-4bfe-84ae-40e2014607ae rr:logicalTable _:node1dqh90bdrx7 ;
-	rr:subjectMap _:node1dqh90bdrx8 .
+km-dev:TriplesMap_b29f3d79-3cf2-4895-a3f8-5691fa43604a rr:logicalTable _:node1dqm0or34x8 ;
+	rr:subjectMap _:node1dqm0or34x9 .
 
-_:node1dqh90bdrx1 km-dev:hasSubjectMap _:node1dqh90bdrx8 .
+_:node1dqm0or34x1 km-dev:hasSubjectMap _:node1dqm0or34x9 .
 
-_:node1dqh90bdrx8 km-dev:isPartOfMapping _:node1dqh90bdrx1 ;
+_:node1dqm0or34x9 km-dev:isPartOfMapping _:node1dqm0or34x1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1" ;
 	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> ;
 	rr:termType rr:BlankNode ;
 	km-dev:namePrefix "Location1" .
 
-km-dev:PredicateObjectMap_171cc0ad-cf27-4214-8be4-146596a42481 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> .
+km-dev:PredicateObjectMap_72016fdd-66c5-4696-8624-3a35bbcbbcb1 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#address> .
 
-_:node1dqh90bdrx9 rr:column "position/1" ;
+_:node1dqm0or34x10 rr:column "address" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1dqh90bdrx1 .
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	rr:language "it" ;
+	km-dev:isPartOfMapping _:node1dqm0or34x1 .
 
-_:node1dqh90bdrx1 km-dev:hasObjectMap _:node1dqh90bdrx9 .
+_:node1dqm0or34x1 km-dev:hasObjectMap _:node1dqm0or34x10 .
 
-km-dev:PredicateObjectMap_171cc0ad-cf27-4214-8be4-146596a42481 rr:objectMap _:node1dqh90bdrx9 .
+km-dev:PredicateObjectMap_72016fdd-66c5-4696-8624-3a35bbcbbcb1 rr:objectMap _:node1dqm0or34x10 .
 
-km-dev:TriplesMap_ede05993-5c35-4bfe-84ae-40e2014607ae rr:predicateObjectMap km-dev:PredicateObjectMap_171cc0ad-cf27-4214-8be4-146596a42481 .
+km-dev:TriplesMap_b29f3d79-3cf2-4895-a3f8-5691fa43604a rr:predicateObjectMap km-dev:PredicateObjectMap_72016fdd-66c5-4696-8624-3a35bbcbbcb1 .
 
-km-dev:PredicateObjectMap_171cc0ad-cf27-4214-8be4-146596a42481 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqh90bdrx1 .
+km-dev:PredicateObjectMap_72016fdd-66c5-4696-8624-3a35bbcbbcb1 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dqm0or34x1 .
 
-_:node1dqh90bdrx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_171cc0ad-cf27-4214-8be4-146596a42481 .
+_:node1dqm0or34x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_72016fdd-66c5-4696-8624-3a35bbcbbcb1 .
 
-km-dev:PredicateObjectMap_4dfea506-93e3-4f95-b343-3b028ca25318 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> .
+km-dev:PredicateObjectMap_1d9b6e3d-8945-42a1-ad0c-ebdeda7dc701 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> .
 
-_:node1dqh90bdrx10 rr:column "position/0" ;
+_:node1dqm0or34x11 rr:column "latitude" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1dqh90bdrx1 .
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	km-dev:isPartOfMapping _:node1dqm0or34x1 .
 
-_:node1dqh90bdrx1 km-dev:hasObjectMap _:node1dqh90bdrx10 .
+_:node1dqm0or34x1 km-dev:hasObjectMap _:node1dqm0or34x11 .
 
-km-dev:PredicateObjectMap_4dfea506-93e3-4f95-b343-3b028ca25318 rr:objectMap _:node1dqh90bdrx10 .
+km-dev:PredicateObjectMap_1d9b6e3d-8945-42a1-ad0c-ebdeda7dc701 rr:objectMap _:node1dqm0or34x11 .
 
-km-dev:TriplesMap_ede05993-5c35-4bfe-84ae-40e2014607ae rr:predicateObjectMap km-dev:PredicateObjectMap_4dfea506-93e3-4f95-b343-3b028ca25318 .
+km-dev:TriplesMap_b29f3d79-3cf2-4895-a3f8-5691fa43604a rr:predicateObjectMap km-dev:PredicateObjectMap_1d9b6e3d-8945-42a1-ad0c-ebdeda7dc701 .
 
-km-dev:PredicateObjectMap_4dfea506-93e3-4f95-b343-3b028ca25318 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqh90bdrx1 .
+km-dev:PredicateObjectMap_1d9b6e3d-8945-42a1-ad0c-ebdeda7dc701 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dqm0or34x1 .
 
-_:node1dqh90bdrx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_4dfea506-93e3-4f95-b343-3b028ca25318 .
+_:node1dqm0or34x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1d9b6e3d-8945-42a1-ad0c-ebdeda7dc701 .
 
-km-dev:PredicateObjectMap_61e3e8c2-2c7d-49a8-a8d0-2cbe8b416393 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#address> .
+km-dev:PredicateObjectMap_887aef4e-b5d6-4186-9c7f-887674a4188e rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> .
 
-_:node1dqh90bdrx11 rr:column "address" ;
+_:node1dqm0or34x12 rr:column "longitude" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1dqh90bdrx1 .
+	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
+	km-dev:isPartOfMapping _:node1dqm0or34x1 .
 
-_:node1dqh90bdrx1 km-dev:hasObjectMap _:node1dqh90bdrx11 .
+_:node1dqm0or34x1 km-dev:hasObjectMap _:node1dqm0or34x12 .
 
-km-dev:PredicateObjectMap_61e3e8c2-2c7d-49a8-a8d0-2cbe8b416393 rr:objectMap _:node1dqh90bdrx11 .
+km-dev:PredicateObjectMap_887aef4e-b5d6-4186-9c7f-887674a4188e rr:objectMap _:node1dqm0or34x12 .
 
-km-dev:TriplesMap_ede05993-5c35-4bfe-84ae-40e2014607ae rr:predicateObjectMap km-dev:PredicateObjectMap_61e3e8c2-2c7d-49a8-a8d0-2cbe8b416393 .
+km-dev:TriplesMap_b29f3d79-3cf2-4895-a3f8-5691fa43604a rr:predicateObjectMap km-dev:PredicateObjectMap_887aef4e-b5d6-4186-9c7f-887674a4188e .
 
-km-dev:PredicateObjectMap_61e3e8c2-2c7d-49a8-a8d0-2cbe8b416393 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqh90bdrx1 .
+km-dev:PredicateObjectMap_887aef4e-b5d6-4186-9c7f-887674a4188e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dqm0or34x1 .
 
-_:node1dqh90bdrx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_61e3e8c2-2c7d-49a8-a8d0-2cbe8b416393 .
+_:node1dqm0or34x1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_887aef4e-b5d6-4186-9c7f-887674a4188e .
