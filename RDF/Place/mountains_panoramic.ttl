@@ -1,0 +1,195 @@
+_:Location1_be4f653d514f8622765406152a4fec5d23ebc959_N4927_3fe3403b652bbcb9d9586303e9af078b4c9a45a8_N4928 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> .
+_:Place1_4314f102231e208b471a65b117346ef22557b6f8_N4929 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place> .
+_:Location1_be4f653d514f8622765406152a4fec5d23ebc959_N4927_3fe3403b652bbcb9d9586303e9af078b4c9a45a8_N4928 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> "46.52404566399383" .
+_:Itinerary1_3ac7ff142f737d59e18915c0fd04a6a7a76d5651_N4933 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#condition> "percorribile liberamente" .
+_:Street1_c1651042b9eaea5a42f3880f898487c5dc504e6c_N4930 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street> .
+_:Place1_4314f102231e208b471a65b117346ef22557b6f8_N4929 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name> "Passo Campolongo" .
+_:Location1_be4f653d514f8622765406152a4fec5d23ebc959_N4927_3fe3403b652bbcb9d9586303e9af078b4c9a45a8_N4928 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> "11.8758408705316" .
+_:Street1_c1651042b9eaea5a42f3880f898487c5dc504e6c_N4930 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#street_name> "SS 244" .
+_:Location1_be4f653d514f8622765406152a4fec5d23ebc959_N4927_3fe3403b652bbcb9d9586303e9af078b4c9a45a8_N4928 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasItinerary> _:Itinerary1_3ac7ff142f737d59e18915c0fd04a6a7a76d5651_N4933 .
+_:Location1_be4f653d514f8622765406152a4fec5d23ebc959_N4927_3fe3403b652bbcb9d9586303e9af078b4c9a45a8_N4928 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasStreet> _:Street1_c1651042b9eaea5a42f3880f898487c5dc504e6c_N4930 .
+_:Place1_4314f102231e208b471a65b117346ef22557b6f8_N4929 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation> _:Location1_be4f653d514f8622765406152a4fec5d23ebc959_N4927_3fe3403b652bbcb9d9586303e9af078b4c9a45a8_N4928 .
+_:Itinerary1_3ac7ff142f737d59e18915c0fd04a6a7a76d5651_N4933 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary> .
+
+_:Location1_6ad57590f2bd5c04e484b6565db7868089af4b0d_N4935_332563122e006e1a333615713be2beeb2f8ab39c_N4936 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> "11.969245135684906" .
+_:Location1_6ad57590f2bd5c04e484b6565db7868089af4b0d_N4935_332563122e006e1a333615713be2beeb2f8ab39c_N4936 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasItinerary> _:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N4941 .
+_:Location1_6ad57590f2bd5c04e484b6565db7868089af4b0d_N4935_332563122e006e1a333615713be2beeb2f8ab39c_N4936 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> .
+_:Location1_6ad57590f2bd5c04e484b6565db7868089af4b0d_N4935_332563122e006e1a333615713be2beeb2f8ab39c_N4936 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> "46.72319351378471" .
+_:Street1_cdb9bf2f487f7c99bbf5b53827a25233bf274e20_N4938 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#street_name> "LS/SP 43" .
+_:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N4941 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#condition> "limitazione al traffico" .
+_:Place1_1fb8f0899b6dbd998206ee6c21ca94b2e2b49c77_N4937 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation> _:Location1_6ad57590f2bd5c04e484b6565db7868089af4b0d_N4935_332563122e006e1a333615713be2beeb2f8ab39c_N4936 .
+_:Place1_1fb8f0899b6dbd998206ee6c21ca94b2e2b49c77_N4937 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name> "Passo Furcia" .
+_:Place1_1fb8f0899b6dbd998206ee6c21ca94b2e2b49c77_N4937 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place> .
+_:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N4941 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary> .
+_:Location1_6ad57590f2bd5c04e484b6565db7868089af4b0d_N4935_332563122e006e1a333615713be2beeb2f8ab39c_N4936 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasStreet> _:Street1_cdb9bf2f487f7c99bbf5b53827a25233bf274e20_N4938 .
+_:Street1_cdb9bf2f487f7c99bbf5b53827a25233bf274e20_N4938 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street> .
+
+_:Street1_eedc06b7bd57a156f7912baa6cab8537245ca8f5_N4946 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street> .
+_:Location1_48f5646c0a4d2e65cc355fe5619e5582497664f7_N4943_8844c1a3e376a386fb657f6a0d9adc2af30db3b3_N4944 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasStreet> _:Street1_eedc06b7bd57a156f7912baa6cab8537245ca8f5_N4946 .
+_:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N4949 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#condition> "limitazione al traffico" .
+_:Street1_eedc06b7bd57a156f7912baa6cab8537245ca8f5_N4946 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#street_name> "LS/SP 29" .
+_:Place1_0bc3bfc9efbd8a52b39ec0b7eeb4ff757ffa24d0_N4945 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place> .
+_:Location1_48f5646c0a4d2e65cc355fe5619e5582497664f7_N4943_8844c1a3e376a386fb657f6a0d9adc2af30db3b3_N4944 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> "46.67506732009182" .
+_:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N4949 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary> .
+_:Location1_48f5646c0a4d2e65cc355fe5619e5582497664f7_N4943_8844c1a3e376a386fb657f6a0d9adc2af30db3b3_N4944 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasItinerary> _:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N4949 .
+_:Place1_0bc3bfc9efbd8a52b39ec0b7eeb4ff757ffa24d0_N4945 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation> _:Location1_48f5646c0a4d2e65cc355fe5619e5582497664f7_N4943_8844c1a3e376a386fb657f6a0d9adc2af30db3b3_N4944 .
+_:Location1_48f5646c0a4d2e65cc355fe5619e5582497664f7_N4943_8844c1a3e376a386fb657f6a0d9adc2af30db3b3_N4944 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> "11.814088834302726" .
+_:Place1_0bc3bfc9efbd8a52b39ec0b7eeb4ff757ffa24d0_N4945 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name> "Passo Erbe" .
+_:Location1_48f5646c0a4d2e65cc355fe5619e5582497664f7_N4943_8844c1a3e376a386fb657f6a0d9adc2af30db3b3_N4944 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> .
+
+_:Location1_ad1350c7fcbe44bd49b1e53cea7d519689888d1e_N4951_20fdd018a23110840f7a77d7a87ea0e618b38887_N4952 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasStreet> _:Street1_5acbc7eb29cc163e0354cd70486760599d527c90_N4954 .
+_:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N4957 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#condition> "limitazione al traffico" .
+_:Location1_ad1350c7fcbe44bd49b1e53cea7d519689888d1e_N4951_20fdd018a23110840f7a77d7a87ea0e618b38887_N4952 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> "46.354557045487056" .
+_:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N4957 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary> .
+_:Place1_f281c9bb68d75afff742ba722f1e981e2b90e240_N4953 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name> "Passo Lavazé" .
+_:Street1_5acbc7eb29cc163e0354cd70486760599d527c90_N4954 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#street_name> "SS 620 " .
+_:Location1_ad1350c7fcbe44bd49b1e53cea7d519689888d1e_N4951_20fdd018a23110840f7a77d7a87ea0e618b38887_N4952 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> "11.492672253510868" .
+_:Location1_ad1350c7fcbe44bd49b1e53cea7d519689888d1e_N4951_20fdd018a23110840f7a77d7a87ea0e618b38887_N4952 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> .
+_:Street1_5acbc7eb29cc163e0354cd70486760599d527c90_N4954 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street> .
+_:Place1_f281c9bb68d75afff742ba722f1e981e2b90e240_N4953 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation> _:Location1_ad1350c7fcbe44bd49b1e53cea7d519689888d1e_N4951_20fdd018a23110840f7a77d7a87ea0e618b38887_N4952 .
+_:Location1_ad1350c7fcbe44bd49b1e53cea7d519689888d1e_N4951_20fdd018a23110840f7a77d7a87ea0e618b38887_N4952 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasItinerary> _:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N4957 .
+_:Place1_f281c9bb68d75afff742ba722f1e981e2b90e240_N4953 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place> .
+
+_:Street1_fb49218a796059e95fd37b33a277eea750826bf2_N4962 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#street_name> "SS 48 " .
+_:Location1_35ac2767a686711f8b73953c488ddb30cacbc281_N4959_cbbe707ddb9d738217e4fea4ec72e2db668be7cc_N4960 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> "12.009300020204307" .
+_:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N4965 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary> .
+_:Place1_ef7456fce5587aa7e68fb216394bfb0bf4f53039_N4961 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name> "Passo Falzarego" .
+_:Location1_35ac2767a686711f8b73953c488ddb30cacbc281_N4959_cbbe707ddb9d738217e4fea4ec72e2db668be7cc_N4960 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> .
+_:Place1_ef7456fce5587aa7e68fb216394bfb0bf4f53039_N4961 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place> .
+_:Street1_fb49218a796059e95fd37b33a277eea750826bf2_N4962 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street> .
+_:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N4965 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#condition> "limitazione al traffico" .
+_:Location1_35ac2767a686711f8b73953c488ddb30cacbc281_N4959_cbbe707ddb9d738217e4fea4ec72e2db668be7cc_N4960 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> "46.518838694398355" .
+_:Location1_35ac2767a686711f8b73953c488ddb30cacbc281_N4959_cbbe707ddb9d738217e4fea4ec72e2db668be7cc_N4960 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasItinerary> _:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N4965 .
+_:Location1_35ac2767a686711f8b73953c488ddb30cacbc281_N4959_cbbe707ddb9d738217e4fea4ec72e2db668be7cc_N4960 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasStreet> _:Street1_fb49218a796059e95fd37b33a277eea750826bf2_N4962 .
+_:Place1_ef7456fce5587aa7e68fb216394bfb0bf4f53039_N4961 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation> _:Location1_35ac2767a686711f8b73953c488ddb30cacbc281_N4959_cbbe707ddb9d738217e4fea4ec72e2db668be7cc_N4960 .
+
+_:Location1_b8c6e5d8b92a035253d3b1912444c62276cc1ed0_N4967_d2b23d502bc181b51d78094374c1b49718b1a626_N4968 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> "11.812299378589264" .
+_:Place1_b7e5810aab05f6db09cc46a08bad4ac9d569412d_N4969 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place> .
+_:Place1_b7e5810aab05f6db09cc46a08bad4ac9d569412d_N4969 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation> _:Location1_b8c6e5d8b92a035253d3b1912444c62276cc1ed0_N4967_d2b23d502bc181b51d78094374c1b49718b1a626_N4968 .
+_:Location1_b8c6e5d8b92a035253d3b1912444c62276cc1ed0_N4967_d2b23d502bc181b51d78094374c1b49718b1a626_N4968 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasItinerary> _:Itinerary1_3ac7ff142f737d59e18915c0fd04a6a7a76d5651_N4973 .
+_:Street1_fb49218a796059e95fd37b33a277eea750826bf2_N4970 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street> .
+_:Itinerary1_3ac7ff142f737d59e18915c0fd04a6a7a76d5651_N4973 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary> .
+_:Location1_b8c6e5d8b92a035253d3b1912444c62276cc1ed0_N4967_d2b23d502bc181b51d78094374c1b49718b1a626_N4968 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> "46.487522619160785" .
+_:Itinerary1_3ac7ff142f737d59e18915c0fd04a6a7a76d5651_N4973 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#condition> "percorribile liberamente" .
+_:Location1_b8c6e5d8b92a035253d3b1912444c62276cc1ed0_N4967_d2b23d502bc181b51d78094374c1b49718b1a626_N4968 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> .
+_:Location1_b8c6e5d8b92a035253d3b1912444c62276cc1ed0_N4967_d2b23d502bc181b51d78094374c1b49718b1a626_N4968 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasStreet> _:Street1_fb49218a796059e95fd37b33a277eea750826bf2_N4970 .
+_:Street1_fb49218a796059e95fd37b33a277eea750826bf2_N4970 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#street_name> "SS 48 " .
+_:Place1_b7e5810aab05f6db09cc46a08bad4ac9d569412d_N4969 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name> "Passo Pordoi" .
+
+_:Location1_d1ee2e8192152272423d01244a5a357764bc5d23_N4975_ba621693d8f651722b1b85615c75fc71301df5ac_N4976 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> "46.55784857684445" .
+_:Location1_d1ee2e8192152272423d01244a5a357764bc5d23_N4975_ba621693d8f651722b1b85615c75fc71301df5ac_N4976 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasItinerary> _:Itinerary1_3ac7ff142f737d59e18915c0fd04a6a7a76d5651_N4981 .
+_:Location1_d1ee2e8192152272423d01244a5a357764bc5d23_N4975_ba621693d8f651722b1b85615c75fc71301df5ac_N4976 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> "11.962065683401361" .
+_:Place1_e1b98a62fddbf6c1f4bdb43b8958f6e9e458fe5d_N4977 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place> .
+_:Location1_d1ee2e8192152272423d01244a5a357764bc5d23_N4975_ba621693d8f651722b1b85615c75fc71301df5ac_N4976 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasStreet> _:Street1_8504d81c2c6fa9abbb86fff51c737d91759f12d1_N4978 .
+_:Place1_e1b98a62fddbf6c1f4bdb43b8958f6e9e458fe5d_N4977 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation> _:Location1_d1ee2e8192152272423d01244a5a357764bc5d23_N4975_ba621693d8f651722b1b85615c75fc71301df5ac_N4976 .
+_:Place1_e1b98a62fddbf6c1f4bdb43b8958f6e9e458fe5d_N4977 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name> "Passo Valparola" .
+_:Itinerary1_3ac7ff142f737d59e18915c0fd04a6a7a76d5651_N4981 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#condition> "percorribile liberamente" .
+_:Street1_8504d81c2c6fa9abbb86fff51c737d91759f12d1_N4978 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#street_name> "LS/SP 37" .
+_:Street1_8504d81c2c6fa9abbb86fff51c737d91759f12d1_N4978 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street> .
+_:Itinerary1_3ac7ff142f737d59e18915c0fd04a6a7a76d5651_N4981 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary> .
+_:Location1_d1ee2e8192152272423d01244a5a357764bc5d23_N4975_ba621693d8f651722b1b85615c75fc71301df5ac_N4976 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> .
+
+_:Location1_5be21a42a821f98bef147326f388c395b0bc2224_N4983_fe4e9b492f94c281980de07e400873c8c62dd5d9_N4984 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasStreet> _:Street1_217094fbc136fd80cc67482f8c796c7cad802da8_N4986 .
+_:Street1_217094fbc136fd80cc67482f8c796c7cad802da8_N4986 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street> .
+_:Itinerary1_1842131a6a81f804e275dee9a0934e5c13633c51_N4989 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#condition> "attenzione" .
+_:Itinerary1_1842131a6a81f804e275dee9a0934e5c13633c51_N4989 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary> .
+_:Location1_5be21a42a821f98bef147326f388c395b0bc2224_N4983_fe4e9b492f94c281980de07e400873c8c62dd5d9_N4984 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> "11.604951240513987" .
+_:Street1_217094fbc136fd80cc67482f8c796c7cad802da8_N4986 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#street_name> "SS 241" .
+_:Location1_5be21a42a821f98bef147326f388c395b0bc2224_N4983_fe4e9b492f94c281980de07e400873c8c62dd5d9_N4984 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> .
+_:Location1_5be21a42a821f98bef147326f388c395b0bc2224_N4983_fe4e9b492f94c281980de07e400873c8c62dd5d9_N4984 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> "46.40690701243879" .
+_:Place1_c1a231adb830a5d4269efb7f63e2ed5a2b84465f_N4985 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place> .
+_:Place1_c1a231adb830a5d4269efb7f63e2ed5a2b84465f_N4985 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name> "Passo Costalunga" .
+_:Place1_c1a231adb830a5d4269efb7f63e2ed5a2b84465f_N4985 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation> _:Location1_5be21a42a821f98bef147326f388c395b0bc2224_N4983_fe4e9b492f94c281980de07e400873c8c62dd5d9_N4984 .
+_:Location1_5be21a42a821f98bef147326f388c395b0bc2224_N4983_fe4e9b492f94c281980de07e400873c8c62dd5d9_N4984 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasItinerary> _:Itinerary1_1842131a6a81f804e275dee9a0934e5c13633c51_N4989 .
+
+_:Place1_8cf9d84e2a0c66e0ec4e0d0d4ca743f47b32dfc8_N4993 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name> "Passo Monte Croce Comelico" .
+_:Itinerary1_3ac7ff142f737d59e18915c0fd04a6a7a76d5651_N4997 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#condition> "percorribile liberamente" .
+_:Itinerary1_3ac7ff142f737d59e18915c0fd04a6a7a76d5651_N4997 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary> .
+_:Place1_8cf9d84e2a0c66e0ec4e0d0d4ca743f47b32dfc8_N4993 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation> _:Location1_27902120edf70924685d20255f2f5dace63d95bd_N4991_01bff3ad940391bf9bfcc108ec20d2463939f04b_N4992 .
+_:Location1_27902120edf70924685d20255f2f5dace63d95bd_N4991_01bff3ad940391bf9bfcc108ec20d2463939f04b_N4992 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasItinerary> _:Itinerary1_3ac7ff142f737d59e18915c0fd04a6a7a76d5651_N4997 .
+_:Location1_27902120edf70924685d20255f2f5dace63d95bd_N4991_01bff3ad940391bf9bfcc108ec20d2463939f04b_N4992 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> .
+_:Place1_8cf9d84e2a0c66e0ec4e0d0d4ca743f47b32dfc8_N4993 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place> .
+_:Location1_27902120edf70924685d20255f2f5dace63d95bd_N4991_01bff3ad940391bf9bfcc108ec20d2463939f04b_N4992 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> "46.65584652286658" .
+_:Street1_64501fb7edbc5ad4e952e33eb9ab8d8a1f9cb981_N4994 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#street_name> "SS 52 " .
+_:Location1_27902120edf70924685d20255f2f5dace63d95bd_N4991_01bff3ad940391bf9bfcc108ec20d2463939f04b_N4992 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasStreet> _:Street1_64501fb7edbc5ad4e952e33eb9ab8d8a1f9cb981_N4994 .
+_:Street1_64501fb7edbc5ad4e952e33eb9ab8d8a1f9cb981_N4994 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street> .
+_:Location1_27902120edf70924685d20255f2f5dace63d95bd_N4991_01bff3ad940391bf9bfcc108ec20d2463939f04b_N4992 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> "12.420294019207216" .
+
+_:Street1_6da2ee0655f271b041f19c5c5dde71dbeae8cb82_N5002 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street> .
+_:Location1_39ba2929ce1fbe2312736ceca4f528e9ad313fd8_N4999_cdcb4ebcc6102dde1d652d17a1f7bcdea85c10f4_N5000 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasItinerary> _:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N5005 .
+_:Location1_39ba2929ce1fbe2312736ceca4f528e9ad313fd8_N4999_cdcb4ebcc6102dde1d652d17a1f7bcdea85c10f4_N5000 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> "11.320625008750966" .
+_:Location1_39ba2929ce1fbe2312736ceca4f528e9ad313fd8_N4999_cdcb4ebcc6102dde1d652d17a1f7bcdea85c10f4_N5000 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> "46.83951680084992" .
+_:Place1_cf0c23e94bfbb4bf3a8250955f4717712f688037_N5001 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name> "Passo Giovo" .
+_:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N5005 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#condition> "limitazione al traffico" .
+_:Place1_cf0c23e94bfbb4bf3a8250955f4717712f688037_N5001 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place> .
+_:Location1_39ba2929ce1fbe2312736ceca4f528e9ad313fd8_N4999_cdcb4ebcc6102dde1d652d17a1f7bcdea85c10f4_N5000 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> .
+_:Street1_6da2ee0655f271b041f19c5c5dde71dbeae8cb82_N5002 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#street_name> "SS 44" .
+_:Location1_39ba2929ce1fbe2312736ceca4f528e9ad313fd8_N4999_cdcb4ebcc6102dde1d652d17a1f7bcdea85c10f4_N5000 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasStreet> _:Street1_6da2ee0655f271b041f19c5c5dde71dbeae8cb82_N5002 .
+_:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N5005 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary> .
+_:Place1_cf0c23e94bfbb4bf3a8250955f4717712f688037_N5001 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation> _:Location1_39ba2929ce1fbe2312736ceca4f528e9ad313fd8_N4999_cdcb4ebcc6102dde1d652d17a1f7bcdea85c10f4_N5000 .
+
+_:Place1_01f65ee3a4e8047de108ab54f4223c46048115f8_N5009 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation> _:Location1_d18951fd5cc047e88ce7cdaab33e3b24999cd6a4_N5007_7d90564257e1fba3b9ff9472484344e29d65c27e_N5008 .
+_:Location1_d18951fd5cc047e88ce7cdaab33e3b24999cd6a4_N5007_7d90564257e1fba3b9ff9472484344e29d65c27e_N5008 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> "11.810709207311293" .
+_:Location1_d18951fd5cc047e88ce7cdaab33e3b24999cd6a4_N5007_7d90564257e1fba3b9ff9472484344e29d65c27e_N5008 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> "46.55123906801853" .
+_:Place1_01f65ee3a4e8047de108ab54f4223c46048115f8_N5009 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place> .
+_:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N5013 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary> .
+_:Place1_01f65ee3a4e8047de108ab54f4223c46048115f8_N5009 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name> "Passo Gardena" .
+_:Street1_8c4967eda3cf9b3486d3f117583841c7c5f2096b_N5010 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#street_name> "SS 243" .
+_:Location1_d18951fd5cc047e88ce7cdaab33e3b24999cd6a4_N5007_7d90564257e1fba3b9ff9472484344e29d65c27e_N5008 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasStreet> _:Street1_8c4967eda3cf9b3486d3f117583841c7c5f2096b_N5010 .
+_:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N5013 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#condition> "limitazione al traffico" .
+_:Location1_d18951fd5cc047e88ce7cdaab33e3b24999cd6a4_N5007_7d90564257e1fba3b9ff9472484344e29d65c27e_N5008 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasItinerary> _:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N5013 .
+_:Street1_8c4967eda3cf9b3486d3f117583841c7c5f2096b_N5010 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street> .
+_:Location1_d18951fd5cc047e88ce7cdaab33e3b24999cd6a4_N5007_7d90564257e1fba3b9ff9472484344e29d65c27e_N5008 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> .
+
+_:Location1_badd641da6c7fe39f495cf9d4f10917065d35d4b_N5015_f8e9ef2f3cc7cf39c780cba0a2df13bc3eb73da9_N5016 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> "46.514293801449824" .
+_:Location1_badd641da6c7fe39f495cf9d4f10917065d35d4b_N5015_f8e9ef2f3cc7cf39c780cba0a2df13bc3eb73da9_N5016 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasStreet> _:Street1_f62eb7eb165af4c6f03c0f0b126de7ba2f3d04bc_N5018 .
+_:Location1_badd641da6c7fe39f495cf9d4f10917065d35d4b_N5015_f8e9ef2f3cc7cf39c780cba0a2df13bc3eb73da9_N5016 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasItinerary> _:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N5021 .
+_:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N5021 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#condition> "limitazione al traffico" .
+_:Location1_badd641da6c7fe39f495cf9d4f10917065d35d4b_N5015_f8e9ef2f3cc7cf39c780cba0a2df13bc3eb73da9_N5016 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> .
+_:Place1_1db24dca8740b0eeff244c07b435aee6aab9dac7_N5017 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation> _:Location1_badd641da6c7fe39f495cf9d4f10917065d35d4b_N5015_f8e9ef2f3cc7cf39c780cba0a2df13bc3eb73da9_N5016 .
+_:Location1_badd641da6c7fe39f495cf9d4f10917065d35d4b_N5015_f8e9ef2f3cc7cf39c780cba0a2df13bc3eb73da9_N5016 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> "11.766214611599302" .
+_:Street1_f62eb7eb165af4c6f03c0f0b126de7ba2f3d04bc_N5018 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street> .
+_:Place1_1db24dca8740b0eeff244c07b435aee6aab9dac7_N5017 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place> .
+_:Street1_f62eb7eb165af4c6f03c0f0b126de7ba2f3d04bc_N5018 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#street_name> "SS 242 " .
+_:Place1_1db24dca8740b0eeff244c07b435aee6aab9dac7_N5017 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name> "Passo Sella" .
+_:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N5021 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary> .
+
+_:Place1_7396a6148281b6115ca161c4dfed7734c3728f74_N5025 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name> "Passo Mendola" .
+_:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N5029 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary> .
+_:Location1_0aff59f0336ac88e764be7b4ea2650856f6974d4_N5023_6e30b151b3b06e0103ad325eadd2bf8738c3147b_N5024 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasItinerary> _:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N5029 .
+_:Street1_fe584aea7f313686c106670593e167948bba4a6f_N5026 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street> .
+_:Location1_0aff59f0336ac88e764be7b4ea2650856f6974d4_N5023_6e30b151b3b06e0103ad325eadd2bf8738c3147b_N5024 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> "11.236773033416915" .
+_:Place1_7396a6148281b6115ca161c4dfed7734c3728f74_N5025 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place> .
+_:Place1_7396a6148281b6115ca161c4dfed7734c3728f74_N5025 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation> _:Location1_0aff59f0336ac88e764be7b4ea2650856f6974d4_N5023_6e30b151b3b06e0103ad325eadd2bf8738c3147b_N5024 .
+_:Location1_0aff59f0336ac88e764be7b4ea2650856f6974d4_N5023_6e30b151b3b06e0103ad325eadd2bf8738c3147b_N5024 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasStreet> _:Street1_fe584aea7f313686c106670593e167948bba4a6f_N5026 .
+_:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N5029 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#condition> "limitazione al traffico" .
+_:Street1_fe584aea7f313686c106670593e167948bba4a6f_N5026 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#street_name> "SS 42" .
+_:Location1_0aff59f0336ac88e764be7b4ea2650856f6974d4_N5023_6e30b151b3b06e0103ad325eadd2bf8738c3147b_N5024 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> "46.42697825274294" .
+_:Location1_0aff59f0336ac88e764be7b4ea2650856f6974d4_N5023_6e30b151b3b06e0103ad325eadd2bf8738c3147b_N5024 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> .
+
+_:Place1_51cc6442488977c2da3de743ab9a424316f0acf1_N5033 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name> "Passo Palade" .
+_:Place1_51cc6442488977c2da3de743ab9a424316f0acf1_N5033 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation> _:Location1_afffeb11d1b8c834337af36fe38fd51060168286_N5031_351a2f0c80b741f50cacad282b421b96b4de3993_N5032 .
+_:Itinerary1_3ac7ff142f737d59e18915c0fd04a6a7a76d5651_N5037 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary> .
+_:Place1_51cc6442488977c2da3de743ab9a424316f0acf1_N5033 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place> .
+_:Street1_8898778988c16b44edf7209e246741b9db4587b4_N5034 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street> .
+_:Location1_afffeb11d1b8c834337af36fe38fd51060168286_N5031_351a2f0c80b741f50cacad282b421b96b4de3993_N5032 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasItinerary> _:Itinerary1_3ac7ff142f737d59e18915c0fd04a6a7a76d5651_N5037 .
+_:Street1_8898778988c16b44edf7209e246741b9db4587b4_N5034 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#street_name> "SS 238" .
+_:Location1_afffeb11d1b8c834337af36fe38fd51060168286_N5031_351a2f0c80b741f50cacad282b421b96b4de3993_N5032 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> "46.49353249829702" .
+_:Location1_afffeb11d1b8c834337af36fe38fd51060168286_N5031_351a2f0c80b741f50cacad282b421b96b4de3993_N5032 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasStreet> _:Street1_8898778988c16b44edf7209e246741b9db4587b4_N5034 .
+_:Location1_afffeb11d1b8c834337af36fe38fd51060168286_N5031_351a2f0c80b741f50cacad282b421b96b4de3993_N5032 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> .
+_:Location1_afffeb11d1b8c834337af36fe38fd51060168286_N5031_351a2f0c80b741f50cacad282b421b96b4de3993_N5032 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> "11.131107180781724" .
+_:Itinerary1_3ac7ff142f737d59e18915c0fd04a6a7a76d5651_N5037 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#condition> "percorribile liberamente" .
+
+_:Location1_7eda3d68f36537bb5374ce9b2f1efc6c7f09ee93_N5039_8c11a930838b081e394ba7756aee97e2c41874f7_N5040 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> .
+_:Location1_7eda3d68f36537bb5374ce9b2f1efc6c7f09ee93_N5039_8c11a930838b081e394ba7756aee97e2c41874f7_N5040 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasItinerary> _:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N5045 .
+_:Location1_7eda3d68f36537bb5374ce9b2f1efc6c7f09ee93_N5039_8c11a930838b081e394ba7756aee97e2c41874f7_N5040 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasStreet> _:Street1_6da2ee0655f271b041f19c5c5dde71dbeae8cb82_N5042 .
+_:Place1_eeee61837e922d2a3eb2f45652a8bd1dd13fec87_N5041 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place> .
+_:Location1_7eda3d68f36537bb5374ce9b2f1efc6c7f09ee93_N5039_8c11a930838b081e394ba7756aee97e2c41874f7_N5040 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> "46.88809161600816" .
+_:Place1_eeee61837e922d2a3eb2f45652a8bd1dd13fec87_N5041 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name> "Passo Rombo" .
+_:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N5045 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#condition> "limitazione al traffico" .
+_:Location1_7eda3d68f36537bb5374ce9b2f1efc6c7f09ee93_N5039_8c11a930838b081e394ba7756aee97e2c41874f7_N5040 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> "11.126850840651468" .
+_:Itinerary1_05587b1e46c98f962678a42950724c02b09b3aa3_N5045 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary> .
+_:Street1_6da2ee0655f271b041f19c5c5dde71dbeae8cb82_N5042 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street> .
+_:Place1_eeee61837e922d2a3eb2f45652a8bd1dd13fec87_N5041 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation> _:Location1_7eda3d68f36537bb5374ce9b2f1efc6c7f09ee93_N5039_8c11a930838b081e394ba7756aee97e2c41874f7_N5040 .
+_:Street1_6da2ee0655f271b041f19c5c5dde71dbeae8cb82_N5042 <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#street_name> "SS 44" .
+
