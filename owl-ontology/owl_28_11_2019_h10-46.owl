@@ -14,6 +14,23 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#WordnetID -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#WordnetID"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Object Properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -27,6 +44,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#bikeStationHas">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -36,6 +54,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#busHasClass">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bus"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Classes"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -45,6 +64,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#busHasStaff">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bus"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Staff"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -54,6 +74,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#bus_hasEcofuel">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bus"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -63,6 +84,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#bus_hasEnergySource">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bus"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -72,6 +94,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#cablewayHasStaff">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Cableway"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Staff"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -81,6 +104,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#cableway_hasEcofuel">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Cableway"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -90,6 +114,27 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#cableway_hasEnergySource">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Cableway"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#carHasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#carHasLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#carStationHasLocation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#carStationHasLocation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Car_Station"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -99,6 +144,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#car_hasEcofuel">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -108,6 +154,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#car_hasEnergySource">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -117,6 +164,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasBikeStation">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Public_Transportation"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -126,6 +174,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasEndingPoint">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -135,6 +184,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasItinerary">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -144,6 +194,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasPlace">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -153,6 +204,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasSchedule">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Public_Transportation"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -162,6 +214,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasStartingPoint">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -171,14 +224,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hasStreet">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#isA -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#isA">
-        <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -188,6 +234,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#itineraryHas">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -197,6 +244,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHas">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -206,6 +254,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -215,6 +264,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#requires_card">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Public_Transportation"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00757790</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -224,6 +274,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#requires_ticket">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Public_Transportation"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00757790</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -233,14 +284,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#scheduleHas">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#sharedCarHas -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#sharedCarHas">
-        <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -250,6 +294,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#stationHas">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -259,6 +304,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#trainHasClass">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Classes"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -268,6 +314,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#trainHasStaff">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Staff"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -277,6 +324,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#train_hasEcofuel">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -286,6 +334,7 @@
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#train_hasEnergySource">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02636270</WordnetID>
     </owl:ObjectProperty>
     
 
@@ -315,6 +364,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#PublTransportation_name">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Public_Transportation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06344646</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -324,6 +374,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#address">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">08508037</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -333,6 +384,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#age_discount">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00362929</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -342,6 +394,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#arrives_at">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02009962</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -351,6 +404,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#available">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00184353</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -360,15 +414,6 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#bike_support">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Public_Transportation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#card_price -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#card_price">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
@@ -387,6 +432,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#condition">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13943868</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -396,6 +442,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#consumption_per_KM">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13472977</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -405,6 +452,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#continues_transportation">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Cableway"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00597095</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -414,6 +462,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#delay">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Public_Transportation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15297015</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -423,6 +472,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#diesel">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14710042</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -432,6 +482,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#discounts">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00362929</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -441,6 +492,17 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#duration">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15158573</WordnetID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#duration_ticket -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#duration_ticket">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15158573</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -454,9 +516,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco-friendly_cotribution -->
+    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco-friendly_contribution -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco-friendly_cotribution">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco-friendly_contribution">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
     </owl:DatatypeProperty>
@@ -477,6 +539,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#electric_plug">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Public_Transportation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">04262144</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -495,6 +558,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#electricity">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11470903</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -513,6 +577,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#engine_type">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05848697</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -522,6 +587,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#fastest">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00979699</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -531,6 +597,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#first_departure">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Public_Transportation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <WordnetID></WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -540,6 +607,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#gasoline">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14711074</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -549,6 +617,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#hiking">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00289814</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -558,6 +627,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#language">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Staff"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06293304</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -567,6 +637,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#last_departure">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Public_Transportation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <WordnetID></WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -576,6 +647,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">08613276</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -585,6 +657,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#leaves_at">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02013448</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -594,6 +667,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#lift_name">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Cableway"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06344646</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -603,15 +677,17 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">08614224</WordnetID>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#manifaturer -->
+    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#manufacturer -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#manifaturer">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#manufacturer">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Private_Transportation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">08077282</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -621,6 +697,27 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#name">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06344646</WordnetID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#name_carStation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#name_carStation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Car_Station"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06344646</WordnetID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#numberCars -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#numberCars">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Car_Station"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05128718</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -630,15 +727,27 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#number_of_bikes">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05128718</WordnetID>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#numeber_spots -->
+    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#number_of_cars -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#numeber_spots">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#number_of_cars">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05128718</WordnetID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#number_spots -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#number_spots">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Parking"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05128718</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -648,6 +757,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#one_way">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00235970</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -666,6 +776,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#panoramic">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02571853</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -675,6 +786,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06344646</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -684,6 +796,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#priceItinerary">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05152365</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -693,6 +806,57 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#pricePlace">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05152365</WordnetID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_card -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_card">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05152365</WordnetID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_month -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_month">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05152365</WordnetID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_semester -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_semester">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05152365</WordnetID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_week -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_week">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05152365</WordnetID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_year -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#price_year">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05152365</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -702,6 +866,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#sharedBikeStation_name">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06344646</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -729,6 +894,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#street_name">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06344646</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -738,6 +904,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#street_type">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05848697</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -747,6 +914,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#ticket_price_inloco">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05152365</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -756,6 +924,17 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#ticket_price_online">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05152365</WordnetID>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#ticket_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#ticket_type">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05848697</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -765,6 +944,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#time">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15137796</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -783,6 +963,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#trip_time">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Public_Transportation"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15144316</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -809,6 +990,15 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#typeTransportation">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#type_Transportation_Card -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#type_Transportation_Card">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation_Card"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
@@ -847,6 +1037,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bike">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Private_Transportation"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02837983</WordnetID>
     </owl:Class>
     
 
@@ -855,6 +1046,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Bus">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Public_Transportation"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02927500</WordnetID>
     </owl:Class>
     
 
@@ -863,6 +1055,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Cableway">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Public_Transportation"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02937835</WordnetID>
     </owl:Class>
     
 
@@ -871,6 +1064,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Private_Transportation"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02961779</WordnetID>
     </owl:Class>
     
 
@@ -883,13 +1077,17 @@
 
     <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Itinerary">
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">08633886</WordnetID>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location">
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00027365</WordnetID>
+    </owl:Class>
     
 
 
@@ -897,13 +1095,16 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Parking">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13800883</WordnetID>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place">
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">08682181</WordnetID>
+    </owl:Class>
     
 
 
@@ -919,13 +1120,16 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Public_Transportation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">04025345</WordnetID>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule">
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06507319</WordnetID>
+    </owl:Class>
     
 
 
@@ -933,6 +1137,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">08666356</WordnetID>
     </owl:Class>
     
 
@@ -943,27 +1148,41 @@
     
 
 
+    <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Car_Station -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Car_Station"/>
+    
+
+
     <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Staff -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Staff"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Staff">
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">08456947</WordnetID>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station">
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">04313218</WordnetID>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street">
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">04103160</WordnetID>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Ticket">
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">06530710</WordnetID>
+    </owl:Class>
     
 
 
@@ -971,13 +1190,16 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Train">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Public_Transportation"/>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">04475240</WordnetID>
     </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Transportation">
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">04480667</WordnetID>
+    </owl:Class>
     
 
 
@@ -1016,6 +1238,7 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Bike_Station"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Shared_Car_Station"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Staff"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Street"/>
