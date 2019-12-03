@@ -6,14 +6,13 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node1dqm39p4px1 a km-dev:R2RMLMapping ;
+_:node1dr5hac3px1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "electrical_cars.csv" ;
-	km-dev:modelPublicationTime "1574847177881"^^xsd:long ;
+	km-dev:modelPublicationTime "1575365193849"^^xsd:long ;
 	km-dev:modelVersion "1.7" ;
-	km-dev:hasInputColumns "[[{\"columnName\":\"model\"}],[{\"columnName\":\"eco_fuel\"}],[{\"columnName\":\"energySource\"}]]" ;
-	km-dev:hasOutputColumns "[[{\"columnName\":\"model\"}],[{\"columnName\":\"eco_fuel\"}],[{\"columnName\":\"energySource\"}]]" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"model\"}],[{\"columnName\":\"energySource\"}],[{\"columnName\":\"eco_fuel\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"model\"}],[{\"columnName\":\"energySource\"}],[{\"columnName\":\"eco_fuel\"}]]" ;
 	km-dev:hasModelLabel "electrical_cars.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"commandName\": \"SetSemanticTypeCommand\",
@@ -42,8 +41,8 @@ _:node1dqm39p4px1 a km-dev:R2RMLMapping ;
                     \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car1\",
                     \"isPrimary\": true,
                     \"isProvenance\": false,
-                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#model\",
-                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car/Car1 (add)\"
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#manufacturer\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car/Car1\"
                 }]
             },
             {
@@ -54,7 +53,7 @@ _:node1dqm39p4px1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"rdfLiteralType\",
                 \"type\": \"other\",
-                \"value\": \"xsd:string\"
+                \"value\": \"\"
             },
             {
                 \"name\": \"language\",
@@ -260,24 +259,66 @@ _:node1dqm39p4px1 a km-dev:R2RMLMapping ;
     }
 ]""" .
 
-km-dev:TriplesMap_7f2fa4ee-f769-4c43-917b-c9b943e46d75 a rr:TriplesMap .
+km-dev:TriplesMap_2526b20c-4cbb-4f70-8950-9ef604df8a06 a rr:TriplesMap .
 
-_:node1dqm39p4px1 km-dev:hasTriplesMap km-dev:TriplesMap_7f2fa4ee-f769-4c43-917b-c9b943e46d75 .
+_:node1dr5hac3px1 km-dev:hasTriplesMap km-dev:TriplesMap_2526b20c-4cbb-4f70-8950-9ef604df8a06 .
 
-km-dev:TriplesMap_7f2fa4ee-f769-4c43-917b-c9b943e46d75 km-dev:isPartOfMapping _:node1dqm39p4px1 .
+km-dev:TriplesMap_2526b20c-4cbb-4f70-8950-9ef604df8a06 km-dev:isPartOfMapping _:node1dr5hac3px1 .
 
-_:node1dqm39p4px2 rr:tableName "electrical_cars.csv" ;
+_:node1dr5hac3px2 rr:tableName "electrical_cars.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1dqm39p4px1 .
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
 
-_:node1dqm39p4px1 km-dev:hasLogicalTable _:node1dqm39p4px2 .
+_:node1dr5hac3px1 km-dev:hasLogicalTable _:node1dr5hac3px2 .
 
-km-dev:TriplesMap_7f2fa4ee-f769-4c43-917b-c9b943e46d75 rr:logicalTable _:node1dqm39p4px2 ;
-	rr:subjectMap _:node1dqm39p4px3 .
+km-dev:TriplesMap_2526b20c-4cbb-4f70-8950-9ef604df8a06 rr:logicalTable _:node1dr5hac3px2 ;
+	rr:subjectMap _:node1dr5hac3px3 .
 
-_:node1dqm39p4px1 km-dev:hasSubjectMap _:node1dqm39p4px3 .
+_:node1dr5hac3px1 km-dev:hasSubjectMap _:node1dr5hac3px3 .
 
-_:node1dqm39p4px3 km-dev:isPartOfMapping _:node1dqm39p4px1 ;
+_:node1dr5hac3px3 km-dev:isPartOfMapping _:node1dr5hac3px1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel> ;
+	rr:termType rr:BlankNode ;
+	km-dev:namePrefix "eco_fuel1" .
+
+km-dev:PredicateObjectMap_dd0a7216-420e-4373-b8b8-29bc5f2e7fa4 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel> .
+
+_:node1dr5hac3px4 rr:column "eco_fuel" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px1 km-dev:hasObjectMap _:node1dr5hac3px4 .
+
+km-dev:PredicateObjectMap_dd0a7216-420e-4373-b8b8-29bc5f2e7fa4 rr:objectMap _:node1dr5hac3px4 .
+
+km-dev:TriplesMap_2526b20c-4cbb-4f70-8950-9ef604df8a06 rr:predicateObjectMap km-dev:PredicateObjectMap_dd0a7216-420e-4373-b8b8-29bc5f2e7fa4 .
+
+km-dev:PredicateObjectMap_dd0a7216-420e-4373-b8b8-29bc5f2e7fa4 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_dd0a7216-420e-4373-b8b8-29bc5f2e7fa4 .
+
+km-dev:TriplesMap_48fef815-8b48-4cab-9493-3647a9e375ea a rr:TriplesMap .
+
+_:node1dr5hac3px1 km-dev:hasTriplesMap km-dev:TriplesMap_48fef815-8b48-4cab-9493-3647a9e375ea .
+
+km-dev:TriplesMap_48fef815-8b48-4cab-9493-3647a9e375ea km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px5 rr:tableName "electrical_cars.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
+
+_:node1dr5hac3px1 km-dev:hasLogicalTable _:node1dr5hac3px5 .
+
+km-dev:TriplesMap_48fef815-8b48-4cab-9493-3647a9e375ea rr:logicalTable _:node1dr5hac3px5 ;
+	rr:subjectMap _:node1dr5hac3px6 .
+
+_:node1dr5hac3px1 km-dev:hasSubjectMap _:node1dr5hac3px6 .
+
+_:node1dr5hac3px6 km-dev:isPartOfMapping _:node1dr5hac3px1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car1" ;
 	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car> ;
@@ -285,139 +326,96 @@ _:node1dqm39p4px3 km-dev:isPartOfMapping _:node1dqm39p4px1 ;
 	km-dev:namePrefix "Car1" ;
 	a km-dev:steinerTreeRootNode .
 
-km-dev:PredicateObjectMap_34a9f4b0-5c94-4e81-853b-5abbc49ac29b rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#model> .
+km-dev:PredicateObjectMap_45e4ddcc-ccd1-4dd5-88b7-37129ad66214 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#manufacturer> .
 
-_:node1dqm39p4px4 rr:column "model" ;
+_:node1dr5hac3px7 rr:column "model" ;
 	a rr:ObjectMap ;
-	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
-	km-dev:isPartOfMapping _:node1dqm39p4px1 .
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
 
-_:node1dqm39p4px1 km-dev:hasObjectMap _:node1dqm39p4px4 .
+_:node1dr5hac3px1 km-dev:hasObjectMap _:node1dr5hac3px7 .
 
-km-dev:PredicateObjectMap_34a9f4b0-5c94-4e81-853b-5abbc49ac29b rr:objectMap _:node1dqm39p4px4 .
+km-dev:PredicateObjectMap_45e4ddcc-ccd1-4dd5-88b7-37129ad66214 rr:objectMap _:node1dr5hac3px7 .
 
-km-dev:TriplesMap_7f2fa4ee-f769-4c43-917b-c9b943e46d75 rr:predicateObjectMap km-dev:PredicateObjectMap_34a9f4b0-5c94-4e81-853b-5abbc49ac29b .
+km-dev:TriplesMap_48fef815-8b48-4cab-9493-3647a9e375ea rr:predicateObjectMap km-dev:PredicateObjectMap_45e4ddcc-ccd1-4dd5-88b7-37129ad66214 .
 
-km-dev:PredicateObjectMap_34a9f4b0-5c94-4e81-853b-5abbc49ac29b a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqm39p4px1 .
+km-dev:PredicateObjectMap_45e4ddcc-ccd1-4dd5-88b7-37129ad66214 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
 
-_:node1dqm39p4px1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_34a9f4b0-5c94-4e81-853b-5abbc49ac29b .
+_:node1dr5hac3px1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_45e4ddcc-ccd1-4dd5-88b7-37129ad66214 .
 
-km-dev:PredicateObjectMap_c5c40058-f727-47f3-bfe3-bbd809417ff1 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#car_hasEcofuel> .
+km-dev:PredicateObjectMap_d22f0238-f637-4e6e-b049-b54e03e0e528 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#car_hasEcofuel> .
 
-km-dev:RefObjectMap_bc318b41-b6a9-411b-954a-7bc3df878959 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_11bff6cc-b2bd-4ee9-babb-9f3baa6ed150 ;
-	km-dev:isPartOfMapping _:node1dqm39p4px1 .
+km-dev:RefObjectMap_8baa84f9-f0b2-4191-a0db-27677773f611 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_2526b20c-4cbb-4f70-8950-9ef604df8a06 ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
 
-_:node1dqm39p4px1 km-dev:hasObjectMap km-dev:RefObjectMap_bc318b41-b6a9-411b-954a-7bc3df878959 .
+_:node1dr5hac3px1 km-dev:hasObjectMap km-dev:RefObjectMap_8baa84f9-f0b2-4191-a0db-27677773f611 .
 
-km-dev:PredicateObjectMap_c5c40058-f727-47f3-bfe3-bbd809417ff1 rr:objectMap km-dev:RefObjectMap_bc318b41-b6a9-411b-954a-7bc3df878959 .
+km-dev:PredicateObjectMap_d22f0238-f637-4e6e-b049-b54e03e0e528 rr:objectMap km-dev:RefObjectMap_8baa84f9-f0b2-4191-a0db-27677773f611 .
 
-km-dev:TriplesMap_7f2fa4ee-f769-4c43-917b-c9b943e46d75 rr:predicateObjectMap km-dev:PredicateObjectMap_c5c40058-f727-47f3-bfe3-bbd809417ff1 .
+km-dev:TriplesMap_48fef815-8b48-4cab-9493-3647a9e375ea rr:predicateObjectMap km-dev:PredicateObjectMap_d22f0238-f637-4e6e-b049-b54e03e0e528 .
 
-km-dev:PredicateObjectMap_c5c40058-f727-47f3-bfe3-bbd809417ff1 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqm39p4px1 .
+km-dev:PredicateObjectMap_d22f0238-f637-4e6e-b049-b54e03e0e528 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
 
-_:node1dqm39p4px1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c5c40058-f727-47f3-bfe3-bbd809417ff1 .
+_:node1dr5hac3px1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d22f0238-f637-4e6e-b049-b54e03e0e528 .
 
-km-dev:PredicateObjectMap_10e247fb-61f7-4da7-aa96-940473de1bf4 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#car_hasEnergySource> .
+km-dev:PredicateObjectMap_c44a1a5c-29cd-4895-995c-811ff885cdf6 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#car_hasEnergySource> .
 
-km-dev:RefObjectMap_26913855-697f-409e-8e56-bf7a6245bb47 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_ae071f91-8c52-4e5c-94cc-f58476db523e ;
-	km-dev:isPartOfMapping _:node1dqm39p4px1 .
+km-dev:RefObjectMap_42f0c5a3-3952-4138-ae6c-d2b8c64c83dd a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_6b63da33-43be-4c04-8cc4-4b8a60545cd4 ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
 
-_:node1dqm39p4px1 km-dev:hasObjectMap km-dev:RefObjectMap_26913855-697f-409e-8e56-bf7a6245bb47 .
+_:node1dr5hac3px1 km-dev:hasObjectMap km-dev:RefObjectMap_42f0c5a3-3952-4138-ae6c-d2b8c64c83dd .
 
-km-dev:PredicateObjectMap_10e247fb-61f7-4da7-aa96-940473de1bf4 rr:objectMap km-dev:RefObjectMap_26913855-697f-409e-8e56-bf7a6245bb47 .
+km-dev:PredicateObjectMap_c44a1a5c-29cd-4895-995c-811ff885cdf6 rr:objectMap km-dev:RefObjectMap_42f0c5a3-3952-4138-ae6c-d2b8c64c83dd .
 
-km-dev:TriplesMap_7f2fa4ee-f769-4c43-917b-c9b943e46d75 rr:predicateObjectMap km-dev:PredicateObjectMap_10e247fb-61f7-4da7-aa96-940473de1bf4 .
+km-dev:TriplesMap_48fef815-8b48-4cab-9493-3647a9e375ea rr:predicateObjectMap km-dev:PredicateObjectMap_c44a1a5c-29cd-4895-995c-811ff885cdf6 .
 
-km-dev:PredicateObjectMap_10e247fb-61f7-4da7-aa96-940473de1bf4 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqm39p4px1 .
+km-dev:PredicateObjectMap_c44a1a5c-29cd-4895-995c-811ff885cdf6 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
 
-_:node1dqm39p4px1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_10e247fb-61f7-4da7-aa96-940473de1bf4 .
+_:node1dr5hac3px1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_c44a1a5c-29cd-4895-995c-811ff885cdf6 .
 
-km-dev:TriplesMap_11bff6cc-b2bd-4ee9-babb-9f3baa6ed150 a rr:TriplesMap .
+km-dev:TriplesMap_6b63da33-43be-4c04-8cc4-4b8a60545cd4 a rr:TriplesMap .
 
-_:node1dqm39p4px1 km-dev:hasTriplesMap km-dev:TriplesMap_11bff6cc-b2bd-4ee9-babb-9f3baa6ed150 .
+_:node1dr5hac3px1 km-dev:hasTriplesMap km-dev:TriplesMap_6b63da33-43be-4c04-8cc4-4b8a60545cd4 .
 
-km-dev:TriplesMap_11bff6cc-b2bd-4ee9-babb-9f3baa6ed150 km-dev:isPartOfMapping _:node1dqm39p4px1 .
+km-dev:TriplesMap_6b63da33-43be-4c04-8cc4-4b8a60545cd4 km-dev:isPartOfMapping _:node1dr5hac3px1 .
 
-_:node1dqm39p4px5 rr:tableName "electrical_cars.csv" ;
+_:node1dr5hac3px8 rr:tableName "electrical_cars.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1dqm39p4px1 .
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
 
-_:node1dqm39p4px1 km-dev:hasLogicalTable _:node1dqm39p4px5 .
+_:node1dr5hac3px1 km-dev:hasLogicalTable _:node1dr5hac3px8 .
 
-km-dev:TriplesMap_11bff6cc-b2bd-4ee9-babb-9f3baa6ed150 rr:logicalTable _:node1dqm39p4px5 ;
-	rr:subjectMap _:node1dqm39p4px6 .
+km-dev:TriplesMap_6b63da33-43be-4c04-8cc4-4b8a60545cd4 rr:logicalTable _:node1dr5hac3px8 ;
+	rr:subjectMap _:node1dr5hac3px9 .
 
-_:node1dqm39p4px1 km-dev:hasSubjectMap _:node1dqm39p4px6 .
+_:node1dr5hac3px1 km-dev:hasSubjectMap _:node1dr5hac3px9 .
 
-_:node1dqm39p4px6 km-dev:isPartOfMapping _:node1dqm39p4px1 ;
-	a rr:SubjectMap ;
-	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel1" ;
-	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel> ;
-	rr:termType rr:BlankNode ;
-	km-dev:namePrefix "eco_fuel1" .
-
-km-dev:PredicateObjectMap_a2fd6b99-80a0-4e84-969a-fd856a3333c3 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#eco_fuel> .
-
-_:node1dqm39p4px7 rr:column "eco_fuel" ;
-	a rr:ObjectMap ;
-	rr:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
-	km-dev:isPartOfMapping _:node1dqm39p4px1 .
-
-_:node1dqm39p4px1 km-dev:hasObjectMap _:node1dqm39p4px7 .
-
-km-dev:PredicateObjectMap_a2fd6b99-80a0-4e84-969a-fd856a3333c3 rr:objectMap _:node1dqm39p4px7 .
-
-km-dev:TriplesMap_11bff6cc-b2bd-4ee9-babb-9f3baa6ed150 rr:predicateObjectMap km-dev:PredicateObjectMap_a2fd6b99-80a0-4e84-969a-fd856a3333c3 .
-
-km-dev:PredicateObjectMap_a2fd6b99-80a0-4e84-969a-fd856a3333c3 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqm39p4px1 .
-
-_:node1dqm39p4px1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a2fd6b99-80a0-4e84-969a-fd856a3333c3 .
-
-km-dev:TriplesMap_ae071f91-8c52-4e5c-94cc-f58476db523e a rr:TriplesMap .
-
-_:node1dqm39p4px1 km-dev:hasTriplesMap km-dev:TriplesMap_ae071f91-8c52-4e5c-94cc-f58476db523e .
-
-km-dev:TriplesMap_ae071f91-8c52-4e5c-94cc-f58476db523e km-dev:isPartOfMapping _:node1dqm39p4px1 .
-
-_:node1dqm39p4px8 rr:tableName "electrical_cars.csv" ;
-	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1dqm39p4px1 .
-
-_:node1dqm39p4px1 km-dev:hasLogicalTable _:node1dqm39p4px8 .
-
-km-dev:TriplesMap_ae071f91-8c52-4e5c-94cc-f58476db523e rr:logicalTable _:node1dqm39p4px8 ;
-	rr:subjectMap _:node1dqm39p4px9 .
-
-_:node1dqm39p4px1 km-dev:hasSubjectMap _:node1dqm39p4px9 .
-
-_:node1dqm39p4px9 km-dev:isPartOfMapping _:node1dqm39p4px1 ;
+_:node1dr5hac3px9 km-dev:isPartOfMapping _:node1dr5hac3px1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source1" ;
 	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Energy_Source> ;
 	rr:termType rr:BlankNode ;
 	km-dev:namePrefix "Energy_Source1" .
 
-km-dev:PredicateObjectMap_69eb8e82-f00a-4e55-9f60-89c0824dc360 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#energySource> .
+km-dev:PredicateObjectMap_1bbf6be7-842a-44f3-8b04-c4992606da2e rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#energySource> .
 
-_:node1dqm39p4px10 rr:column "energySource" ;
+_:node1dr5hac3px10 rr:column "energySource" ;
 	a rr:ObjectMap ;
 	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
 	rr:language "en" ;
-	km-dev:isPartOfMapping _:node1dqm39p4px1 .
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
 
-_:node1dqm39p4px1 km-dev:hasObjectMap _:node1dqm39p4px10 .
+_:node1dr5hac3px1 km-dev:hasObjectMap _:node1dr5hac3px10 .
 
-km-dev:PredicateObjectMap_69eb8e82-f00a-4e55-9f60-89c0824dc360 rr:objectMap _:node1dqm39p4px10 .
+km-dev:PredicateObjectMap_1bbf6be7-842a-44f3-8b04-c4992606da2e rr:objectMap _:node1dr5hac3px10 .
 
-km-dev:TriplesMap_ae071f91-8c52-4e5c-94cc-f58476db523e rr:predicateObjectMap km-dev:PredicateObjectMap_69eb8e82-f00a-4e55-9f60-89c0824dc360 .
+km-dev:TriplesMap_6b63da33-43be-4c04-8cc4-4b8a60545cd4 rr:predicateObjectMap km-dev:PredicateObjectMap_1bbf6be7-842a-44f3-8b04-c4992606da2e .
 
-km-dev:PredicateObjectMap_69eb8e82-f00a-4e55-9f60-89c0824dc360 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqm39p4px1 .
+km-dev:PredicateObjectMap_1bbf6be7-842a-44f3-8b04-c4992606da2e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5hac3px1 .
 
-_:node1dqm39p4px1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_69eb8e82-f00a-4e55-9f60-89c0824dc360 .
+_:node1dr5hac3px1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_1bbf6be7-842a-44f3-8b04-c4992606da2e .

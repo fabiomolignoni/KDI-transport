@@ -6,14 +6,13 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node1dqphrkncx1 a km-dev:R2RMLMapping ;
+_:node1dr5islgcx1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "fuel.csv" ;
-	km-dev:modelPublicationTime "1574963106540"^^xsd:long ;
+	km-dev:modelPublicationTime "1575366841868"^^xsd:long ;
 	km-dev:modelVersion "1.7" ;
-	km-dev:hasInputColumns "[[{\"columnName\":\"fuel:cng\"}],[{\"columnName\":\"address\"}],[{\"columnName\":\"fuel:diesel\"}],[{\"columnName\":\"fuel:lpg\"}],[{\"columnName\":\"latitude\"}],[{\"columnName\":\"longitude\"}]]" ;
-	km-dev:hasOutputColumns "[[{\"columnName\":\"Gasoline\"}],[{\"columnName\":\"Diesel\"}],[{\"columnName\":\"address\"}],[{\"columnName\":\"latitude\"}],[{\"columnName\":\"Electricity\"}],[{\"columnName\":\"longitude\"}]]" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"latitude\"}],[{\"columnName\":\"longitude\"}],[{\"columnName\":\"fuel:cng\"}],[{\"columnName\":\"address\"}],[{\"columnName\":\"fuel:diesel\"}],[{\"columnName\":\"fuel:lpg\"}],[{\"columnName\":\"name\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"latitude\"}],[{\"columnName\":\"Gasoline\"}],[{\"columnName\":\"longitude\"}],[{\"columnName\":\"Electricity\"}],[{\"columnName\":\"address\"}],[{\"columnName\":\"Diesel\"}],[{\"columnName\":\"name\"}]]" ;
 	km-dev:hasModelLabel "fuel.csv" ;
-	km-dev:hasBaseURI "http://localhost:8080/source/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"commandName\": \"SubmitPythonTransformationCommand\",
@@ -120,6 +119,58 @@ _:node1dqphrkncx1 a km-dev:R2RMLMapping ;
         \"tags\": [\"Transformation\"]
     },
     {
+        \"commandName\": \"SubmitPythonTransformationCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"fuel:cng\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"newColumnName\",
+                \"type\": \"other\",
+                \"value\": \"Electricity\"
+            },
+            {
+                \"name\": \"transformationCode\",
+                \"type\": \"other\",
+                \"value\": \"if(getValue(\\\"fuel:cng\\\") == 'yes'):\\n    return 1\\nelse:\\n    return 0\"
+            },
+            {
+                \"name\": \"errorDefaultValue\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"isJSONOutput\",
+                \"type\": \"other\",
+                \"value\": \"false\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"fuel:cng\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Electricity\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"Transformation\"]
+    },
+    {
         \"commandName\": \"OrganizeColumnsCommand\",
         \"model\": \"new\",
         \"inputParameters\": [
@@ -219,58 +270,6 @@ _:node1dqphrkncx1 a km-dev:R2RMLMapping ;
             \"Transformation\",
             \"IgnoreInBatch\"
         ]
-    },
-    {
-        \"commandName\": \"SubmitPythonTransformationCommand\",
-        \"model\": \"new\",
-        \"inputParameters\": [
-            {
-                \"name\": \"hNodeId\",
-                \"type\": \"hNodeId\",
-                \"value\": [{\"columnName\": \"fuel:cng\"}]
-            },
-            {
-                \"name\": \"worksheetId\",
-                \"type\": \"worksheetId\",
-                \"value\": \"W\"
-            },
-            {
-                \"name\": \"selectionName\",
-                \"type\": \"other\",
-                \"value\": \"DEFAULT_TEST\"
-            },
-            {
-                \"name\": \"newColumnName\",
-                \"type\": \"other\",
-                \"value\": \"Electricity\"
-            },
-            {
-                \"name\": \"transformationCode\",
-                \"type\": \"other\",
-                \"value\": \"if(getValue(\\\"fuel:cng\\\") == 'yes'):\\n    return 1\\nelse:\\n    return 0\"
-            },
-            {
-                \"name\": \"errorDefaultValue\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"isJSONOutput\",
-                \"type\": \"other\",
-                \"value\": \"false\"
-            },
-            {
-                \"name\": \"inputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"fuel:cng\\\"}]}]\"
-            },
-            {
-                \"name\": \"outputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Electricity\\\"}]}]\"
-            }
-        ],
-        \"tags\": [\"Transformation\"]
     },
     {
         \"commandName\": \"SetSemanticTypeCommand\",
@@ -515,65 +514,6 @@ _:node1dqphrkncx1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"hNodeId\",
                 \"type\": \"hNodeId\",
-                \"value\": [{\"columnName\": \"Gasoline\"}]
-            },
-            {
-                \"name\": \"worksheetId\",
-                \"type\": \"worksheetId\",
-                \"value\": \"W\"
-            },
-            {
-                \"name\": \"selectionName\",
-                \"type\": \"other\",
-                \"value\": \"DEFAULT_TEST\"
-            },
-            {
-                \"name\": \"SemanticTypesArray\",
-                \"type\": \"other\",
-                \"value\": [{
-                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area\",
-                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area1\",
-                    \"isPrimary\": true,
-                    \"isProvenance\": false,
-                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#electricity\",
-                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area/Service_Area1\"
-                }]
-            },
-            {
-                \"name\": \"trainAndShowUpdates\",
-                \"type\": \"other\",
-                \"value\": true
-            },
-            {
-                \"name\": \"rdfLiteralType\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"language\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"inputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Gasoline\\\"}]}]\"
-            },
-            {
-                \"name\": \"outputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Gasoline\\\"}]}]\"
-            }
-        ],
-        \"tags\": [\"SemanticType\"]
-    },
-    {
-        \"commandName\": \"SetSemanticTypeCommand\",
-        \"model\": \"new\",
-        \"inputParameters\": [
-            {
-                \"name\": \"hNodeId\",
-                \"type\": \"hNodeId\",
                 \"value\": [{\"columnName\": \"Electricity\"}]
             },
             {
@@ -627,37 +567,122 @@ _:node1dqphrkncx1 a km-dev:R2RMLMapping ;
         \"tags\": [\"SemanticType\"]
     },
     {
-        \"commandName\": \"AddLinkCommand\",
+        \"commandName\": \"SetSemanticTypeCommand\",
         \"model\": \"new\",
         \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"name\"}]
+            },
             {
                 \"name\": \"worksheetId\",
                 \"type\": \"worksheetId\",
                 \"value\": \"W\"
             },
             {
-                \"name\": \"edge\",
+                \"name\": \"selectionName\",
                 \"type\": \"other\",
-                \"value\": {
-                    \"edgeTargetId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place1\",
-                    \"edgeId\": \"http://www.w3.org/2000/01/rdf-schema#subClassOf\",
-                    \"edgeTargetUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place\",
-                    \"edgeSourceId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area1\",
-                    \"edgeSourceUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area\"
-                }
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area/Service_Area1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
             },
             {
                 \"name\": \"inputColumns\",
                 \"type\": \"hNodeIdList\",
-                \"value\": \"[]\"
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
             },
             {
                 \"name\": \"outputColumns\",
                 \"type\": \"hNodeIdList\",
-                \"value\": \"[]\"
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"name\\\"}]}]\"
             }
         ],
-        \"tags\": [\"Modeling\"]
+        \"tags\": [\"SemanticType\"]
+    },
+    {
+        \"commandName\": \"SetSemanticTypeCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"Gasoline\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#gasoline\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area/Service_Area1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Gasoline\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"Gasoline\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
     },
     {
         \"commandName\": \"AddLinkCommand\",
@@ -672,11 +697,11 @@ _:node1dqphrkncx1 a km-dev:R2RMLMapping ;
                 \"name\": \"edge\",
                 \"type\": \"other\",
                 \"value\": {
-                    \"edgeTargetId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place1\",
+                    \"edgeTargetId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1\",
                     \"edgeId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation\",
-                    \"edgeTargetUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place\",
-                    \"edgeSourceId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1\",
-                    \"edgeSourceUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location\"
+                    \"edgeTargetUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location\",
+                    \"edgeSourceId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area1\",
+                    \"edgeSourceUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area\"
                 }
             },
             {
@@ -694,211 +719,187 @@ _:node1dqphrkncx1 a km-dev:R2RMLMapping ;
     }
 ]""" .
 
-km-dev:TriplesMap_807c13ed-9a87-4f08-89d3-4099d6999113 a rr:TriplesMap .
+km-dev:TriplesMap_84f50cc8-73ba-438e-82f6-8bbc84779380 a rr:TriplesMap .
 
-_:node1dqphrkncx1 km-dev:hasTriplesMap km-dev:TriplesMap_807c13ed-9a87-4f08-89d3-4099d6999113 .
+_:node1dr5islgcx1 km-dev:hasTriplesMap km-dev:TriplesMap_84f50cc8-73ba-438e-82f6-8bbc84779380 .
 
-km-dev:TriplesMap_807c13ed-9a87-4f08-89d3-4099d6999113 km-dev:isPartOfMapping _:node1dqphrkncx1 .
+km-dev:TriplesMap_84f50cc8-73ba-438e-82f6-8bbc84779380 km-dev:isPartOfMapping _:node1dr5islgcx1 .
 
-_:node1dqphrkncx2 rr:tableName "fuel.csv" ;
+_:node1dr5islgcx2 rr:tableName "fuel.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1dqphrkncx1 .
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
 
-_:node1dqphrkncx1 km-dev:hasLogicalTable _:node1dqphrkncx2 .
+_:node1dr5islgcx1 km-dev:hasLogicalTable _:node1dr5islgcx2 .
 
-km-dev:TriplesMap_807c13ed-9a87-4f08-89d3-4099d6999113 rr:logicalTable _:node1dqphrkncx2 ;
-	rr:subjectMap _:node1dqphrkncx3 .
+km-dev:TriplesMap_84f50cc8-73ba-438e-82f6-8bbc84779380 rr:logicalTable _:node1dr5islgcx2 ;
+	rr:subjectMap _:node1dr5islgcx3 .
 
-_:node1dqphrkncx1 km-dev:hasSubjectMap _:node1dqphrkncx3 .
+_:node1dr5islgcx1 km-dev:hasSubjectMap _:node1dr5islgcx3 .
 
-_:node1dqphrkncx3 km-dev:isPartOfMapping _:node1dqphrkncx1 ;
+_:node1dr5islgcx3 km-dev:isPartOfMapping _:node1dr5islgcx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area1" ;
 	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Service_Area> ;
 	rr:termType rr:BlankNode ;
-	km-dev:namePrefix "Service_Area1" .
+	km-dev:namePrefix "Service_Area1" ;
+	a km-dev:steinerTreeRootNode .
 
-km-dev:PredicateObjectMap_181522fc-f495-40bc-8948-419490a27cd7 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#diesel> .
+km-dev:PredicateObjectMap_32520b6e-8ac4-4f7e-8d4a-9ba9b3420992 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation> .
 
-_:node1dqphrkncx4 rr:column "Diesel" ;
+km-dev:RefObjectMap_f15e2765-75bb-4dac-ae0a-96b98c56e916 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_e41917fe-900e-4528-b53e-ab3f8726d5c0 ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasObjectMap km-dev:RefObjectMap_f15e2765-75bb-4dac-ae0a-96b98c56e916 .
+
+km-dev:PredicateObjectMap_32520b6e-8ac4-4f7e-8d4a-9ba9b3420992 rr:objectMap km-dev:RefObjectMap_f15e2765-75bb-4dac-ae0a-96b98c56e916 .
+
+km-dev:TriplesMap_84f50cc8-73ba-438e-82f6-8bbc84779380 rr:predicateObjectMap km-dev:PredicateObjectMap_32520b6e-8ac4-4f7e-8d4a-9ba9b3420992 .
+
+km-dev:PredicateObjectMap_32520b6e-8ac4-4f7e-8d4a-9ba9b3420992 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
+
+_:node1dr5islgcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_32520b6e-8ac4-4f7e-8d4a-9ba9b3420992 .
+
+km-dev:PredicateObjectMap_a970cc3f-3e7c-42cf-802d-4e700e6b2ef0 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#gasoline> .
+
+_:node1dr5islgcx4 rr:column "Gasoline" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1dqphrkncx1 .
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
 
-_:node1dqphrkncx1 km-dev:hasObjectMap _:node1dqphrkncx4 .
+_:node1dr5islgcx1 km-dev:hasObjectMap _:node1dr5islgcx4 .
 
-km-dev:PredicateObjectMap_181522fc-f495-40bc-8948-419490a27cd7 rr:objectMap _:node1dqphrkncx4 .
+km-dev:PredicateObjectMap_a970cc3f-3e7c-42cf-802d-4e700e6b2ef0 rr:objectMap _:node1dr5islgcx4 .
 
-km-dev:TriplesMap_807c13ed-9a87-4f08-89d3-4099d6999113 rr:predicateObjectMap km-dev:PredicateObjectMap_181522fc-f495-40bc-8948-419490a27cd7 .
+km-dev:TriplesMap_84f50cc8-73ba-438e-82f6-8bbc84779380 rr:predicateObjectMap km-dev:PredicateObjectMap_a970cc3f-3e7c-42cf-802d-4e700e6b2ef0 .
 
-km-dev:PredicateObjectMap_181522fc-f495-40bc-8948-419490a27cd7 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqphrkncx1 .
+km-dev:PredicateObjectMap_a970cc3f-3e7c-42cf-802d-4e700e6b2ef0 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
 
-_:node1dqphrkncx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_181522fc-f495-40bc-8948-419490a27cd7 .
+_:node1dr5islgcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a970cc3f-3e7c-42cf-802d-4e700e6b2ef0 .
 
-km-dev:PredicateObjectMap_0fb3eb01-842f-44ff-9e99-924a0409843d rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#electricity> .
+km-dev:PredicateObjectMap_b8a8aff8-588c-4e4a-9633-7a9086b933ff rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#place_name> .
 
-_:node1dqphrkncx5 rr:column "Electricity" ;
+_:node1dr5islgcx5 rr:column "name" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1dqphrkncx1 .
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
 
-_:node1dqphrkncx1 km-dev:hasObjectMap _:node1dqphrkncx5 .
+_:node1dr5islgcx1 km-dev:hasObjectMap _:node1dr5islgcx5 .
 
-km-dev:PredicateObjectMap_0fb3eb01-842f-44ff-9e99-924a0409843d rr:objectMap _:node1dqphrkncx5 .
+km-dev:PredicateObjectMap_b8a8aff8-588c-4e4a-9633-7a9086b933ff rr:objectMap _:node1dr5islgcx5 .
 
-km-dev:TriplesMap_807c13ed-9a87-4f08-89d3-4099d6999113 rr:predicateObjectMap km-dev:PredicateObjectMap_0fb3eb01-842f-44ff-9e99-924a0409843d .
+km-dev:TriplesMap_84f50cc8-73ba-438e-82f6-8bbc84779380 rr:predicateObjectMap km-dev:PredicateObjectMap_b8a8aff8-588c-4e4a-9633-7a9086b933ff .
 
-km-dev:PredicateObjectMap_0fb3eb01-842f-44ff-9e99-924a0409843d a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqphrkncx1 .
+km-dev:PredicateObjectMap_b8a8aff8-588c-4e4a-9633-7a9086b933ff a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
 
-_:node1dqphrkncx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0fb3eb01-842f-44ff-9e99-924a0409843d .
+_:node1dr5islgcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b8a8aff8-588c-4e4a-9633-7a9086b933ff .
 
-km-dev:PredicateObjectMap_db4a2e5b-4b76-4a95-8171-31b94c3a8eff rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#electricity> .
+km-dev:PredicateObjectMap_3956d377-f52d-4ca0-b70d-0f9076393f33 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#electricity> .
 
-_:node1dqphrkncx6 rr:column "Gasoline" ;
+_:node1dr5islgcx6 rr:column "Electricity" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1dqphrkncx1 .
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
 
-_:node1dqphrkncx1 km-dev:hasObjectMap _:node1dqphrkncx6 .
+_:node1dr5islgcx1 km-dev:hasObjectMap _:node1dr5islgcx6 .
 
-km-dev:PredicateObjectMap_db4a2e5b-4b76-4a95-8171-31b94c3a8eff rr:objectMap _:node1dqphrkncx6 .
+km-dev:PredicateObjectMap_3956d377-f52d-4ca0-b70d-0f9076393f33 rr:objectMap _:node1dr5islgcx6 .
 
-km-dev:TriplesMap_807c13ed-9a87-4f08-89d3-4099d6999113 rr:predicateObjectMap km-dev:PredicateObjectMap_db4a2e5b-4b76-4a95-8171-31b94c3a8eff .
+km-dev:TriplesMap_84f50cc8-73ba-438e-82f6-8bbc84779380 rr:predicateObjectMap km-dev:PredicateObjectMap_3956d377-f52d-4ca0-b70d-0f9076393f33 .
 
-km-dev:PredicateObjectMap_db4a2e5b-4b76-4a95-8171-31b94c3a8eff a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqphrkncx1 .
+km-dev:PredicateObjectMap_3956d377-f52d-4ca0-b70d-0f9076393f33 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
 
-_:node1dqphrkncx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_db4a2e5b-4b76-4a95-8171-31b94c3a8eff .
+_:node1dr5islgcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3956d377-f52d-4ca0-b70d-0f9076393f33 .
 
-km-dev:PredicateObjectMap_56eb180b-5270-4074-ad4a-2132bef0a1b8 rr:predicate rdfs:subClassOf .
+km-dev:PredicateObjectMap_34a50b9f-8d54-4dd0-a0ad-29000841db38 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#diesel> .
 
-km-dev:RefObjectMap_be301c50-4b21-4266-9ccb-88cf670f84a6 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_7cd6e356-798e-4c92-b8c1-89fa9c6a9be0 ;
-	km-dev:isPartOfMapping _:node1dqphrkncx1 .
+_:node1dr5islgcx7 rr:column "Diesel" ;
+	a rr:ObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
 
-_:node1dqphrkncx1 km-dev:hasObjectMap km-dev:RefObjectMap_be301c50-4b21-4266-9ccb-88cf670f84a6 .
+_:node1dr5islgcx1 km-dev:hasObjectMap _:node1dr5islgcx7 .
 
-km-dev:PredicateObjectMap_56eb180b-5270-4074-ad4a-2132bef0a1b8 rr:objectMap km-dev:RefObjectMap_be301c50-4b21-4266-9ccb-88cf670f84a6 .
+km-dev:PredicateObjectMap_34a50b9f-8d54-4dd0-a0ad-29000841db38 rr:objectMap _:node1dr5islgcx7 .
 
-km-dev:TriplesMap_807c13ed-9a87-4f08-89d3-4099d6999113 rr:predicateObjectMap km-dev:PredicateObjectMap_56eb180b-5270-4074-ad4a-2132bef0a1b8 .
+km-dev:TriplesMap_84f50cc8-73ba-438e-82f6-8bbc84779380 rr:predicateObjectMap km-dev:PredicateObjectMap_34a50b9f-8d54-4dd0-a0ad-29000841db38 .
 
-km-dev:PredicateObjectMap_56eb180b-5270-4074-ad4a-2132bef0a1b8 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqphrkncx1 .
+km-dev:PredicateObjectMap_34a50b9f-8d54-4dd0-a0ad-29000841db38 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
 
-_:node1dqphrkncx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_56eb180b-5270-4074-ad4a-2132bef0a1b8 .
+_:node1dr5islgcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_34a50b9f-8d54-4dd0-a0ad-29000841db38 .
 
-km-dev:TriplesMap_6cdda68b-95b7-4e88-8611-92145d80aa8d a rr:TriplesMap .
+km-dev:TriplesMap_e41917fe-900e-4528-b53e-ab3f8726d5c0 a rr:TriplesMap .
 
-_:node1dqphrkncx1 km-dev:hasTriplesMap km-dev:TriplesMap_6cdda68b-95b7-4e88-8611-92145d80aa8d .
+_:node1dr5islgcx1 km-dev:hasTriplesMap km-dev:TriplesMap_e41917fe-900e-4528-b53e-ab3f8726d5c0 .
 
-km-dev:TriplesMap_6cdda68b-95b7-4e88-8611-92145d80aa8d km-dev:isPartOfMapping _:node1dqphrkncx1 .
+km-dev:TriplesMap_e41917fe-900e-4528-b53e-ab3f8726d5c0 km-dev:isPartOfMapping _:node1dr5islgcx1 .
 
-_:node1dqphrkncx7 rr:tableName "fuel.csv" ;
+_:node1dr5islgcx8 rr:tableName "fuel.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1dqphrkncx1 .
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
 
-_:node1dqphrkncx1 km-dev:hasLogicalTable _:node1dqphrkncx7 .
+_:node1dr5islgcx1 km-dev:hasLogicalTable _:node1dr5islgcx8 .
 
-km-dev:TriplesMap_6cdda68b-95b7-4e88-8611-92145d80aa8d rr:logicalTable _:node1dqphrkncx7 ;
-	rr:subjectMap _:node1dqphrkncx8 .
+km-dev:TriplesMap_e41917fe-900e-4528-b53e-ab3f8726d5c0 rr:logicalTable _:node1dr5islgcx8 ;
+	rr:subjectMap _:node1dr5islgcx9 .
 
-_:node1dqphrkncx1 km-dev:hasSubjectMap _:node1dqphrkncx8 .
+_:node1dr5islgcx1 km-dev:hasSubjectMap _:node1dr5islgcx9 .
 
-_:node1dqphrkncx8 km-dev:isPartOfMapping _:node1dqphrkncx1 ;
+_:node1dr5islgcx9 km-dev:isPartOfMapping _:node1dr5islgcx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1" ;
 	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> ;
 	rr:termType rr:BlankNode ;
-	km-dev:namePrefix "Location1" ;
-	a km-dev:steinerTreeRootNode .
+	km-dev:namePrefix "Location1" .
 
-km-dev:PredicateObjectMap_a02b1ff7-9029-4716-9cc1-ce951fe178ee rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#placeHasLocation> .
+km-dev:PredicateObjectMap_0fb7b16a-2a22-470b-819d-b42adfb8026e rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> .
 
-km-dev:RefObjectMap_19aa841f-d5eb-44ab-8cef-de245218e016 a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_7cd6e356-798e-4c92-b8c1-89fa9c6a9be0 ;
-	km-dev:isPartOfMapping _:node1dqphrkncx1 .
-
-_:node1dqphrkncx1 km-dev:hasObjectMap km-dev:RefObjectMap_19aa841f-d5eb-44ab-8cef-de245218e016 .
-
-km-dev:PredicateObjectMap_a02b1ff7-9029-4716-9cc1-ce951fe178ee rr:objectMap km-dev:RefObjectMap_19aa841f-d5eb-44ab-8cef-de245218e016 .
-
-km-dev:TriplesMap_6cdda68b-95b7-4e88-8611-92145d80aa8d rr:predicateObjectMap km-dev:PredicateObjectMap_a02b1ff7-9029-4716-9cc1-ce951fe178ee .
-
-km-dev:PredicateObjectMap_a02b1ff7-9029-4716-9cc1-ce951fe178ee a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqphrkncx1 .
-
-_:node1dqphrkncx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a02b1ff7-9029-4716-9cc1-ce951fe178ee .
-
-km-dev:PredicateObjectMap_b0863d09-09df-4420-831a-098dd76aa593 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> .
-
-_:node1dqphrkncx9 rr:column "latitude" ;
+_:node1dr5islgcx10 rr:column "longitude" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1dqphrkncx1 .
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
 
-_:node1dqphrkncx1 km-dev:hasObjectMap _:node1dqphrkncx9 .
+_:node1dr5islgcx1 km-dev:hasObjectMap _:node1dr5islgcx10 .
 
-km-dev:PredicateObjectMap_b0863d09-09df-4420-831a-098dd76aa593 rr:objectMap _:node1dqphrkncx9 .
+km-dev:PredicateObjectMap_0fb7b16a-2a22-470b-819d-b42adfb8026e rr:objectMap _:node1dr5islgcx10 .
 
-km-dev:TriplesMap_6cdda68b-95b7-4e88-8611-92145d80aa8d rr:predicateObjectMap km-dev:PredicateObjectMap_b0863d09-09df-4420-831a-098dd76aa593 .
+km-dev:TriplesMap_e41917fe-900e-4528-b53e-ab3f8726d5c0 rr:predicateObjectMap km-dev:PredicateObjectMap_0fb7b16a-2a22-470b-819d-b42adfb8026e .
 
-km-dev:PredicateObjectMap_b0863d09-09df-4420-831a-098dd76aa593 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqphrkncx1 .
+km-dev:PredicateObjectMap_0fb7b16a-2a22-470b-819d-b42adfb8026e a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
 
-_:node1dqphrkncx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_b0863d09-09df-4420-831a-098dd76aa593 .
+_:node1dr5islgcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0fb7b16a-2a22-470b-819d-b42adfb8026e .
 
-km-dev:PredicateObjectMap_d0cd6f5f-c286-419a-9c67-b0a3a89c80be rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#address> .
+km-dev:PredicateObjectMap_4c403029-086a-4d0d-a156-274169887541 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> .
 
-_:node1dqphrkncx10 rr:column "address" ;
+_:node1dr5islgcx11 rr:column "latitude" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1dqphrkncx1 .
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
 
-_:node1dqphrkncx1 km-dev:hasObjectMap _:node1dqphrkncx10 .
+_:node1dr5islgcx1 km-dev:hasObjectMap _:node1dr5islgcx11 .
 
-km-dev:PredicateObjectMap_d0cd6f5f-c286-419a-9c67-b0a3a89c80be rr:objectMap _:node1dqphrkncx10 .
+km-dev:PredicateObjectMap_4c403029-086a-4d0d-a156-274169887541 rr:objectMap _:node1dr5islgcx11 .
 
-km-dev:TriplesMap_6cdda68b-95b7-4e88-8611-92145d80aa8d rr:predicateObjectMap km-dev:PredicateObjectMap_d0cd6f5f-c286-419a-9c67-b0a3a89c80be .
+km-dev:TriplesMap_e41917fe-900e-4528-b53e-ab3f8726d5c0 rr:predicateObjectMap km-dev:PredicateObjectMap_4c403029-086a-4d0d-a156-274169887541 .
 
-km-dev:PredicateObjectMap_d0cd6f5f-c286-419a-9c67-b0a3a89c80be a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqphrkncx1 .
+km-dev:PredicateObjectMap_4c403029-086a-4d0d-a156-274169887541 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
 
-_:node1dqphrkncx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_d0cd6f5f-c286-419a-9c67-b0a3a89c80be .
+_:node1dr5islgcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_4c403029-086a-4d0d-a156-274169887541 .
 
-km-dev:PredicateObjectMap_4904aab7-9627-40c4-9ddd-df6ac4ac402a rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> .
+km-dev:PredicateObjectMap_0598a795-87d6-4b84-8295-3549ddfab24c rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#address> .
 
-_:node1dqphrkncx11 rr:column "longitude" ;
+_:node1dr5islgcx12 rr:column "address" ;
 	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1dqphrkncx1 .
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
 
-_:node1dqphrkncx1 km-dev:hasObjectMap _:node1dqphrkncx11 .
+_:node1dr5islgcx1 km-dev:hasObjectMap _:node1dr5islgcx12 .
 
-km-dev:PredicateObjectMap_4904aab7-9627-40c4-9ddd-df6ac4ac402a rr:objectMap _:node1dqphrkncx11 .
+km-dev:PredicateObjectMap_0598a795-87d6-4b84-8295-3549ddfab24c rr:objectMap _:node1dr5islgcx12 .
 
-km-dev:TriplesMap_6cdda68b-95b7-4e88-8611-92145d80aa8d rr:predicateObjectMap km-dev:PredicateObjectMap_4904aab7-9627-40c4-9ddd-df6ac4ac402a .
+km-dev:TriplesMap_e41917fe-900e-4528-b53e-ab3f8726d5c0 rr:predicateObjectMap km-dev:PredicateObjectMap_0598a795-87d6-4b84-8295-3549ddfab24c .
 
-km-dev:PredicateObjectMap_4904aab7-9627-40c4-9ddd-df6ac4ac402a a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqphrkncx1 .
+km-dev:PredicateObjectMap_0598a795-87d6-4b84-8295-3549ddfab24c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr5islgcx1 .
 
-_:node1dqphrkncx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_4904aab7-9627-40c4-9ddd-df6ac4ac402a .
-
-km-dev:TriplesMap_7cd6e356-798e-4c92-b8c1-89fa9c6a9be0 a rr:TriplesMap .
-
-_:node1dqphrkncx1 km-dev:hasTriplesMap km-dev:TriplesMap_7cd6e356-798e-4c92-b8c1-89fa9c6a9be0 .
-
-km-dev:TriplesMap_7cd6e356-798e-4c92-b8c1-89fa9c6a9be0 km-dev:isPartOfMapping _:node1dqphrkncx1 .
-
-_:node1dqphrkncx12 rr:tableName "fuel.csv" ;
-	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1dqphrkncx1 .
-
-_:node1dqphrkncx1 km-dev:hasLogicalTable _:node1dqphrkncx12 .
-
-km-dev:TriplesMap_7cd6e356-798e-4c92-b8c1-89fa9c6a9be0 rr:logicalTable _:node1dqphrkncx12 ;
-	rr:subjectMap _:node1dqphrkncx13 .
-
-_:node1dqphrkncx1 km-dev:hasSubjectMap _:node1dqphrkncx13 .
-
-_:node1dqphrkncx13 km-dev:isPartOfMapping _:node1dqphrkncx1 ;
-	a rr:SubjectMap ;
-	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place1" ;
-	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Place> ;
-	rr:termType rr:BlankNode ;
-	km-dev:namePrefix "Place1" .
+_:node1dr5islgcx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_0598a795-87d6-4b84-8295-3549ddfab24c .
