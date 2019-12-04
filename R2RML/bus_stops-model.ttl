@@ -6,13 +6,14 @@
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix km-dev: <http://isi.edu/integration/karma/dev#> .
 
-_:node1dqm1rntex1 a km-dev:R2RMLMapping ;
+_:node1dr83jfetx1 a km-dev:R2RMLMapping ;
 	km-dev:sourceName "bus_stops.csv" ;
-	km-dev:modelPublicationTime "1574845669294"^^xsd:long ;
+	km-dev:modelPublicationTime "1575451475421"^^xsd:long ;
 	km-dev:modelVersion "1.7" ;
-	km-dev:hasInputColumns "[[{\"columnName\":\"wheelchairBoarding\"}],[{\"columnName\":\"address\"}],[{\"columnName\":\"stop_id\"}],[{\"columnName\":\"name\"}],[{\"columnName\":\"latitude\"}],[{\"columnName\":\"longitude\"}]]" ;
-	km-dev:hasOutputColumns "[[{\"columnName\":\"wheelchairBoarding\"}],[{\"columnName\":\"address\"}],[{\"columnName\":\"stop_id\"}],[{\"columnName\":\"name\"}],[{\"columnName\":\"latitude\"}],[{\"columnName\":\"longitude\"}]]" ;
+	km-dev:hasInputColumns "[[{\"columnName\":\"address\"}],[{\"columnName\":\"latitude\"}],[{\"columnName\":\"longitude\"}],[{\"columnName\":\"wheelchairBoarding\"}],[{\"columnName\":\"stop_id\"}],[{\"columnName\":\"name\"}]]" ;
+	km-dev:hasOutputColumns "[[{\"columnName\":\"address\"}],[{\"columnName\":\"latitude\"}],[{\"columnName\":\"longitude\"}],[{\"columnName\":\"wheelchairBoarding\"}],[{\"columnName\":\"stop_id\"}],[{\"columnName\":\"name\"}]]" ;
 	km-dev:hasModelLabel "bus_stops.csv" ;
+	km-dev:hasBaseURI "http://localhost:8080/source/" ;
 	km-dev:hasWorksheetHistory """[
     {
         \"commandName\": \"OrganizeColumnsCommand\",
@@ -264,65 +265,6 @@ _:node1dqm1rntex1 a km-dev:R2RMLMapping ;
             {
                 \"name\": \"hNodeId\",
                 \"type\": \"hNodeId\",
-                \"value\": [{\"columnName\": \"stop_id\"}]
-            },
-            {
-                \"name\": \"worksheetId\",
-                \"type\": \"worksheetId\",
-                \"value\": \"W\"
-            },
-            {
-                \"name\": \"selectionName\",
-                \"type\": \"other\",
-                \"value\": \"DEFAULT_TEST\"
-            },
-            {
-                \"name\": \"SemanticTypesArray\",
-                \"type\": \"other\",
-                \"value\": [{
-                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station\",
-                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station1\",
-                    \"isPrimary\": true,
-                    \"isProvenance\": false,
-                    \"FullType\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#stop_ID\",
-                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station/Station1 (add)\"
-                }]
-            },
-            {
-                \"name\": \"trainAndShowUpdates\",
-                \"type\": \"other\",
-                \"value\": true
-            },
-            {
-                \"name\": \"rdfLiteralType\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"language\",
-                \"type\": \"other\",
-                \"value\": \"\"
-            },
-            {
-                \"name\": \"inputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stop_id\\\"}]}]\"
-            },
-            {
-                \"name\": \"outputColumns\",
-                \"type\": \"hNodeIdList\",
-                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stop_id\\\"}]}]\"
-            }
-        ],
-        \"tags\": [\"SemanticType\"]
-    },
-    {
-        \"commandName\": \"SetSemanticTypeCommand\",
-        \"model\": \"new\",
-        \"inputParameters\": [
-            {
-                \"name\": \"hNodeId\",
-                \"type\": \"hNodeId\",
                 \"value\": [{\"columnName\": \"name\"}]
             },
             {
@@ -435,6 +377,80 @@ _:node1dqm1rntex1 a km-dev:R2RMLMapping ;
         \"tags\": [\"SemanticType\"]
     },
     {
+        \"commandName\": \"SetMetaPropertyCommand\",
+        \"model\": \"new\",
+        \"inputParameters\": [
+            {
+                \"name\": \"hNodeId\",
+                \"type\": \"hNodeId\",
+                \"value\": [{\"columnName\": \"stop_id\"}]
+            },
+            {
+                \"name\": \"worksheetId\",
+                \"type\": \"worksheetId\",
+                \"value\": \"W\"
+            },
+            {
+                \"name\": \"selectionName\",
+                \"type\": \"other\",
+                \"value\": \"DEFAULT_TEST\"
+            },
+            {
+                \"name\": \"metaPropertyName\",
+                \"type\": \"other\",
+                \"value\": \"isUriOfClass\"
+            },
+            {
+                \"name\": \"metaPropertyUri\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station\"
+            },
+            {
+                \"name\": \"metaPropertyId\",
+                \"type\": \"other\",
+                \"value\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station1\"
+            },
+            {
+                \"name\": \"SemanticTypesArray\",
+                \"type\": \"other\",
+                \"value\": [{
+                    \"DomainUri\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station\",
+                    \"DomainId\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station1\",
+                    \"isPrimary\": true,
+                    \"isProvenance\": false,
+                    \"FullType\": \"http://isi.edu/integration/karma/dev#classLink\",
+                    \"DomainLabel\": \"http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station/Station1\"
+                }]
+            },
+            {
+                \"name\": \"trainAndShowUpdates\",
+                \"type\": \"other\",
+                \"value\": true
+            },
+            {
+                \"name\": \"rdfLiteralType\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"language\",
+                \"type\": \"other\",
+                \"value\": \"\"
+            },
+            {
+                \"name\": \"inputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stop_id\\\"}]}]\"
+            },
+            {
+                \"name\": \"outputColumns\",
+                \"type\": \"hNodeIdList\",
+                \"value\": \"[{\\\"value\\\":[{\\\"columnName\\\":\\\"stop_id\\\"}]}]\"
+            }
+        ],
+        \"tags\": [\"SemanticType\"]
+    },
+    {
         \"commandName\": \"AddLinkCommand\",
         \"model\": \"new\",
         \"inputParameters\": [
@@ -469,177 +485,159 @@ _:node1dqm1rntex1 a km-dev:R2RMLMapping ;
     }
 ]""" .
 
-km-dev:TriplesMap_7fdc70d6-a3b4-4f72-b330-c14001120ef9 a rr:TriplesMap .
+km-dev:TriplesMap_4b56e29f-1122-4868-9229-17dcb1d90d11 a rr:TriplesMap .
 
-_:node1dqm1rntex1 km-dev:hasTriplesMap km-dev:TriplesMap_7fdc70d6-a3b4-4f72-b330-c14001120ef9 .
+_:node1dr83jfetx1 km-dev:hasTriplesMap km-dev:TriplesMap_4b56e29f-1122-4868-9229-17dcb1d90d11 .
 
-km-dev:TriplesMap_7fdc70d6-a3b4-4f72-b330-c14001120ef9 km-dev:isPartOfMapping _:node1dqm1rntex1 .
+km-dev:TriplesMap_4b56e29f-1122-4868-9229-17dcb1d90d11 km-dev:isPartOfMapping _:node1dr83jfetx1 .
 
-_:node1dqm1rntex2 rr:tableName "bus_stops.csv" ;
+_:node1dr83jfetx2 rr:tableName "bus_stops.csv" ;
 	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1dqm1rntex1 .
+	km-dev:isPartOfMapping _:node1dr83jfetx1 .
 
-_:node1dqm1rntex1 km-dev:hasLogicalTable _:node1dqm1rntex2 .
+_:node1dr83jfetx1 km-dev:hasLogicalTable _:node1dr83jfetx2 .
 
-km-dev:TriplesMap_7fdc70d6-a3b4-4f72-b330-c14001120ef9 rr:logicalTable _:node1dqm1rntex2 ;
-	rr:subjectMap _:node1dqm1rntex3 .
+km-dev:TriplesMap_4b56e29f-1122-4868-9229-17dcb1d90d11 rr:logicalTable _:node1dr83jfetx2 ;
+	rr:subjectMap _:node1dr83jfetx3 .
 
-_:node1dqm1rntex1 km-dev:hasSubjectMap _:node1dqm1rntex3 .
+_:node1dr83jfetx1 km-dev:hasSubjectMap _:node1dr83jfetx3 .
 
-_:node1dqm1rntex3 km-dev:isPartOfMapping _:node1dqm1rntex1 ;
+_:node1dr83jfetx3 km-dev:isPartOfMapping _:node1dr83jfetx1 ;
+	a rr:SubjectMap ;
+	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station1" ;
+	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station> ;
+	rr:template "{stop_id}" ;
+	a km-dev:steinerTreeRootNode .
+
+km-dev:PredicateObjectMap_9fdcf0da-531e-42a2-b0e1-03670df13b55 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#stationHas> .
+
+km-dev:RefObjectMap_f897c000-fc32-4d83-a055-6eaa0c24d3b7 a rr:RefObjectMap , rr:ObjectMap ;
+	rr:parentTriplesMap km-dev:TriplesMap_b569cb64-9eb1-456d-a1e1-27234b02fb31 ;
+	km-dev:isPartOfMapping _:node1dr83jfetx1 .
+
+_:node1dr83jfetx1 km-dev:hasObjectMap km-dev:RefObjectMap_f897c000-fc32-4d83-a055-6eaa0c24d3b7 .
+
+km-dev:PredicateObjectMap_9fdcf0da-531e-42a2-b0e1-03670df13b55 rr:objectMap km-dev:RefObjectMap_f897c000-fc32-4d83-a055-6eaa0c24d3b7 .
+
+km-dev:TriplesMap_4b56e29f-1122-4868-9229-17dcb1d90d11 rr:predicateObjectMap km-dev:PredicateObjectMap_9fdcf0da-531e-42a2-b0e1-03670df13b55 .
+
+km-dev:PredicateObjectMap_9fdcf0da-531e-42a2-b0e1-03670df13b55 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr83jfetx1 .
+
+_:node1dr83jfetx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_9fdcf0da-531e-42a2-b0e1-03670df13b55 .
+
+km-dev:PredicateObjectMap_80991afb-0d4d-45ce-a8c6-ed3a7ceb2265 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#name> .
+
+_:node1dr83jfetx4 rr:column "name" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+	rr:language "it" ;
+	km-dev:isPartOfMapping _:node1dr83jfetx1 .
+
+_:node1dr83jfetx1 km-dev:hasObjectMap _:node1dr83jfetx4 .
+
+km-dev:PredicateObjectMap_80991afb-0d4d-45ce-a8c6-ed3a7ceb2265 rr:objectMap _:node1dr83jfetx4 .
+
+km-dev:TriplesMap_4b56e29f-1122-4868-9229-17dcb1d90d11 rr:predicateObjectMap km-dev:PredicateObjectMap_80991afb-0d4d-45ce-a8c6-ed3a7ceb2265 .
+
+km-dev:PredicateObjectMap_80991afb-0d4d-45ce-a8c6-ed3a7ceb2265 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr83jfetx1 .
+
+_:node1dr83jfetx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_80991afb-0d4d-45ce-a8c6-ed3a7ceb2265 .
+
+km-dev:PredicateObjectMap_a38d8b91-8a0e-4feb-8906-c0e5fb2dee2c rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#wheelchair_accessible> .
+
+_:node1dr83jfetx5 rr:column "wheelchairBoarding" ;
+	a rr:ObjectMap ;
+	rr:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
+	km-dev:isPartOfMapping _:node1dr83jfetx1 .
+
+_:node1dr83jfetx1 km-dev:hasObjectMap _:node1dr83jfetx5 .
+
+km-dev:PredicateObjectMap_a38d8b91-8a0e-4feb-8906-c0e5fb2dee2c rr:objectMap _:node1dr83jfetx5 .
+
+km-dev:TriplesMap_4b56e29f-1122-4868-9229-17dcb1d90d11 rr:predicateObjectMap km-dev:PredicateObjectMap_a38d8b91-8a0e-4feb-8906-c0e5fb2dee2c .
+
+km-dev:PredicateObjectMap_a38d8b91-8a0e-4feb-8906-c0e5fb2dee2c a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr83jfetx1 .
+
+_:node1dr83jfetx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_a38d8b91-8a0e-4feb-8906-c0e5fb2dee2c .
+
+km-dev:TriplesMap_b569cb64-9eb1-456d-a1e1-27234b02fb31 a rr:TriplesMap .
+
+_:node1dr83jfetx1 km-dev:hasTriplesMap km-dev:TriplesMap_b569cb64-9eb1-456d-a1e1-27234b02fb31 .
+
+km-dev:TriplesMap_b569cb64-9eb1-456d-a1e1-27234b02fb31 km-dev:isPartOfMapping _:node1dr83jfetx1 .
+
+_:node1dr83jfetx6 rr:tableName "bus_stops.csv" ;
+	a rr:LogicalTable ;
+	km-dev:isPartOfMapping _:node1dr83jfetx1 .
+
+_:node1dr83jfetx1 km-dev:hasLogicalTable _:node1dr83jfetx6 .
+
+km-dev:TriplesMap_b569cb64-9eb1-456d-a1e1-27234b02fb31 rr:logicalTable _:node1dr83jfetx6 ;
+	rr:subjectMap _:node1dr83jfetx7 .
+
+_:node1dr83jfetx1 km-dev:hasSubjectMap _:node1dr83jfetx7 .
+
+_:node1dr83jfetx7 km-dev:isPartOfMapping _:node1dr83jfetx1 ;
 	a rr:SubjectMap ;
 	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location1" ;
 	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Location> ;
 	rr:termType rr:BlankNode ;
 	km-dev:namePrefix "Location1" .
 
-km-dev:PredicateObjectMap_021587d0-9884-4fc1-9507-472f65e81254 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> .
+km-dev:PredicateObjectMap_5127d969-2522-430e-ac22-e2771befa797 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> .
 
-_:node1dqm1rntex4 rr:column "latitude" ;
+_:node1dr83jfetx8 rr:column "longitude" ;
 	a rr:ObjectMap ;
 	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
-	km-dev:isPartOfMapping _:node1dqm1rntex1 .
+	km-dev:isPartOfMapping _:node1dr83jfetx1 .
 
-_:node1dqm1rntex1 km-dev:hasObjectMap _:node1dqm1rntex4 .
+_:node1dr83jfetx1 km-dev:hasObjectMap _:node1dr83jfetx8 .
 
-km-dev:PredicateObjectMap_021587d0-9884-4fc1-9507-472f65e81254 rr:objectMap _:node1dqm1rntex4 .
+km-dev:PredicateObjectMap_5127d969-2522-430e-ac22-e2771befa797 rr:objectMap _:node1dr83jfetx8 .
 
-km-dev:TriplesMap_7fdc70d6-a3b4-4f72-b330-c14001120ef9 rr:predicateObjectMap km-dev:PredicateObjectMap_021587d0-9884-4fc1-9507-472f65e81254 .
+km-dev:TriplesMap_b569cb64-9eb1-456d-a1e1-27234b02fb31 rr:predicateObjectMap km-dev:PredicateObjectMap_5127d969-2522-430e-ac22-e2771befa797 .
 
-km-dev:PredicateObjectMap_021587d0-9884-4fc1-9507-472f65e81254 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqm1rntex1 .
+km-dev:PredicateObjectMap_5127d969-2522-430e-ac22-e2771befa797 a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr83jfetx1 .
 
-_:node1dqm1rntex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_021587d0-9884-4fc1-9507-472f65e81254 .
+_:node1dr83jfetx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_5127d969-2522-430e-ac22-e2771befa797 .
 
-km-dev:PredicateObjectMap_df94085d-a1e4-4efa-b8d5-b90a3d581253 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#longitude> .
+km-dev:PredicateObjectMap_8ff1f7b2-e9d7-4901-8e81-49327b59d59b rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#latitude> .
 
-_:node1dqm1rntex5 rr:column "longitude" ;
+_:node1dr83jfetx9 rr:column "latitude" ;
 	a rr:ObjectMap ;
 	rr:datatype "http://www.w3.org/2001/XMLSchema#float" ;
-	km-dev:isPartOfMapping _:node1dqm1rntex1 .
+	km-dev:isPartOfMapping _:node1dr83jfetx1 .
 
-_:node1dqm1rntex1 km-dev:hasObjectMap _:node1dqm1rntex5 .
+_:node1dr83jfetx1 km-dev:hasObjectMap _:node1dr83jfetx9 .
 
-km-dev:PredicateObjectMap_df94085d-a1e4-4efa-b8d5-b90a3d581253 rr:objectMap _:node1dqm1rntex5 .
+km-dev:PredicateObjectMap_8ff1f7b2-e9d7-4901-8e81-49327b59d59b rr:objectMap _:node1dr83jfetx9 .
 
-km-dev:TriplesMap_7fdc70d6-a3b4-4f72-b330-c14001120ef9 rr:predicateObjectMap km-dev:PredicateObjectMap_df94085d-a1e4-4efa-b8d5-b90a3d581253 .
+km-dev:TriplesMap_b569cb64-9eb1-456d-a1e1-27234b02fb31 rr:predicateObjectMap km-dev:PredicateObjectMap_8ff1f7b2-e9d7-4901-8e81-49327b59d59b .
 
-km-dev:PredicateObjectMap_df94085d-a1e4-4efa-b8d5-b90a3d581253 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqm1rntex1 .
+km-dev:PredicateObjectMap_8ff1f7b2-e9d7-4901-8e81-49327b59d59b a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr83jfetx1 .
 
-_:node1dqm1rntex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_df94085d-a1e4-4efa-b8d5-b90a3d581253 .
+_:node1dr83jfetx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8ff1f7b2-e9d7-4901-8e81-49327b59d59b .
 
-km-dev:PredicateObjectMap_3d065e66-3f38-4d2a-b35f-7dbf261d3432 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#address> .
+km-dev:PredicateObjectMap_805d1c77-3024-412b-a658-fadac5efb0fb rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#address> .
 
-_:node1dqm1rntex6 rr:column "address" ;
+_:node1dr83jfetx10 rr:column "address" ;
 	a rr:ObjectMap ;
 	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
 	rr:language "it" ;
-	km-dev:isPartOfMapping _:node1dqm1rntex1 .
+	km-dev:isPartOfMapping _:node1dr83jfetx1 .
 
-_:node1dqm1rntex1 km-dev:hasObjectMap _:node1dqm1rntex6 .
+_:node1dr83jfetx1 km-dev:hasObjectMap _:node1dr83jfetx10 .
 
-km-dev:PredicateObjectMap_3d065e66-3f38-4d2a-b35f-7dbf261d3432 rr:objectMap _:node1dqm1rntex6 .
+km-dev:PredicateObjectMap_805d1c77-3024-412b-a658-fadac5efb0fb rr:objectMap _:node1dr83jfetx10 .
 
-km-dev:TriplesMap_7fdc70d6-a3b4-4f72-b330-c14001120ef9 rr:predicateObjectMap km-dev:PredicateObjectMap_3d065e66-3f38-4d2a-b35f-7dbf261d3432 .
+km-dev:TriplesMap_b569cb64-9eb1-456d-a1e1-27234b02fb31 rr:predicateObjectMap km-dev:PredicateObjectMap_805d1c77-3024-412b-a658-fadac5efb0fb .
 
-km-dev:PredicateObjectMap_3d065e66-3f38-4d2a-b35f-7dbf261d3432 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqm1rntex1 .
+km-dev:PredicateObjectMap_805d1c77-3024-412b-a658-fadac5efb0fb a rr:PredicateObjectMap ;
+	km-dev:isPartOfMapping _:node1dr83jfetx1 .
 
-_:node1dqm1rntex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_3d065e66-3f38-4d2a-b35f-7dbf261d3432 .
-
-km-dev:TriplesMap_7a3c047e-4c01-43d2-81a1-ce03548a06ea a rr:TriplesMap .
-
-_:node1dqm1rntex1 km-dev:hasTriplesMap km-dev:TriplesMap_7a3c047e-4c01-43d2-81a1-ce03548a06ea .
-
-km-dev:TriplesMap_7a3c047e-4c01-43d2-81a1-ce03548a06ea km-dev:isPartOfMapping _:node1dqm1rntex1 .
-
-_:node1dqm1rntex7 rr:tableName "bus_stops.csv" ;
-	a rr:LogicalTable ;
-	km-dev:isPartOfMapping _:node1dqm1rntex1 .
-
-_:node1dqm1rntex1 km-dev:hasLogicalTable _:node1dqm1rntex7 .
-
-km-dev:TriplesMap_7a3c047e-4c01-43d2-81a1-ce03548a06ea rr:logicalTable _:node1dqm1rntex7 ;
-	rr:subjectMap _:node1dqm1rntex8 .
-
-_:node1dqm1rntex1 km-dev:hasSubjectMap _:node1dqm1rntex8 .
-
-_:node1dqm1rntex8 km-dev:isPartOfMapping _:node1dqm1rntex1 ;
-	a rr:SubjectMap ;
-	km-dev:alignmentNodeId "http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station1" ;
-	rr:class <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Station> ;
-	rr:termType rr:BlankNode ;
-	km-dev:namePrefix "Station1" ;
-	a km-dev:steinerTreeRootNode .
-
-km-dev:PredicateObjectMap_8ae75625-6d99-4957-a874-8e254da034c7 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#stationHas> .
-
-km-dev:RefObjectMap_d24558d3-a718-45e3-9582-929de6acdfca a rr:RefObjectMap , rr:ObjectMap ;
-	rr:parentTriplesMap km-dev:TriplesMap_7fdc70d6-a3b4-4f72-b330-c14001120ef9 ;
-	km-dev:isPartOfMapping _:node1dqm1rntex1 .
-
-_:node1dqm1rntex1 km-dev:hasObjectMap km-dev:RefObjectMap_d24558d3-a718-45e3-9582-929de6acdfca .
-
-km-dev:PredicateObjectMap_8ae75625-6d99-4957-a874-8e254da034c7 rr:objectMap km-dev:RefObjectMap_d24558d3-a718-45e3-9582-929de6acdfca .
-
-km-dev:TriplesMap_7a3c047e-4c01-43d2-81a1-ce03548a06ea rr:predicateObjectMap km-dev:PredicateObjectMap_8ae75625-6d99-4957-a874-8e254da034c7 .
-
-km-dev:PredicateObjectMap_8ae75625-6d99-4957-a874-8e254da034c7 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqm1rntex1 .
-
-_:node1dqm1rntex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_8ae75625-6d99-4957-a874-8e254da034c7 .
-
-km-dev:PredicateObjectMap_63958410-f8c2-4d6c-8322-823e8658c6da rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#name> .
-
-_:node1dqm1rntex9 rr:column "name" ;
-	a rr:ObjectMap ;
-	rr:datatype "http://www.w3.org/2001/XMLSchema#string" ;
-	rr:language "it" ;
-	km-dev:isPartOfMapping _:node1dqm1rntex1 .
-
-_:node1dqm1rntex1 km-dev:hasObjectMap _:node1dqm1rntex9 .
-
-km-dev:PredicateObjectMap_63958410-f8c2-4d6c-8322-823e8658c6da rr:objectMap _:node1dqm1rntex9 .
-
-km-dev:TriplesMap_7a3c047e-4c01-43d2-81a1-ce03548a06ea rr:predicateObjectMap km-dev:PredicateObjectMap_63958410-f8c2-4d6c-8322-823e8658c6da .
-
-km-dev:PredicateObjectMap_63958410-f8c2-4d6c-8322-823e8658c6da a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqm1rntex1 .
-
-_:node1dqm1rntex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_63958410-f8c2-4d6c-8322-823e8658c6da .
-
-km-dev:PredicateObjectMap_829af11b-6116-4546-9bec-e4c2fbfdd9e1 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#wheelchair_accessible> .
-
-_:node1dqm1rntex10 rr:column "wheelchairBoarding" ;
-	a rr:ObjectMap ;
-	rr:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
-	km-dev:isPartOfMapping _:node1dqm1rntex1 .
-
-_:node1dqm1rntex1 km-dev:hasObjectMap _:node1dqm1rntex10 .
-
-km-dev:PredicateObjectMap_829af11b-6116-4546-9bec-e4c2fbfdd9e1 rr:objectMap _:node1dqm1rntex10 .
-
-km-dev:TriplesMap_7a3c047e-4c01-43d2-81a1-ce03548a06ea rr:predicateObjectMap km-dev:PredicateObjectMap_829af11b-6116-4546-9bec-e4c2fbfdd9e1 .
-
-km-dev:PredicateObjectMap_829af11b-6116-4546-9bec-e4c2fbfdd9e1 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqm1rntex1 .
-
-_:node1dqm1rntex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_829af11b-6116-4546-9bec-e4c2fbfdd9e1 .
-
-km-dev:PredicateObjectMap_4f33987c-53a3-4592-8cb9-8bfc9a53cd32 rr:predicate <http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#stop_ID> .
-
-_:node1dqm1rntex11 rr:column "stop_id" ;
-	a rr:ObjectMap ;
-	km-dev:isPartOfMapping _:node1dqm1rntex1 .
-
-_:node1dqm1rntex1 km-dev:hasObjectMap _:node1dqm1rntex11 .
-
-km-dev:PredicateObjectMap_4f33987c-53a3-4592-8cb9-8bfc9a53cd32 rr:objectMap _:node1dqm1rntex11 .
-
-km-dev:TriplesMap_7a3c047e-4c01-43d2-81a1-ce03548a06ea rr:predicateObjectMap km-dev:PredicateObjectMap_4f33987c-53a3-4592-8cb9-8bfc9a53cd32 .
-
-km-dev:PredicateObjectMap_4f33987c-53a3-4592-8cb9-8bfc9a53cd32 a rr:PredicateObjectMap ;
-	km-dev:isPartOfMapping _:node1dqm1rntex1 .
-
-_:node1dqm1rntex1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_4f33987c-53a3-4592-8cb9-8bfc9a53cd32 .
+_:node1dr83jfetx1 km-dev:hasPredicateObjectMap km-dev:PredicateObjectMap_805d1c77-3024-412b-a658-fadac5efb0fb .
