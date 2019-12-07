@@ -5,13 +5,19 @@
 This respository contains the results obtained for the project course of "Knowledge and data integration". The topic of the project was the definition of a formal model and the integration of data about transportation in Trentino. The team manager of this group is Fabio Molignoni. The work on this project has been done by two different sub-groups:
 
 **informal to formal sub-group**
+
+The informal to formal group crated on the informal model (which was developed using yEd) and the formal model (which was developed using Protégé).
+
 | Name        | Matricola  | E-mail  |
-| ------------- |-------------| -----|
+| ------------- | ------------- | ----- |
 | Bogdan Kostić      | 211827 | bogdan.kostic@studenti.unitn.it |
 | Evidence Monday      | 204729     |   evidence.monday@studenti.unitn.it |
 | Andrea Montibeller | 203264     | andrea.montibeller@studenti.unitn.it |
 
 **data integration**
+
+The data integration group retrieved all the data (both downloading and scraping), cleaned them (using RapidMiner) and performed the integration (using Karma). The final visualization has been done using GraphDB.
+
 | Name        | Matricola  | E-mail  |
 | ------------- |-------------| -----|
 | Federico Calabrese      | 207463 | federico.calabrese@studenti.unitn.it |
