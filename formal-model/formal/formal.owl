@@ -395,7 +395,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#arrives_at">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15205769</WordnetID>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02009962</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -455,7 +455,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#continues_transportation">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Cableway"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-        <WordnetID>KDI07</WordnetID>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">00597095</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -585,7 +585,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#engine_type">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Car"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <WordnetID>KDI11</WordnetID>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">05848697</WordnetID>
     </owl:DatatypeProperty>
     
 
@@ -665,7 +665,7 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#leaves_at">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/andreamontibeller/ontologies/Transportation#Schedule"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15205929</WordnetID>
+        <WordnetID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">02013448</WordnetID>
     </owl:DatatypeProperty>
     
 
