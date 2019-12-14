@@ -33,7 +33,7 @@ The repository is organized in this way:
 
 In the root folder there is also the technical report, which describes in detail all the work performed throughout the project.
 
-Due to the size of the knowledge graph it was not possible to load it directly on GitHub. For this reason, you can download the complete linked data at https://drive.google.com/open?id=1WIbw9GmyVB7VFv3F4LMcAf8jsCC3LZoW . We also provide the RDF/XML version here: https://drive.google.com/open?id=1cVP_MFSDAmWNSmPRxjCMNb1m4H3tFUt_
+Due to the size of the knowledge graph it was not possible to load it directly on GitHub. For this reason, you can download the complete linked data at https://drive.google.com/open?id=1WIbw9GmyVB7VFv3F4LMcAf8jsCC3LZoW . We also provide the RDF/XML version here: https://drive.google.com/file/d/1cVP_MFSDAmWNSmPRxjCMNb1m4H3tFUt_/view
 
 ## Reproduce the output
 As said, inside the *data/raw data* there are all the raw data needed for the integration, also the one obtained through scraping. Anyway, in the *models/scripts* folder there are all the scripts that can be used to perform again the scraping:
